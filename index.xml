@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Indiscipline</title>
-    <link>http://indiscipline.github.io/</link>
+    <link>https://indiscipline.github.io/</link>
     <description>Recent content on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 14 Apr 2016 15:39:48 +0300</lastBuildDate>
-    <atom:link href="http://indiscipline.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://indiscipline.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ReaScript: MIDI_Compress_By_Pitch</title>
-      <link>http://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</link>
+      <link>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</link>
       <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
       
-      <guid>http://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
+      <guid>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&amp;rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&amp;rsquo;t present in Reaper has arisen.&lt;/p&gt;
 
-&lt;h3 id=&#34;midi-compress-by-pitch:5306ddffedc333bc7e7df4c8152fd37d&#34;&gt;MIDI_Compress_By_Pitch&lt;/h3&gt;
+&lt;h3 id=&#34;midi-compress-by-pitch&#34;&gt;MIDI_Compress_By_Pitch&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/blob/master/lua/MIDI_Compress_By_Pitch.lua&#34;&gt;MIDI_Compress_By_Pitch&lt;/a&gt; is a simple &lt;a href=&#34;https://lua.org/&#34;&gt;Lua&lt;/a&gt; script for Reaper which takes selected MIDI notes and compresses/expands their velocity by a given rate, but the average velocity is computed per-pitch. The primary usage is for midi percussion or drums or any other instrument where pitches correspond to completely different sounds.&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&#34;download-at-github-https-github-com-indiscipline-reaper-scripts-br:5306ddffedc333bc7e7df4c8152fd37d&#34;&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/&#34;&gt;[&lt;strong&gt;Download at GitHub&lt;/strong&gt;]&lt;/a&gt;&lt;br /&gt;&lt;/h5&gt;
+&lt;h5 id=&#34;download-at-github-https-github-com-indiscipline-reaper-scripts-br&#34;&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/&#34;&gt;[&lt;strong&gt;Download at GitHub&lt;/strong&gt;]&lt;/a&gt;&lt;br /&gt;&lt;/h5&gt;
 
 &lt;p&gt;Here&amp;rsquo;s the script in action:&lt;/p&gt;
 
@@ -64,10 +64,10 @@ This is my first working script in Lua, so any corrections and suggestions are w
     
     <item>
       <title>About</title>
-      <link>http://indiscipline.github.io/about/</link>
+      <link>https://indiscipline.github.io/about/</link>
       <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
       
-      <guid>http://indiscipline.github.io/about/</guid>
+      <guid>https://indiscipline.github.io/about/</guid>
       <description>&lt;p&gt;Hi! My name is Kirill and this is my blog. Isn&amp;rsquo;t it marvelous?&lt;/p&gt;
 
 &lt;p&gt;If by some strange occasion you&amp;rsquo;re interested in contacting me, please, write me an e-mail!&lt;/p&gt;
@@ -96,23 +96,23 @@ document.write(&#39;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;
     
     <item>
       <title>Architect logo redesign</title>
-      <link>http://indiscipline.github.io/post/architect-logo/</link>
+      <link>https://indiscipline.github.io/post/architect-logo/</link>
       <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
       
-      <guid>http://indiscipline.github.io/post/architect-logo/</guid>
+      <guid>https://indiscipline.github.io/post/architect-logo/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/architect-linux/&#34;&gt;Architect&lt;/a&gt; Linux is an installer for the glorious &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch linux&lt;/a&gt;. It is distributed as a live-cd ISO, which boots into pseudo-graphical mode and allows installing Arch via comprehensible script which is updated prior to installation from Architect github-repo.&lt;/p&gt;
 
 &lt;p&gt;Yes, I know that Arch installation supposed to be made by hands, but using installer is much faster (from my experience) and if it does everything you need it to, why not? What caught my eye was the fact that Architect gets you a vanilla-Arch experience, without any alterations in contrast to Manjaro or Antergos.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s what made me a little bit sad when I visited Architect forums:
-&lt;img src=&#34;http://indiscipline.github.io/img/architect/old-logo.png&#34; alt=&#34;Old Architect logo&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://indiscipline.github.io/img/architect/old-logo.png&#34; alt=&#34;Old Architect logo&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;See those jagged letters? This is what got me started. I&amp;rsquo;m an avid user and advocate of Free Software and a Free culture in general, but when it comes to contributing — there&amp;rsquo;s hardly anything to mention. So I thought putting a little work into it would be a task adequate to my ambitions.&lt;/p&gt;
 
 &lt;p&gt;At first, I was going to just re-render the logo with proper anti-aliasing, or probably make an SVG. However, when I got down to work it became evident to me that some decisions in this logo are at least questionable and there certainly was some room for improvement.&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s what I ended up with:&lt;br /&gt;
-&lt;img src=&#34;http://indiscipline.github.io/img/architect/architect-linux.png&#34; alt=&#34;Architect logo redesign&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://indiscipline.github.io/img/architect/architect-linux.png&#34; alt=&#34;Architect logo redesign&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m not big on self-compliments, but that objectively looks cleaner and more proper from technical point of view. Yep, there&amp;rsquo;s some inconsistency with sub-header letters, but this of course should be addressed when preparing actual raster pictures for given sizes and use-cases.&lt;/p&gt;
 
@@ -121,17 +121,17 @@ document.write(&#39;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;
 &lt;p&gt;Next I thought: How am I going to present this to the Architect community? So I looked up for some info regarding current Arch Linux logo, which is of course the main inspiration and the ground for both old and new Architect logos. I found out that it&amp;rsquo;s called &amp;ldquo;the Archer&amp;rdquo; and was presented by Thayer Williams in 2007 for the Arch logo contest. Here&amp;rsquo;s his entry: &lt;a href=&#34;https://dev.archlinux.org/~travis/logo-contest/thayer/1-archer.png&#34;&gt;https://dev.archlinux.org/~travis/logo-contest/thayer/1-archer.png&lt;/a&gt;. It&amp;rsquo;s a great logo with a concept behind it and a few possible interpretations. Some discussions on Arch Linux forums showed that different people see different things in it but I haven&amp;rsquo;t seen anyone who didn&amp;rsquo;t like it. It&amp;rsquo;s a great pleasure working with such a great foundations, but on the other hand you know you&amp;rsquo;re probably only going to make it worse. Hope that&amp;rsquo;s not evident!&lt;/p&gt;
 
 &lt;p&gt;Anyway, I made a similar presentation panel:&lt;br /&gt;
-&lt;img src=&#34;http://indiscipline.github.io/img/architect/architect_submission.png&#34; alt=&#34;Architect submission&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://indiscipline.github.io/img/architect/architect_submission.png&#34; alt=&#34;Architect submission&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I also made a few screenshots to show the new design in the wild (clickable):&lt;br /&gt;
 Forums:&lt;br /&gt;
-&lt;a href=&#34;http://indiscipline.github.io/img/architect/live-1.png&#34;&gt;&lt;img src=&#34;http://indiscipline.github.io/img/architect/live-1s.png&#34; alt=&#34;Architect forums&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-1.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-1s.png&#34; alt=&#34;Architect forums&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sourceforge page:&lt;br /&gt;
-&lt;a href=&#34;http://indiscipline.github.io/img/architect/live-2.png&#34;&gt;&lt;img src=&#34;http://indiscipline.github.io/img/architect/live-2s.png&#34; alt=&#34;Architect sourceforge page&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-2.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-2s.png&#34; alt=&#34;Architect sourceforge page&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Google+ page:&lt;br /&gt;
-&lt;a href=&#34;http://indiscipline.github.io/img/architect/live-3.png&#34;&gt;&lt;img src=&#34;http://indiscipline.github.io/img/architect/live-3s.png&#34; alt=&#34;Architect G+&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-3.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-3s.png&#34; alt=&#34;Architect G+&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;At the moment this redesign is only presented to the community and maintainer of the Architect Linux and for the time being I consider it mine. If it gets past that and becomes accepted I will gladly hand over hi-res vector images as well as the necessary rights to use it to the community.&lt;/p&gt;
 </description>
@@ -139,10 +139,10 @@ Forums:&lt;br /&gt;
     
     <item>
       <title>Hello World!</title>
-      <link>http://indiscipline.github.io/post/helloworld/</link>
+      <link>https://indiscipline.github.io/post/helloworld/</link>
       <pubDate>Wed, 23 Dec 2015 16:55:40 +0300</pubDate>
       
-      <guid>http://indiscipline.github.io/post/helloworld/</guid>
+      <guid>https://indiscipline.github.io/post/helloworld/</guid>
       <description>&lt;p&gt;Everyone and their dog has a blog. Now me too.&lt;/p&gt;
 </description>
     </item>

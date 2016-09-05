@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sound on Indiscipline</title>
-    <link>http://indiscipline.github.io/tags/sound/</link>
+    <link>https://indiscipline.github.io/tags/sound/</link>
     <description>Recent content in Sound on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 14 Apr 2016 15:39:48 +0300</lastBuildDate>
-    <atom:link href="http://indiscipline.github.io/tags/sound/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://indiscipline.github.io/tags/sound/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ReaScript: MIDI_Compress_By_Pitch</title>
-      <link>http://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</link>
+      <link>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</link>
       <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
       
-      <guid>http://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
+      <guid>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
       <description>
 
 &lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&amp;rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&amp;rsquo;t present in Reaper has arisen.&lt;/p&gt;
 
-&lt;h3 id=&#34;midi-compress-by-pitch:5306ddffedc333bc7e7df4c8152fd37d&#34;&gt;MIDI_Compress_By_Pitch&lt;/h3&gt;
+&lt;h3 id=&#34;midi-compress-by-pitch&#34;&gt;MIDI_Compress_By_Pitch&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/blob/master/lua/MIDI_Compress_By_Pitch.lua&#34;&gt;MIDI_Compress_By_Pitch&lt;/a&gt; is a simple &lt;a href=&#34;https://lua.org/&#34;&gt;Lua&lt;/a&gt; script for Reaper which takes selected MIDI notes and compresses/expands their velocity by a given rate, but the average velocity is computed per-pitch. The primary usage is for midi percussion or drums or any other instrument where pitches correspond to completely different sounds.&lt;/p&gt;
 
@@ -45,7 +45,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&#34;download-at-github-https-github-com-indiscipline-reaper-scripts-br:5306ddffedc333bc7e7df4c8152fd37d&#34;&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/&#34;&gt;[&lt;strong&gt;Download at GitHub&lt;/strong&gt;]&lt;/a&gt;&lt;br /&gt;&lt;/h5&gt;
+&lt;h5 id=&#34;download-at-github-https-github-com-indiscipline-reaper-scripts-br&#34;&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/&#34;&gt;[&lt;strong&gt;Download at GitHub&lt;/strong&gt;]&lt;/a&gt;&lt;br /&gt;&lt;/h5&gt;
 
 &lt;p&gt;Here&amp;rsquo;s the script in action:&lt;/p&gt;
 

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on Indiscipline</title>
-    <link>http://indiscipline.github.io/tags/design/</link>
+    <link>https://indiscipline.github.io/tags/design/</link>
     <description>Recent content in Design on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 23 Mar 2016 18:00:00 +0300</lastBuildDate>
-    <atom:link href="http://indiscipline.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://indiscipline.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Architect logo redesign</title>
-      <link>http://indiscipline.github.io/post/architect-logo/</link>
+      <link>https://indiscipline.github.io/post/architect-logo/</link>
       <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
       
-      <guid>http://indiscipline.github.io/post/architect-logo/</guid>
+      <guid>https://indiscipline.github.io/post/architect-logo/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/architect-linux/&#34;&gt;Architect&lt;/a&gt; Linux is an installer for the glorious &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch linux&lt;/a&gt;. It is distributed as a live-cd ISO, which boots into pseudo-graphical mode and allows installing Arch via comprehensible script which is updated prior to installation from Architect github-repo.&lt;/p&gt;
 
 &lt;p&gt;Yes, I know that Arch installation supposed to be made by hands, but using installer is much faster (from my experience) and if it does everything you need it to, why not? What caught my eye was the fact that Architect gets you a vanilla-Arch experience, without any alterations in contrast to Manjaro or Antergos.&lt;/p&gt;
 
 &lt;p&gt;Here&amp;rsquo;s what made me a little bit sad when I visited Architect forums:
-&lt;img src=&#34;http://indiscipline.github.io/img/architect/old-logo.png&#34; alt=&#34;Old Architect logo&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://indiscipline.github.io/img/architect/old-logo.png&#34; alt=&#34;Old Architect logo&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;See those jagged letters? This is what got me started. I&amp;rsquo;m an avid user and advocate of Free Software and a Free culture in general, but when it comes to contributing — there&amp;rsquo;s hardly anything to mention. So I thought putting a little work into it would be a task adequate to my ambitions.&lt;/p&gt;
 
 &lt;p&gt;At first, I was going to just re-render the logo with proper anti-aliasing, or probably make an SVG. However, when I got down to work it became evident to me that some decisions in this logo are at least questionable and there certainly was some room for improvement.&lt;/p&gt;
 
 &lt;p&gt;That&amp;rsquo;s what I ended up with:&lt;br /&gt;
-&lt;img src=&#34;http://indiscipline.github.io/img/architect/architect-linux.png&#34; alt=&#34;Architect logo redesign&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://indiscipline.github.io/img/architect/architect-linux.png&#34; alt=&#34;Architect logo redesign&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;m not big on self-compliments, but that objectively looks cleaner and more proper from technical point of view. Yep, there&amp;rsquo;s some inconsistency with sub-header letters, but this of course should be addressed when preparing actual raster pictures for given sizes and use-cases.&lt;/p&gt;
 
@@ -36,17 +36,17 @@
 &lt;p&gt;Next I thought: How am I going to present this to the Architect community? So I looked up for some info regarding current Arch Linux logo, which is of course the main inspiration and the ground for both old and new Architect logos. I found out that it&amp;rsquo;s called &amp;ldquo;the Archer&amp;rdquo; and was presented by Thayer Williams in 2007 for the Arch logo contest. Here&amp;rsquo;s his entry: &lt;a href=&#34;https://dev.archlinux.org/~travis/logo-contest/thayer/1-archer.png&#34;&gt;https://dev.archlinux.org/~travis/logo-contest/thayer/1-archer.png&lt;/a&gt;. It&amp;rsquo;s a great logo with a concept behind it and a few possible interpretations. Some discussions on Arch Linux forums showed that different people see different things in it but I haven&amp;rsquo;t seen anyone who didn&amp;rsquo;t like it. It&amp;rsquo;s a great pleasure working with such a great foundations, but on the other hand you know you&amp;rsquo;re probably only going to make it worse. Hope that&amp;rsquo;s not evident!&lt;/p&gt;
 
 &lt;p&gt;Anyway, I made a similar presentation panel:&lt;br /&gt;
-&lt;img src=&#34;http://indiscipline.github.io/img/architect/architect_submission.png&#34; alt=&#34;Architect submission&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://indiscipline.github.io/img/architect/architect_submission.png&#34; alt=&#34;Architect submission&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I also made a few screenshots to show the new design in the wild (clickable):&lt;br /&gt;
 Forums:&lt;br /&gt;
-&lt;a href=&#34;http://indiscipline.github.io/img/architect/live-1.png&#34;&gt;&lt;img src=&#34;http://indiscipline.github.io/img/architect/live-1s.png&#34; alt=&#34;Architect forums&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-1.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-1s.png&#34; alt=&#34;Architect forums&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Sourceforge page:&lt;br /&gt;
-&lt;a href=&#34;http://indiscipline.github.io/img/architect/live-2.png&#34;&gt;&lt;img src=&#34;http://indiscipline.github.io/img/architect/live-2s.png&#34; alt=&#34;Architect sourceforge page&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-2.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-2s.png&#34; alt=&#34;Architect sourceforge page&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Google+ page:&lt;br /&gt;
-&lt;a href=&#34;http://indiscipline.github.io/img/architect/live-3.png&#34;&gt;&lt;img src=&#34;http://indiscipline.github.io/img/architect/live-3s.png&#34; alt=&#34;Architect G+&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-3.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-3s.png&#34; alt=&#34;Architect G+&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;At the moment this redesign is only presented to the community and maintainer of the Architect Linux and for the time being I consider it mine. If it gets past that and becomes accepted I will gladly hand over hi-res vector images as well as the necessary rights to use it to the community.&lt;/p&gt;
 </description>
