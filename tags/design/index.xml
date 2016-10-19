@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design on Indiscipline</title>
-    <link>https://indiscipline.github.io/tags/design/</link>
-    <description>Recent content in Design on Indiscipline</description>
+    <title>Indiscipline</title>
+    <link>https://indiscipline.github.io/tags/design/index.xml</link>
+    <description>Recent content on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 23 Mar 2016 18:00:00 +0300</lastBuildDate>
+    <copyright>Except where otherwise noted, content on this site is licensed under a &lt;a title=&#34;Creative Commons Attribution-NoDerivatives 4.0 International License&#34; href=&#34;http://creativecommons.org/licenses/by-nd/4.0/&#34;&gt;CC BY-ND 4.0&lt;/a&gt;.</copyright>
     <atom:link href="https://indiscipline.github.io/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,6 +16,8 @@
       
       <guid>https://indiscipline.github.io/post/architect-logo/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/architect-linux/&#34;&gt;Architect&lt;/a&gt; Linux is an installer for the glorious &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch linux&lt;/a&gt;. It is distributed as a live-cd ISO, which boots into pseudo-graphical mode and allows installing Arch via comprehensible script which is updated prior to installation from Architect github-repo.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Yes, I know that Arch installation supposed to be made by hands, but using installer is much faster (from my experience) and if it does everything you need it to, why not? What caught my eye was the fact that Architect gets you a vanilla-Arch experience, without any alterations in contrast to Manjaro or Antergos.&lt;/p&gt;
 
@@ -48,8 +50,7 @@ Forums:&lt;br /&gt;
 &lt;p&gt;Google+ page:&lt;br /&gt;
 &lt;a href=&#34;https://indiscipline.github.io/img/architect/live-3.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-3s.png&#34; alt=&#34;Architect G+&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;At the moment this redesign is only presented to the community and maintainer of the Architect Linux and for the time being I consider it mine. If it gets past that and becomes accepted I will gladly hand over hi-res vector images as well as the necessary rights to use it to the community.&lt;/p&gt;
-</description>
+&lt;p&gt;At the moment this redesign is only presented to the community and maintainer of the Architect Linux and for the time being I consider it mine. If it gets past that and becomes accepted I will gladly hand over hi-res vector images as well as the necessary rights to use it to the community.&lt;/p&gt;</description>
     </item>
     
   </channel>
