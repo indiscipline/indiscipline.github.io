@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Indiscipline</title>
-    <link>https://indiscipline.github.io/tags/reaper/index.xml</link>
-    <description>Recent content on Indiscipline</description>
+    <title>Reaper on Indiscipline</title>
+    <link>https://indiscipline.github.io/tags/reaper/</link>
+    <description>Recent content in Reaper on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Except where otherwise noted, content on this site is licensed under a &lt;a title=&#34;Creative Commons Attribution-NoDerivatives 4.0 International License&#34; href=&#34;http://creativecommons.org/licenses/by-nd/4.0/&#34;&gt;CC BY-ND 4.0&lt;/a&gt;.</copyright>
-    <atom:link href="https://indiscipline.github.io/tags/reaper/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2016 15:39:48 +0300</lastBuildDate>
+    
+	<atom:link href="https://indiscipline.github.io/tags/reaper/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>ReaScript: MIDI_Compress_By_Pitch</title>
@@ -17,48 +20,7 @@
       <guid>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&amp;rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&amp;rsquo;t present in Reaper has arisen.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;midi-compress-by-pitch&#34;&gt;MIDI_Compress_By_Pitch&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/blob/master/lua/MIDI_Compress_By_Pitch.lua&#34;&gt;MIDI_Compress_By_Pitch&lt;/a&gt; is a simple &lt;a href=&#34;https://lua.org/&#34;&gt;Lua&lt;/a&gt; script for Reaper which takes selected MIDI notes and compresses/expands their velocity by a given rate, but the average velocity is computed per-pitch. The primary usage is for midi percussion or drums or any other instrument where pitches correspond to completely different sounds.&lt;/p&gt;
-
-&lt;p&gt;Usage:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add script to Reaper
-
-&lt;ul&gt;
-&lt;li&gt;Click Menu&amp;gt;Actions&lt;/li&gt;
-&lt;li&gt;Find ReaScript section, press Load&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Select your MIDI event and open MIDI editor&lt;/li&gt;
-&lt;li&gt;Select the notes you want the script to work on&lt;/li&gt;
-&lt;li&gt;Run the script
-
-&lt;ul&gt;
-&lt;li&gt;The processing rate is a difference of velocity for each note and the average velocity in %.&lt;/li&gt;
-&lt;li&gt;First input box is per-pitch compression/expansion in %&lt;/li&gt;
-&lt;li&gt;Second input is compression/expansion rate for all selected notes&lt;/li&gt;
-&lt;li&gt;Use positive values for compression and negative values for expansion.&lt;/li&gt;
-&lt;li&gt;Expansion value can exceed %100 (try -200 or -400)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&#34;download-at-github-https-github-com-indiscipline-reaper-scripts-br&#34;&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/&#34;&gt;[&lt;strong&gt;Download at GitHub&lt;/strong&gt;]&lt;/a&gt;&lt;br /&gt;&lt;/h5&gt;
-
-&lt;p&gt;Here&amp;rsquo;s the script in action:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/indiscipline/reaper_scripts/raw/master/demo/midi_compress_by_pitch.gif&#34; alt=&#34;midi_compress_by_pitch demo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Using this script can help with evening the dynamics from a live-input, but it retains inter-pitch dynamic difference, so when, say, you&amp;rsquo;re playing with a MIDI-drum set your hi-hat can stay soft while your backbeat is loud as hell.&lt;/p&gt;
-
-&lt;p&gt;Where the global expansion can help is when you need to separate the volume of different sounds which is often needed from a drum part but takes a lot of practice to achieve even playing real drums, and if you use a simple midi-controller it&amp;rsquo;s even harder.&lt;/p&gt;
-
-&lt;p&gt;The code of the script is open under GPLv2+ license and now resides in my &lt;strong&gt;GitHub repo:&lt;/strong&gt;&lt;br /&gt; &lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/&#34;&gt;https://github.com/indiscipline/reaper_scripts/&lt;/a&gt;
-This is my first working script in Lua, so any corrections and suggestions are welcome. Reaper allows using a whole lot of three languages for writing scripts, the other two being Python, which is not bundled with Reaper (but very likely sits on your machine already) and homebrewed EEL which is clearly C-inspired. What drew me to Lua in this case is that Reaper doesn&amp;rsquo;t need a separate interpreter for it and it&amp;rsquo;s a widely used script language with easy to find documentation, help and existing code snippets.&lt;/p&gt;
-
-&lt;p&gt;At this point my impressions of Lua are mixed, but this is probably due to my previous almost exclusive usage of compiled, strongly typed languages like my favourite &lt;a href=&#34;https://www.rust-lang.org/&#34;&gt;Rust&lt;/a&gt;. Lua is very simple so at many places I kept thinking: How is my variable passed? What about coercion? Where&amp;rsquo;s Pattern-matching and Map and function return type? This probably should be evident from the code. Oh, and I&amp;rsquo;m completely spoiled by extensive compiler feedback and corrections!&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

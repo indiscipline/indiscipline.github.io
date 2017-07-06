@@ -2,13 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Indiscipline</title>
-    <link>https://indiscipline.github.io/index.xml</link>
+    <link>https://indiscipline.github.io/</link>
     <description>Recent content on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Except where otherwise noted, content on this site is licensed under a &lt;a title=&#34;Creative Commons Attribution-NoDerivatives 4.0 International License&#34; href=&#34;http://creativecommons.org/licenses/by-nd/4.0/&#34;&gt;CC BY-ND 4.0&lt;/a&gt;.</copyright>
-    <lastBuildDate>Wed, 09 Nov 2016 14:27:37 +0300</lastBuildDate>
-    <atom:link href="https://indiscipline.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Jul 2017 16:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://indiscipline.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Elvish: the looks</title>
+      <link>https://indiscipline.github.io/post/elvish-shell/</link>
+      <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/post/elvish-shell/</guid>
+      <description>&lt;p&gt;Once you hear there&amp;rsquo;s a new Unix shell on the block, what do you do? Probably, glance over syntax and try it in your VM. But when this new shell is called &lt;a href=&#34;https://elvish.io/&#34;&gt;Elvish&lt;/a&gt; you do this:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(Hover over to see)&lt;/em&gt;&lt;br /&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/elvish/elvish.jpg&#34;&gt;&lt;img onMouseOver=&#34;this.src=&#39;/img/elvish/elvish-thumb.jpg&#39;&#34; onMouseOut=&#34;this.src=&#39;/img/elvish/elvish-pix.png&#39;&#34; src=&#34;https://indiscipline.github.io/img/elvish/elvish-pix.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;ldquo;Friendly and expressive&amp;rdquo;, indeed.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>zrtstr - detect &amp; eliminate faux-stereo WAVs</title>
@@ -21,58 +37,7 @@
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Before&amp;rdquo; and &amp;ldquo;after&amp;rdquo; waveforms:&lt;/em&gt;
 &lt;img src=&#34;https://indiscipline.github.io/img/zrtstr/zrtstr-processed.png&#34; alt=&#34;zrtstr before and after&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Ideally, I wouldn&amp;rsquo;t like to see such a limited functionality in a separate application, but I found no easy and coherent way to do using usual &lt;a href=&#34;http://sox.sourceforge.net/&#34;&gt;SoX&lt;/a&gt; or ffmpeg. Which is a shame. But when life deals you such a minor problem that happens so frequently, you have nothing to do but automate the tedious actions.&lt;/p&gt;
-
-&lt;h4 id=&#34;usage&#34;&gt;Usage&lt;/h4&gt;
-
-&lt;p&gt;zrtstr is a command-line application, but I tried to make it as easy to use as possible. To start using it, provide zrtstr with input file as an argument, or just run it from a directory full of target WAV files. The program will scan every file in its entirety and save mono-copies of detected faux-stereo files with &lt;code&gt;.MONO&lt;/code&gt; suffix. Full help available with &lt;code&gt;--help&lt;/code&gt; switch, provided by the wonderful &lt;a href=&#34;https://github.com/kbknapp/clap-rs&#34;&gt;Clap&lt;/a&gt; library.&lt;/p&gt;
-
-&lt;h4 id=&#34;download-https-github-com-indiscipline-zrtstr-releases&#34;&gt;&lt;a href=&#34;https://github.com/indiscipline/zrtstr/releases&#34;&gt;Download&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;Latest Windows &lt;strong&gt;binaries&lt;/strong&gt; are luckily provided in Github &lt;a href=&#34;https://github.com/indiscipline/zrtstr/releases&#34;&gt;releases&lt;/a&gt; page. Linux/Mac users are encouraged to build it by hand.&lt;/p&gt;
-
-&lt;h4 id=&#34;how-does-it-work&#34;&gt;How does it work?&lt;/h4&gt;
-
-&lt;p&gt;Zrtstr reads interleaved channel samples from a target stereo file one by one and compares left and right samples. If the difference is present (or higher than the threshold given in &lt;code&gt;--dither&lt;/code&gt; mode) than file considered true-stereo and program tries to write a mono copy.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s live output on a set of test files:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;$ zrtstr.exe
-No input file given. Processing current directory.
---- Analyzing: c:\test\32fp-faux-stereo-dithered.wav
-101769 / 101769  100.00 % 17311901.54/s
-Channels are identical! Faux stereo detected
-  * Converting to true-mono...
-  ! Writing IEEE_FLOAT files not implemented yet!
---- Analyzing: c:\test\32fp-faux-stereo.wav
-101769 / 101769  100.00 % 17436110.94/s
-Channels are identical! Faux stereo detected
-  * Converting to true-mono...
-  ! Writing IEEE_FLOAT files not implemented yet!
---- Analyzing: c:\test\dither24.MONO.wav
-File is not stereo! Exiting
---- Analyzing: c:\test\dither24.wav
-101769 / 101769  100.00 % 19279415.99/s
-Channels are identical! Faux stereo detected
-  * Converting to true-mono...
-Target file already exists. Replacing...
-&amp;quot;c:\test\dither24.MONO.wav&amp;quot; successfully written!
---- Analyzing: c:\test\dither32fp.wav
-101769 / 101769  100.00 % 16593892.73/s
-Channels are identical! Faux stereo detected
-  * Converting to true-mono...
-  ! Writing IEEE_FLOAT files not implemented yet!
---- Analyzing: c:\test\mono.wav
-File is not stereo! Exiting
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As you can see, at the moment program doesn&amp;rsquo;t know how to write 32 bit floating-point files, as the &lt;a href=&#34;https://github.com/ruuda/hound&#34;&gt;Hound&lt;/a&gt; library doesn&amp;rsquo;t support it yet.&lt;/p&gt;
-
-&lt;h4 id=&#34;contributing&#34;&gt;Contributing&lt;/h4&gt;
-
-&lt;p&gt;zrtstr is a free software and distributed under GNU General Public License version 2 or later. So anyone is free to hack away and submit any reasonable patches in the repository. Feel free to file a bug report or feature request via &lt;a href=&#34;https://github.com/Indiscipline/zrtstr/issues&#34;&gt;Issues&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -85,60 +50,7 @@ File is not stereo! Exiting
 
 &lt;p&gt;First, the motive behind this post. Being a musician, one of the actions I might perform multiple times in a day is downloading videos from YouTube. Being able to play them in my player of choice (&lt;a href=&#34;https://mpv.io/&#34;&gt;mpv&lt;/a&gt; for now) is a huge convenience in case I need to transcribe some musical phrase, or speed some particularly slow speaker up by an arbitrary amount and having the video on my HDD gives me a slight sense of tranquility and confidence. In the past years people tried every accessible way to get the videos from YT with as little hassle as possible. Not all of these means worked good, and some of the suggestions in the Internet were, in fact, malicious, putting it mildly. As always, community to the rescue. Enter Youtube-dl!&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;a href=&#34;#tldr&#34;&gt;BTW, there&amp;rsquo;s TL-DR at the end!&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;For many years &lt;a href=&#34;http://youtube-dl.org/&#34;&gt;Youtube-dl&lt;/a&gt; remains the most reliable, flexible and safe way to download content from YT and many other video-hosting services. However, it&amp;rsquo;s a commandline application, and most of the users manage to use their personal computers for hours at day and remain oblivious of mere existence of commandline software. There are many ways to integrate terminal in a gui-driven UX of modern browsers, but here&amp;rsquo;s the easiest way to launch almost any application from Firefox and pass the link from the page as a parameter.&lt;/p&gt;
-
-&lt;h4 id=&#34;preparations&#34;&gt;Preparations&lt;/h4&gt;
-
-&lt;p&gt;First of all, download the &lt;a href=&#34;https://github.com/rg3/youtube-dl/releases/latest&#34;&gt;latest youtube-dl&lt;/a&gt; (direct link to the Windows build &lt;a href=&#34;http://youtube-dl.org/downloads/latest/youtube-dl.exe&#34;&gt;here&lt;/a&gt;).
-Place it anywhere on your drive, but remember that the folder the application resides in should be &lt;a href=&#34;http://www.computerhope.com/issues/ch000549.htm&#34;&gt;added to the PATH environment variable&lt;/a&gt;. Out of habit of the days past I place it in my Program Files directory, but for that you will probably need to have administrator rights.&lt;/p&gt;
-
-&lt;h4 id=&#34;autoupdate&#34;&gt;Autoupdate&lt;/h4&gt;
-
-&lt;p&gt;Next, I suggest setting the automatic update procedure for the program, so any change in YouTube code, hopefully, would never affect the functionality of youtube-dl. To do this, open Task Scheduler: launch Run (press Win+R) and enter &lt;code&gt;taskschd.msc /s&lt;/code&gt;. In the menu click Actions-&amp;gt;Create Task&amp;hellip; Name the new task &lt;code&gt;youtube-dl update&lt;/code&gt;. On the Triggers tab make a new one, I recommend setting it to User log on with a small delay, in case your network adapter is slow to establish connection. In &amp;ldquo;actions&amp;rdquo; tab you need to select &amp;ldquo;Start a program&amp;rdquo; and enter (or browse for) the path to the youtube-dl executable. Then add &lt;code&gt;-U&lt;/code&gt; argument in &amp;ldquo;Add arguments&amp;rdquo; textbox and hit OK. Run a newly created task to check if it&amp;rsquo;s working.&lt;/p&gt;
-
-&lt;h4 id=&#34;setting-up-flashgot&#34;&gt;Setting up FlashGot&lt;/h4&gt;
-
-&lt;p&gt;And now, the main part. We need to install the &lt;strong&gt;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/flashgot/&#34;&gt;FlashGot&lt;/a&gt;&lt;/strong&gt; Firefox add-on. It&amp;rsquo;s one of the oldest and most used add-ons ever, with more than 790000 users to date. After installation, type &lt;code&gt;about:add-ons&lt;/code&gt; in you address bar, find FlashGot in the list and open its options. Add a new download manager and name it &amp;ldquo;youtube-dl&amp;rdquo;. Set the &amp;ldquo;Executable path&amp;rdquo; to &lt;code&gt;%SystemRoot%\System32\cmd.exe&lt;/code&gt; (you can&amp;rsquo;t edit the box directly, so just hit Browse and paste the line above). Why does the executable path leads to cmd.exe, and not to youtube-dl.exe? The thing is, in case anything goes wrong we want to be able to see what happened, but in case of just launching the CLI program directly the window will automatically close on completion or any error. So instead, we open an OS terminal and pass it the command to run as an argument. To do so, set everything like in the screenshot below and we&amp;rsquo;re done!&lt;/p&gt;
-
-&lt;h4 id=&#34;explaining-the-arguments&#34;&gt;Explaining the arguments&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/download-yt/flashgot.png&#34; alt=&#34;flashgot option&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Let&amp;rsquo;s look at what&amp;rsquo;s in the arguments box:
-&lt;code&gt;/c cd /d [FOLDER] &amp;amp; youtube-dl.exe [URL] &amp;amp; explorer.exe [FOLDER] &amp;amp; exit&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;With the &lt;code&gt;/c&lt;/code&gt; passed all of the following string will be treated as a command to be launched. &lt;code&gt;cd /d [FOLDER]&lt;/code&gt; switches the current directory to the one you will select on every FlashGot launch, &lt;code&gt;youtube-dl.exe [URL]&lt;/code&gt; launches the actual downloading with the clicked/selected link as a parameter. &lt;code&gt;explorer.exe [FOLDER]&lt;/code&gt; opens the folder where the file was downloaded and optional &lt;code&gt;exit&lt;/code&gt; closes the terminal.&lt;/p&gt;
-
-&lt;p&gt;Note, that unfortunately we can&amp;rsquo;t use quotes in this argument textbox, so we&amp;rsquo;re limited to using the paths without them. This is the reason I suggested adding the place where you have your youtube-dl to your PATH variable. The other workaround that might have worked is escaping any whitespace with caret symbol &lt;em&gt;^&lt;/em&gt;. This would require changing the working dir to the place where youtube-dl sits and launching from there, but since we can&amp;rsquo;t pass the output directory only, without the video name, with the &lt;code&gt;--output&lt;/code&gt; option, this solution won&amp;rsquo;t work. However, If you don&amp;rsquo;t mind downloading to the same directory the program sits (in fact, in my case it downloads to &lt;code&gt;%LOCALAPPDATA%\VirtualStore\Program Files\youtube-dl\&lt;/code&gt; directory), the line should look similar to this: &lt;code&gt;/c cd /d C:\Program^ Files\youtube-dl\ &amp;amp; youtube-dl.exe [URL]&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;After all the setting you should be able to download any YT video with minimum of one click (hold alt and click on a video link) and one Enter hit (on destination selection dialog). Easy Peasy!&lt;/p&gt;
-
-&lt;h4 id=&#34;tl-dr-for-the-lazy&#34;&gt;TL-DR for the lazy:&lt;/h4&gt;
-
-&lt;p&gt;&lt;a name=&#34;tldr&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Download &lt;a href=&#34;https://github.com/rg3/youtube-dl/releases/latest&#34;&gt;youtube-dl&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Open your &lt;em&gt;Program Files&lt;/em&gt; dir, make a new one, name it &amp;ldquo;youtube-dl&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Press Win+R on a keyboard, enter &lt;code&gt;taskschd.msc /s&lt;/code&gt; and run it.
-
-&lt;ul&gt;
-&lt;li&gt;Create a new regular task which launches youtube-dl with the &lt;code&gt;-U&lt;/code&gt; parameter&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Launch Firefox
-
-&lt;ul&gt;
-&lt;li&gt;Install the &lt;em&gt;&lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/flashgot/&#34;&gt;FlashGot&lt;/a&gt;&lt;/em&gt; addon&lt;/li&gt;
-&lt;li&gt;Open &lt;code&gt;about:addons&lt;/code&gt; and open options for the FlashGot&lt;/li&gt;
-&lt;li&gt;Add a new download manager, enter &lt;code&gt;%SystemRoot%\System32\cmd.exe&lt;/code&gt; as executable path and &lt;code&gt;/c cd /d [FOLDER] &amp;amp; youtube-dl.exe [URL] &amp;amp; explorer.exe [FOLDER] &amp;amp; exit&lt;/code&gt; as its arguments below.&lt;/li&gt;
-&lt;li&gt;Check &amp;ldquo;Alt+Click = FlashGot&amp;rdquo; for convenience&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Done! Alt-click everything you ever dreamed to!&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -149,48 +61,7 @@ Place it anywhere on your drive, but remember that the folder the application re
       <guid>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&amp;rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&amp;rsquo;t present in Reaper has arisen.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;midi-compress-by-pitch&#34;&gt;MIDI_Compress_By_Pitch&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/blob/master/lua/MIDI_Compress_By_Pitch.lua&#34;&gt;MIDI_Compress_By_Pitch&lt;/a&gt; is a simple &lt;a href=&#34;https://lua.org/&#34;&gt;Lua&lt;/a&gt; script for Reaper which takes selected MIDI notes and compresses/expands their velocity by a given rate, but the average velocity is computed per-pitch. The primary usage is for midi percussion or drums or any other instrument where pitches correspond to completely different sounds.&lt;/p&gt;
-
-&lt;p&gt;Usage:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Add script to Reaper
-
-&lt;ul&gt;
-&lt;li&gt;Click Menu&amp;gt;Actions&lt;/li&gt;
-&lt;li&gt;Find ReaScript section, press Load&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Select your MIDI event and open MIDI editor&lt;/li&gt;
-&lt;li&gt;Select the notes you want the script to work on&lt;/li&gt;
-&lt;li&gt;Run the script
-
-&lt;ul&gt;
-&lt;li&gt;The processing rate is a difference of velocity for each note and the average velocity in %.&lt;/li&gt;
-&lt;li&gt;First input box is per-pitch compression/expansion in %&lt;/li&gt;
-&lt;li&gt;Second input is compression/expansion rate for all selected notes&lt;/li&gt;
-&lt;li&gt;Use positive values for compression and negative values for expansion.&lt;/li&gt;
-&lt;li&gt;Expansion value can exceed %100 (try -200 or -400)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&#34;download-at-github-https-github-com-indiscipline-reaper-scripts-br&#34;&gt;&lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/&#34;&gt;[&lt;strong&gt;Download at GitHub&lt;/strong&gt;]&lt;/a&gt;&lt;br /&gt;&lt;/h5&gt;
-
-&lt;p&gt;Here&amp;rsquo;s the script in action:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://github.com/indiscipline/reaper_scripts/raw/master/demo/midi_compress_by_pitch.gif&#34; alt=&#34;midi_compress_by_pitch demo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Using this script can help with evening the dynamics from a live-input, but it retains inter-pitch dynamic difference, so when, say, you&amp;rsquo;re playing with a MIDI-drum set your hi-hat can stay soft while your backbeat is loud as hell.&lt;/p&gt;
-
-&lt;p&gt;Where the global expansion can help is when you need to separate the volume of different sounds which is often needed from a drum part but takes a lot of practice to achieve even playing real drums, and if you use a simple midi-controller it&amp;rsquo;s even harder.&lt;/p&gt;
-
-&lt;p&gt;The code of the script is open under GPLv2+ license and now resides in my &lt;strong&gt;GitHub repo:&lt;/strong&gt;&lt;br /&gt; &lt;a href=&#34;https://github.com/indiscipline/reaper_scripts/&#34;&gt;https://github.com/indiscipline/reaper_scripts/&lt;/a&gt;
-This is my first working script in Lua, so any corrections and suggestions are welcome. Reaper allows using a whole lot of three languages for writing scripts, the other two being Python, which is not bundled with Reaper (but very likely sits on your machine already) and homebrewed EEL which is clearly C-inspired. What drew me to Lua in this case is that Reaper doesn&amp;rsquo;t need a separate interpreter for it and it&amp;rsquo;s a widely used script language with easy to find documentation, help and existing code snippets.&lt;/p&gt;
-
-&lt;p&gt;At this point my impressions of Lua are mixed, but this is probably due to my previous almost exclusive usage of compiled, strongly typed languages like my favourite &lt;a href=&#34;https://www.rust-lang.org/&#34;&gt;Rust&lt;/a&gt;. Lua is very simple so at many places I kept thinking: How is my variable passed? What about coercion? Where&amp;rsquo;s Pattern-matching and Map and function return type? This probably should be evident from the code. Oh, and I&amp;rsquo;m completely spoiled by extensive compiler feedback and corrections!&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -199,30 +70,9 @@ This is my first working script in Lua, so any corrections and suggestions are w
       <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/about/</guid>
-      <description>&lt;p&gt;Hi! My name is Kirill and this is my blog. Isn&amp;rsquo;t it marvelous?&lt;/p&gt;
-
-&lt;p&gt;If by some strange occasion you&amp;rsquo;re interested in contacting me, please, write me an e-mail!&lt;/p&gt;
-
-&lt;div class=&#34;one columns&#34;&gt;
-        &lt;i class=&#34;fa fa-envelope-o fa-4x&#34;&gt;&lt;/i&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;eight columns&#34; style=&#34;padding-top:1em;&#34;&gt;
-        &lt;script language=Javascript type=text/javascript&gt;
-&lt;!--
-document.write(&#39;&lt;a href=&#34;mai&#39;);
-document.write(&#39;lto&#39;);
-document.write(&#39;:&amp;#101;&amp;#108;&amp;#101;&amp;#112;&amp;#104;&amp;#97;&amp;#110;&amp;#116;&amp;#116;&amp;#97;&amp;#108;&amp;#107;&#39;);
-document.write(&#39;@&#39;);
-document.write(&#39;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#34;&gt;&#39;);
-document.write(&#39;&amp;#101;&amp;#108;&amp;#101;&amp;#112;&amp;#104;&amp;#97;&amp;#110;&amp;#116;&amp;#116;&amp;#97;&amp;#108;&amp;#107;&#39;);
-document.write(&#39;@&#39;);
-document.write(&#39;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;\/a&gt;&#39;);
-// --&gt;
-&lt;/script&gt;&lt;noscript&gt;&amp;#101;&amp;#108;&amp;#101;&amp;#112;&amp;#104;&amp;#97;&amp;#110;&amp;#116;&amp;#116;&amp;#97;&amp;#108;&amp;#107; at 
-&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#109;&amp;#97;&amp;#105;&amp;#108; dot &amp;#99;&amp;#111;&amp;#109;&lt;/noscript&gt;
-    &lt;/div&gt;
-    
-</description>
+      <description>Hi! My name is Kirill and this is my blog. Isn&amp;rsquo;t it marvelous?
+If by some strange occasion you&amp;rsquo;re interested in contacting me, please, write me an e-mail!
+  &#39;); document.write(&#39;&amp;#101;&amp;#108;&amp;#101;&amp;#112;&amp;#104;&amp;#97;&amp;#110;&amp;#116;&amp;#116;&amp;#97;&amp;#108;&amp;#107;&#39;); document.write(&#39;@&#39;); document.write(&#39;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#39;); // -- &amp;#101;&amp;#108;&amp;#101;&amp;#112;&amp;#104;&amp;#97;&amp;#110;&amp;#116;&amp;#116;&amp;#97;&amp;#108;&amp;#107; at &amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#109;&amp;#97;&amp;#105;&amp;#108; dot &amp;#99;&amp;#111;&amp;#109;  </description>
     </item>
     
     <item>
@@ -233,40 +83,7 @@ document.write(&#39;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;
       <guid>https://indiscipline.github.io/post/architect-logo/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/architect-linux/&#34;&gt;Architect&lt;/a&gt; Linux is an installer for the glorious &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch linux&lt;/a&gt;. It is distributed as a live-cd ISO, which boots into pseudo-graphical mode and allows installing Arch via comprehensible script which is updated prior to installation from Architect github-repo.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;p&gt;Yes, I know that Arch installation supposed to be made by hands, but using installer is much faster (from my experience) and if it does everything you need it to, why not? What caught my eye was the fact that Architect gets you a vanilla-Arch experience, without any alterations in contrast to Manjaro or Antergos.&lt;/p&gt;
-
-&lt;p&gt;Here&amp;rsquo;s what made me a little bit sad when I visited Architect forums:
-&lt;img src=&#34;https://indiscipline.github.io/img/architect/old-logo.png&#34; alt=&#34;Old Architect logo&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;See those jagged letters? This is what got me started. I&amp;rsquo;m an avid user and advocate of Free Software and a Free culture in general, but when it comes to contributing — there&amp;rsquo;s hardly anything to mention. So I thought putting a little work into it would be a task adequate to my ambitions.&lt;/p&gt;
-
-&lt;p&gt;At first, I was going to just re-render the logo with proper anti-aliasing, or probably make an SVG. However, when I got down to work it became evident to me that some decisions in this logo are at least questionable and there certainly was some room for improvement.&lt;/p&gt;
-
-&lt;p&gt;That&amp;rsquo;s what I ended up with:&lt;br /&gt;
-&lt;img src=&#34;https://indiscipline.github.io/img/architect/architect-linux.png&#34; alt=&#34;Architect logo redesign&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;m not big on self-compliments, but that objectively looks cleaner and more proper from technical point of view. Yep, there&amp;rsquo;s some inconsistency with sub-header letters, but this of course should be addressed when preparing actual raster pictures for given sizes and use-cases.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;What&amp;rsquo;s different&lt;/strong&gt; from the current Architect logo? Well, first of all, my variant is symmetrical. The arc, which is the main element of the logo, is one of the most significant elements of architecture, and its symmetrical appearance should emphasize the structural integrity and reliability of both the system installed and installer script. I tried to use as simple lines as possible, to convey the sense of austerity. I also got rid of the shadows and retained only one vertical gradient which I feel strengthens the visual construction and adds some weight.&lt;/p&gt;
-
-&lt;p&gt;Next I thought: How am I going to present this to the Architect community? So I looked up for some info regarding current Arch Linux logo, which is of course the main inspiration and the ground for both old and new Architect logos. I found out that it&amp;rsquo;s called &amp;ldquo;the Archer&amp;rdquo; and was presented by Thayer Williams in 2007 for the Arch logo contest. Here&amp;rsquo;s his entry: &lt;a href=&#34;https://dev.archlinux.org/~travis/logo-contest/thayer/1-archer.png&#34;&gt;https://dev.archlinux.org/~travis/logo-contest/thayer/1-archer.png&lt;/a&gt;. It&amp;rsquo;s a great logo with a concept behind it and a few possible interpretations. Some discussions on Arch Linux forums showed that different people see different things in it but I haven&amp;rsquo;t seen anyone who didn&amp;rsquo;t like it. It&amp;rsquo;s a great pleasure working with such a great foundation, but on the other hand you know you&amp;rsquo;re probably only going to make it worse. Hope that&amp;rsquo;s not evident!&lt;/p&gt;
-
-&lt;p&gt;Anyway, I made a similar presentation panel:&lt;br /&gt;
-&lt;img src=&#34;https://indiscipline.github.io/img/architect/architect_submission.png&#34; alt=&#34;Architect submission&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I also made a few screenshots to show the new design in the wild (clickable):&lt;br /&gt;
-Forums:&lt;br /&gt;
-&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-1.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-1s.png&#34; alt=&#34;Architect forums&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Sourceforge page:&lt;br /&gt;
-&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-2.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-2s.png&#34; alt=&#34;Architect sourceforge page&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Google+ page:&lt;br /&gt;
-&lt;a href=&#34;https://indiscipline.github.io/img/architect/live-3.png&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/architect/live-3s.png&#34; alt=&#34;Architect G+&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;At the moment this redesign is only presented to the community and maintainer of the Architect Linux and for the time being I consider it mine. If it gets past that and becomes accepted I will gladly hand over hi-res vector images as well as the necessary rights to use it to the community.&lt;/p&gt;</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -275,8 +92,7 @@ Forums:&lt;br /&gt;
       <pubDate>Wed, 23 Dec 2015 16:55:40 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/post/helloworld/</guid>
-      <description>&lt;p&gt;Everyone and their dog has a blog. Now me too.&lt;/p&gt;
-</description>
+      <description>Everyone and their dog has a blog. Now me too.</description>
     </item>
     
   </channel>
