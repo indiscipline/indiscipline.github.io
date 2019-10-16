@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Indiscipline</title>
+    <title>linux on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/linux/</link>
-    <description>Recent content in Linux on Indiscipline</description>
+    <description>Recent content in linux on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Except where otherwise noted, content on this site is licensed under a &lt;a title=&#34;Creative Commons Attribution-NoDerivatives 4.0 International License&#34; href=&#34;http://creativecommons.org/licenses/by-nd/4.0/&#34;&gt;CC BY-ND 4.0&lt;/a&gt;.</copyright>
     <lastBuildDate>Thu, 06 Jul 2017 16:00:00 +0300</lastBuildDate>
     
 	<atom:link href="https://indiscipline.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
@@ -21,7 +20,7 @@
       <description>&lt;p&gt;Once you hear there&amp;rsquo;s a new Unix shell on the block, what do you do? Probably, glance over syntax and try it in your VM. But when this new shell is called &lt;a href=&#34;https://elvish.io/&#34;&gt;Elvish&lt;/a&gt; you do this:&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;(Hover over to see)&lt;/em&gt;&lt;br /&gt;
-&lt;a href=&#34;https://indiscipline.github.io/img/elvish/elvish.jpg&#34;&gt;&lt;img onMouseOver=&#34;this.src=&#39;/img/elvish/elvish-thumb.jpg&#39;&#34; onMouseOut=&#34;this.src=&#39;/img/elvish/elvish-pix.png&#39;&#34; src=&#34;https://indiscipline.github.io/img/elvish/elvish-pix.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/elvish/elvish.jpg&#34;&gt;&lt;img onMouseOver=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-thumb.jpg&#39;&#34; onMouseOut=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-pix.png&#39;&#34; src=&#34;https://indiscipline.github.io/img/elvish/elvish-pix.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&amp;ldquo;Friendly and expressive&amp;rdquo;, indeed.&lt;/p&gt;</description>
     </item>
@@ -32,9 +31,7 @@
       <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/post/architect-logo/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/architect-linux/&#34;&gt;Architect&lt;/a&gt; Linux is an installer for the glorious &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch linux&lt;/a&gt;. It is distributed as a live-cd ISO, which boots into pseudo-graphical mode and allows installing Arch via comprehensible script which is updated prior to installation from Architect github-repo.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://sourceforge.net/projects/architect-linux/&#34;&gt;Architect&lt;/a&gt; Linux is an installer for the glorious &lt;a href=&#34;https://archlinux.org&#34;&gt;Arch linux&lt;/a&gt;. It is distributed as a live-cd ISO, which boots into pseudo-graphical mode and allows installing Arch via comprehensible script which is updated prior to installation from Architect github-repo.&lt;/p&gt;</description>
     </item>
     
   </channel>

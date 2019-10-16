@@ -6,41 +6,67 @@
     <description>Recent content in Tags on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <copyright>Except where otherwise noted, content on this site is licensed under a &lt;a title=&#34;Creative Commons Attribution-NoDerivatives 4.0 International License&#34; href=&#34;http://creativecommons.org/licenses/by-nd/4.0/&#34;&gt;CC BY-ND 4.0&lt;/a&gt;.</copyright>
-    <lastBuildDate>Wed, 23 Mar 2016 18:00:00 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 16 Oct 2019 15:40:07 +0300</lastBuildDate>
     
 	<atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Arch</title>
-      <link>https://indiscipline.github.io/tags/arch/</link>
-      <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/arch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Code</title>
+      <title>code</title>
       <link>https://indiscipline.github.io/tags/code/</link>
-      <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
+      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Commandline</title>
+      <title>commandline</title>
       <link>https://indiscipline.github.io/tags/commandline/</link>
-      <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
+      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/commandline/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Design</title>
+      <title>ffmpeg</title>
+      <link>https://indiscipline.github.io/tags/ffmpeg/</link>
+      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>loudness</title>
+      <link>https://indiscipline.github.io/tags/loudness/</link>
+      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/loudness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>https://indiscipline.github.io/tags/rust/</link>
+      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/rust/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sound</title>
+      <link>https://indiscipline.github.io/tags/sound/</link>
+      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/sound/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
       <link>https://indiscipline.github.io/tags/design/</link>
       <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
       
@@ -49,7 +75,7 @@
     </item>
     
     <item>
-      <title>Linux</title>
+      <title>linux</title>
       <link>https://indiscipline.github.io/tags/linux/</link>
       <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
       
@@ -58,25 +84,7 @@
     </item>
     
     <item>
-      <title>Lua</title>
-      <link>https://indiscipline.github.io/tags/lua/</link>
-      <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/lua/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mixing</title>
-      <link>https://indiscipline.github.io/tags/mixing/</link>
-      <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/mixing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Other</title>
+      <title>other</title>
       <link>https://indiscipline.github.io/tags/other/</link>
       <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
       
@@ -85,34 +93,16 @@
     </item>
     
     <item>
-      <title>Reaper</title>
-      <link>https://indiscipline.github.io/tags/reaper/</link>
-      <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/reaper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rust</title>
-      <link>https://indiscipline.github.io/tags/rust/</link>
+      <title>mixing</title>
+      <link>https://indiscipline.github.io/tags/mixing/</link>
       <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
       
-      <guid>https://indiscipline.github.io/tags/rust/</guid>
+      <guid>https://indiscipline.github.io/tags/mixing/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Sound</title>
-      <link>https://indiscipline.github.io/tags/sound/</link>
-      <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/sound/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows</title>
+      <title>windows</title>
       <link>https://indiscipline.github.io/tags/windows/</link>
       <pubDate>Fri, 02 Sep 2016 15:59:03 +0300</pubDate>
       
@@ -121,11 +111,38 @@
     </item>
     
     <item>
-      <title>Youtube</title>
+      <title>youtube</title>
       <link>https://indiscipline.github.io/tags/youtube/</link>
       <pubDate>Fri, 02 Sep 2016 15:59:03 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lua</title>
+      <link>https://indiscipline.github.io/tags/lua/</link>
+      <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/lua/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reaper</title>
+      <link>https://indiscipline.github.io/tags/reaper/</link>
+      <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/reaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch</title>
+      <link>https://indiscipline.github.io/tags/arch/</link>
+      <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/arch/</guid>
       <description></description>
     </item>
     
