@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Download Youtube videos easily. Guide for the &#34;normal&#34; people.</title>
 		
-		<meta name="generator" content="Hugo 0.58.3" />
+		<meta name="generator" content="Hugo 0.62.2" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
@@ -79,65 +79,44 @@ if (!doNotTrack) {
 <div class="row">
 	<div class="twelve columns">
 		<h4 id="update-this-tutorial-is-out-of-date"><strong>Update:</strong> This tutorial is out-of-date.</h4>
-
-<p><em>Since release of Firefox Quantum and subsequent changes to the extension API, launching external commands from Firefox requre installing some additional software, since WebExtensions have no OS level access. If you&rsquo;re not opposed to this idea, you can still adapt the following instruction to the new WebExtension addons, such as <a href="https://addons.mozilla.org/en-US/firefox/addon/open-with/">Open With</a> or <a href="https://add0n.com/send-to.html">Send To External Media Player</a>.</em></p>
-
-<hr />
-
-<p>Let&rsquo;s integrate the best tool for downloading YouTube videos <a href="http://youtube-dl.org/">Youtube-dl</a> with Firefox for the most pleasant downloading experience! <em>Written for Windows users, as they are usually the ones that need the following instructions.</em></p>
-
+<p><em>Since release of Firefox Quantum and subsequent changes to the extension API, launching external commands from Firefox requre installing some additional software, since WebExtensions have no OS level access. If you're not opposed to this idea, you can still adapt the following instruction to the new WebExtension addons, such as <a href="https://addons.mozilla.org/en-US/firefox/addon/open-with/">Open With</a> or <a href="https://add0n.com/send-to.html">Send To External Media Player</a>.</em></p>
+<hr>
+<p>Let's integrate the best tool for downloading YouTube videos <a href="http://youtube-dl.org/">Youtube-dl</a> with Firefox for the most pleasant downloading experience! <em>Written for Windows users, as they are usually the ones that need the following instructions.</em></p>
 <p>First, the motive behind this post. Being a musician, one of the actions I might perform multiple times in a day is downloading videos from YouTube. Being able to play them in my player of choice (<a href="https://mpv.io/">mpv</a> for now) is a huge convenience in case I need to transcribe some musical phrase, or speed some particularly slow speaker up by an arbitrary amount and having the video on my HDD gives me a slight sense of tranquility and confidence. In the past years people tried every accessible way to get the videos from YT with as little hassle as possible. Not all of these means worked good, and some of the suggestions in the Internet were, in fact, malicious, putting it mildly. As always, community to the rescue. Enter Youtube-dl!</p>
-
-<p><em><a href="#tldr">BTW, there&rsquo;s TL-DR at the end!</a></em></p>
-
-<p>For many years <a href="http://youtube-dl.org/">Youtube-dl</a> remains the most reliable, flexible and safe way to download content from YT and many other video-hosting services. However, it&rsquo;s a commandline application, and most of the users manage to use their personal computers for hours at day and remain oblivious of mere existence of commandline software. There are many ways to integrate terminal in a gui-driven UX of modern browsers, but here&rsquo;s the easiest way to launch almost any application from Firefox and pass the link from the page as a parameter.</p>
-
+<p><em><a href="#tldr">BTW, there's TL-DR at the end!</a></em></p>
+<p>For many years <a href="http://youtube-dl.org/">Youtube-dl</a> remains the most reliable, flexible and safe way to download content from YT and many other video-hosting services. However, it's a commandline application, and most of the users manage to use their personal computers for hours at day and remain oblivious of mere existence of commandline software. There are many ways to integrate terminal in a gui-driven UX of modern browsers, but here's the easiest way to launch almost any application from Firefox and pass the link from the page as a parameter.</p>
 <h4 id="preparations">Preparations</h4>
-
 <p>First of all, download the <a href="https://github.com/rg3/youtube-dl/releases/latest">latest youtube-dl</a> (direct link to the Windows build <a href="http://youtube-dl.org/downloads/latest/youtube-dl.exe">here</a>).
 Place it anywhere on your drive, but remember that the folder the application resides in should be <a href="http://www.computerhope.com/issues/ch000549.htm">added to the PATH environment variable</a>. Out of habit of the days past I place it in my Program Files directory, but for that you will probably need to have administrator rights.</p>
-
 <h4 id="autoupdate">Autoupdate</h4>
-
-<p>Next, I suggest setting the automatic update procedure for the program, so any change in YouTube code, hopefully, would never affect the functionality of youtube-dl. To do this, open Task Scheduler: launch Run (press Win+R) and enter <code>taskschd.msc /s</code>. In the menu click Actions-&gt;Create Task&hellip; Name the new task <code>youtube-dl update</code>. On the Triggers tab make a new one, I recommend setting it to User log on with a small delay, in case your network adapter is slow to establish connection. In &ldquo;actions&rdquo; tab you need to select &ldquo;Start a program&rdquo; and enter (or browse for) the path to the youtube-dl executable. Then add <code>-U</code> argument in &ldquo;Add arguments&rdquo; textbox and hit OK. Run a newly created task to check if it&rsquo;s working.</p>
-
+<p>Next, I suggest setting the automatic update procedure for the program, so any change in YouTube code, hopefully, would never affect the functionality of youtube-dl. To do this, open Task Scheduler: launch Run (press Win+R) and enter <code>taskschd.msc /s</code>. In the menu click Actions-&gt;Create Task&hellip; Name the new task <code>youtube-dl update</code>. On the Triggers tab make a new one, I recommend setting it to User log on with a small delay, in case your network adapter is slow to establish connection. In &ldquo;actions&rdquo; tab you need to select &ldquo;Start a program&rdquo; and enter (or browse for) the path to the youtube-dl executable. Then add <code>-U</code> argument in &ldquo;Add arguments&rdquo; textbox and hit OK. Run a newly created task to check if it's working.</p>
 <h4 id="setting-up-flashgot">Setting up FlashGot</h4>
-
-<p>And now, the main part. We need to install the <strong><a href="https://addons.mozilla.org/en-US/firefox/addon/flashgot/">FlashGot</a></strong> Firefox add-on. It&rsquo;s one of the oldest and most used add-ons ever, with more than 790000 users to date. After installation, type <code>about:add-ons</code> in you address bar, find FlashGot in the list and open its options. Add a new download manager and name it &ldquo;youtube-dl&rdquo;. Set the &ldquo;Executable path&rdquo; to <code>%SystemRoot%\System32\cmd.exe</code> (you can&rsquo;t edit the box directly, so just hit Browse and paste the line above). Why does the executable path leads to cmd.exe, and not to youtube-dl.exe? The thing is, in case anything goes wrong we want to be able to see what happened, but in case of just launching the CLI program directly the window will automatically close on completion or any error. So instead, we open an OS terminal and pass it the command to run as an argument. To do so, set everything like in the screenshot below and we&rsquo;re done!</p>
-
+<p>And now, the main part. We need to install the <strong><a href="https://addons.mozilla.org/en-US/firefox/addon/flashgot/">FlashGot</a></strong> Firefox add-on. It's one of the oldest and most used add-ons ever, with more than 790000 users to date. After installation, type <code>about:add-ons</code> in you address bar, find FlashGot in the list and open its options. Add a new download manager and name it &ldquo;youtube-dl&rdquo;. Set the &ldquo;Executable path&rdquo; to <code>%SystemRoot%\System32\cmd.exe</code> (you can't edit the box directly, so just hit Browse and paste the line above). Why does the executable path leads to cmd.exe, and not to youtube-dl.exe? The thing is, in case anything goes wrong we want to be able to see what happened, but in case of just launching the CLI program directly the window will automatically close on completion or any error. So instead, we open an OS terminal and pass it the command to run as an argument. To do so, set everything like in the screenshot below and we're done!</p>
 <h4 id="explaining-the-arguments">Explaining the arguments</h4>
-
-<p><img src="https://indiscipline.github.io/img/download-yt/flashgot.png" alt="flashgot option" /></p>
-
-<p>Let&rsquo;s look at what&rsquo;s in the arguments box:
+<p><img src="https://indiscipline.github.io/img/download-yt/flashgot.png" alt="flashgot option"></p>
+<p>Let's look at what's in the arguments box:
 <code>/c cd /d [FOLDER] &amp; youtube-dl.exe [URL] &amp; explorer.exe [FOLDER] &amp; exit</code></p>
-
 <p>With the <code>/c</code> passed all of the following string will be treated as a command to be launched. <code>cd /d [FOLDER]</code> switches the current directory to the one you will select on every FlashGot launch, <code>youtube-dl.exe [URL]</code> launches the actual downloading with the clicked/selected link as a parameter. <code>explorer.exe [FOLDER]</code> opens the folder where the file was downloaded and optional <code>exit</code> closes the terminal.</p>
-
-<p>Note, that unfortunately we can&rsquo;t use quotes in this argument textbox, so we&rsquo;re limited to using the paths without them. This is the reason I suggested adding the place where you have your youtube-dl to your PATH variable. The other workaround that might have worked is escaping any whitespace with caret symbol <em>^</em>. This would require changing the working dir to the place where youtube-dl sits and launching from there, but since we can&rsquo;t pass the output directory only, without the video name, with the <code>--output</code> option, this solution won&rsquo;t work. However, If you don&rsquo;t mind downloading to the same directory the program sits (in fact, in my case it downloads to <code>%LOCALAPPDATA%\VirtualStore\Program Files\youtube-dl\</code> directory), the line should look similar to this: <code>/c cd /d C:\Program^ Files\youtube-dl\ &amp; youtube-dl.exe [URL]</code>.</p>
-
+<p>Note, that unfortunately we can't use quotes in this argument textbox, so we're limited to using the paths without them. This is the reason I suggested adding the place where you have your youtube-dl to your PATH variable. The other workaround that might have worked is escaping any whitespace with caret symbol <em>^</em>. This would require changing the working dir to the place where youtube-dl sits and launching from there, but since we can't pass the output directory only, without the video name, with the <code> --output</code> option, this solution won't work. However, If you don't mind downloading to the same directory the program sits (in fact, in my case it downloads to <code>%LOCALAPPDATA%\VirtualStore\Program Files\youtube-dl\</code> directory), the line should look similar to this: <code>/c cd /d C:\Program^ Files\youtube-dl\ &amp; youtube-dl.exe [URL]</code>.</p>
 <p>After all the setting you should be able to download any YT video with minimum of one click (hold alt and click on a video link) and one Enter hit (on destination selection dialog). Easy Peasy!</p>
-
 <h4 id="tl-dr-for-the-lazy">TL-DR for the lazy:</h4>
-
 <p><a name="tldr"></a></p>
-
 <ul>
 <li>Download <a href="https://github.com/rg3/youtube-dl/releases/latest">youtube-dl</a></li>
 <li>Open your <em>Program Files</em> dir, make a new one, name it &ldquo;youtube-dl&rdquo;</li>
 <li>Press Win+R on a keyboard, enter <code>taskschd.msc /s</code> and run it.
-
 <ul>
 <li>Create a new regular task which launches youtube-dl with the <code>-U</code> parameter</li>
-</ul></li>
+</ul>
+</li>
 <li>Launch Firefox
-
 <ul>
 <li>Install the <em><a href="https://addons.mozilla.org/en-US/firefox/addon/flashgot/">FlashGot</a></em> addon</li>
 <li>Open <code>about:addons</code> and open options for the FlashGot</li>
 <li>Add a new download manager, enter <code>%SystemRoot%\System32\cmd.exe</code> as executable path and <code>/c cd /d [FOLDER] &amp; youtube-dl.exe [URL] &amp; explorer.exe [FOLDER] &amp; exit</code> as its arguments below.</li>
 <li>Check &ldquo;Alt+Click = FlashGot&rdquo; for convenience</li>
-</ul></li>
+</ul>
+</li>
 <li>Done! Alt-click everything you ever dreamed to!</li>
 </ul>
 	</div>

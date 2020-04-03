@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Indiscipline</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 16 Oct 2019 15:40:07 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 20:48:37 +0300</lastBuildDate>
     
 	<atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>code</title>
       <link>https://indiscipline.github.io/tags/code/</link>
-      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/code/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>commandline</title>
       <link>https://indiscipline.github.io/tags/commandline/</link>
-      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/commandline/</guid>
       <description></description>
@@ -32,9 +32,36 @@
     <item>
       <title>ffmpeg</title>
       <link>https://indiscipline.github.io/tags/ffmpeg/</link>
-      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>imagemagick</title>
+      <link>https://indiscipline.github.io/tags/imagemagick/</link>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/imagemagick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>movies</title>
+      <link>https://indiscipline.github.io/tags/movies/</link>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/movies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rust</title>
+      <link>https://indiscipline.github.io/tags/rust/</link>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/rust/</guid>
       <description></description>
     </item>
     
@@ -44,15 +71,6 @@
       <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/loudness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rust</title>
-      <link>https://indiscipline.github.io/tags/rust/</link>
-      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/rust/</guid>
       <description></description>
     </item>
     

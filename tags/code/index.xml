@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>code on Indiscipline</title>
@@ -6,10 +6,24 @@
     <description>Recent content in code on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 16 Oct 2019 15:40:07 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2020 20:48:37 +0300</lastBuildDate>
     
 	<atom:link href="https://indiscipline.github.io/tags/code/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Movie-Thumbnailer. Make wallpapers from your favorite movies for all your devices.</title>
+      <link>https://indiscipline.github.io/post/movie-thumbnailer-announcement/</link>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/post/movie-thumbnailer-announcement/</guid>
+      <description>&lt;p&gt;This year is something special! As you&#39;re probably being a witness of, most of the humanity is stuck on self-isolation or even in strict quarantine, which led to unprecedented media consumption. Streaming services usage spiked so high Netflix had to cut their quality to unload their servers. People binge on movies and series and I&#39;m not an exception here, finally watching some classics from the bucket list. This situation reminded me of an idea I spotted a couple of years ago. Someone made a beautiful wallpaper from the &amp;ldquo;cuts&amp;rdquo; of the &amp;ldquo;2001: A Space Odyssey&amp;rdquo;, which is one of my all time favorite movies. Camera work and production design is second to none there, so every frame is really a painting.&lt;/p&gt;
+&lt;p&gt;I had to try the same idea with other movies and it was clear that doing it manually is not the way to go.&lt;br&gt;
+Enter &lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/movie-thumbnailer/&#34;&gt;movie-thumbnailer&lt;/a&gt;&lt;/strong&gt; — command line &amp;ldquo;glue&amp;rdquo; for &lt;a href=&#34;https://ffmpeg.org/&#34;&gt;ffmpeg&lt;/a&gt; and &lt;a href=&#34;https://www.imagemagick.org/&#34;&gt;ImageMagick&lt;/a&gt; which generates wallpaper from video files laying out a grid of frames with scene changes.&lt;/p&gt;
+&lt;p&gt;Click for spoilers!&lt;br&gt;
+&lt;a href=&#34;https://indiscipline.github.io/img/movie-thumbnailer/blade-runner-1920x1080.jpg&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/movie-thumbnailer/blade-runner-500.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-1920x1080.jpg&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-500.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>ffmpeg-loudnorm-helper - simplify ffmpeg loudness normalization workflow</title>
@@ -17,9 +31,8 @@
       <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&amp;rsquo;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does is it automates that first pass and formats a complete string of loudnorm settings for the second pass.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif&#34; alt=&#34;ffmpeg-lounorm-helper demonstration&#34; /&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&#39;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does is it automates that first pass and formats a complete string of loudnorm settings for the second pass.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif&#34; alt=&#34;ffmpeg-lounorm-helper demonstration&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,10 +41,9 @@
       <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/post/zrtstr-eliminate-faux-stereo/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/zrtstr/&#34;&gt;zrtstr&lt;/a&gt;&lt;/strong&gt; is a small command line application for detecting faux-stereo WAV-files, that is, files with two identical channels that should have been saved as mono. Such files are sometimes generated by some audio-editing software and DAWs (I&amp;rsquo;m looking at you, old Cubase 5). Gotten tired of receiving such files from clients for mixing, as they are using twice the necessary space and require twice the processing power, I decided to deal with this nuisance once and for all. zrtstr is a cross-platform application which runs very fast, thanks to being written in &lt;a href=&#34;https://rust-lang.org/&#34;&gt;Rust&lt;/a&gt;.&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/zrtstr/&#34;&gt;zrtstr&lt;/a&gt;&lt;/strong&gt; is a small command line application for detecting faux-stereo WAV-files, that is, files with two identical channels that should have been saved as mono. Such files are sometimes generated by some audio-editing software and DAWs (I&#39;m looking at you, old Cubase 5). Gotten tired of receiving such files from clients for mixing, as they are using twice the necessary space and require twice the processing power, I decided to deal with this nuisance once and for all. zrtstr is a cross-platform application which runs very fast, thanks to being written in &lt;a href=&#34;https://rust-lang.org/&#34;&gt;Rust&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Before&amp;rdquo; and &amp;ldquo;after&amp;rdquo; waveforms:&lt;/em&gt;
-&lt;img src=&#34;https://indiscipline.github.io/img/zrtstr/zrtstr-processed.png&#34; alt=&#34;zrtstr before and after&#34; /&gt;&lt;/p&gt;</description>
+&lt;img src=&#34;https://indiscipline.github.io/img/zrtstr/zrtstr-processed.png&#34; alt=&#34;zrtstr before and after&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,7 +52,7 @@
       <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&amp;rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&amp;rsquo;t present in Reaper has arisen.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&#39;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&#39;t present in Reaper has arisen.&lt;/p&gt;</description>
     </item>
     
   </channel>

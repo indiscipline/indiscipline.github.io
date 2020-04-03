@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>ReaScript: MIDI_Compress_By_Pitch</title>
 		
-		<meta name="generator" content="Hugo 0.58.3" />
+		<meta name="generator" content="Hugo 0.62.2" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
@@ -78,48 +78,37 @@ if (!doNotTrack) {
 </div>
 <div class="row">
 	<div class="twelve columns">
-		<p><a href="https://www.reaper.fm/">Reaper</a> is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on <a href="https://forum.cockos.com/forumdisplay.php?f=20">Reaper forums</a>, which is a thriving place, but the latter is achieved via user-coded scripts and open <a href="http://www.reaper.fm/sdk/reascript/reascripthelp.html">API</a>. Since I&rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&rsquo;t present in Reaper has arisen.</p>
-
-<h3 id="midi-compress-by-pitch">MIDI_Compress_By_Pitch</h3>
-
+		<p><a href="https://www.reaper.fm/">Reaper</a> is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on <a href="https://forum.cockos.com/forumdisplay.php?f=20">Reaper forums</a>, which is a thriving place, but the latter is achieved via user-coded scripts and open <a href="http://www.reaper.fm/sdk/reascript/reascripthelp.html">API</a>. Since I've started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn't present in Reaper has arisen.</p>
+<h3 id="midi_compress_by_pitch">MIDI_Compress_By_Pitch</h3>
 <p><a href="https://github.com/indiscipline/reaper_scripts/blob/master/lua/MIDI_Compress_By_Pitch.lua">MIDI_Compress_By_Pitch</a> is a simple <a href="https://lua.org/">Lua</a> script for Reaper which takes selected MIDI notes and compresses/expands their velocity by a given rate, but the average velocity is computed per-pitch. The primary usage is for midi percussion or drums or any other instrument where pitches correspond to completely different sounds.</p>
-
 <p>Usage:</p>
-
 <ul>
 <li>Add script to Reaper
-
 <ul>
 <li>Click Menu&gt;Actions</li>
 <li>Find ReaScript section, press Load&hellip;</li>
-</ul></li>
+</ul>
+</li>
 <li>Select your MIDI event and open MIDI editor</li>
 <li>Select the notes you want the script to work on</li>
 <li>Run the script
-
 <ul>
 <li>The processing rate is a difference of velocity for each note and the average velocity in %.</li>
 <li>First input box is per-pitch compression/expansion in %</li>
 <li>Second input is compression/expansion rate for all selected notes</li>
 <li>Use positive values for compression and negative values for expansion.</li>
 <li>Expansion value can exceed %100 (try -200 or -400)</li>
-</ul></li>
 </ul>
-
-<h5 id="download-at-github-https-github-com-indiscipline-reaper-scripts-br"><a href="https://github.com/indiscipline/reaper_scripts/">[<strong>Download at GitHub</strong>]</a><br /></h5>
-
-<p>Here&rsquo;s the script in action:</p>
-
-<p><img src="https://github.com/indiscipline/reaper_scripts/raw/master/demo/midi_compress_by_pitch.gif" alt="midi_compress_by_pitch demo" /></p>
-
-<p>Using this script can help with evening the dynamics from a live-input, but it retains inter-pitch dynamic difference, so when, say, you&rsquo;re playing with a MIDI-drum set your hi-hat can stay soft while your backbeat is loud as hell.</p>
-
-<p>Where the global expansion can help is when you need to separate the volume of different sounds which is often needed from a drum part but takes a lot of practice to achieve even playing real drums, and if you use a simple midi-controller it&rsquo;s even harder.</p>
-
-<p>The code of the script is open under GPLv2+ license and now resides in my <strong>GitHub repo:</strong><br /> <a href="https://github.com/indiscipline/reaper_scripts/">https://github.com/indiscipline/reaper_scripts/</a>
-This is my first working script in Lua, so any corrections and suggestions are welcome. Reaper allows using a whole lot of three languages for writing scripts, the other two being Python, which is not bundled with Reaper (but very likely sits on your machine already) and homebrewed EEL which is clearly C-inspired. What drew me to Lua in this case is that Reaper doesn&rsquo;t need a separate interpreter for it and it&rsquo;s a widely used script language with easy to find documentation, help and existing code snippets.</p>
-
-<p>At this point my impressions of Lua are mixed, but this is probably due to my previous almost exclusive usage of compiled, strongly typed languages like my favourite <a href="https://www.rust-lang.org/">Rust</a>. Lua is very simple so at many places I kept thinking: How is my variable passed? What about coercion? Where&rsquo;s Pattern-matching and Map and function return type? This probably should be evident from the code. Oh, and I&rsquo;m completely spoiled by extensive compiler feedback and corrections!</p>
+</li>
+</ul>
+<h5 id="download-at-githubhttpsgithubcomindisciplinereaper_scriptsbr-"><a href="https://github.com/indiscipline/reaper_scripts/">[<strong>Download at GitHub</strong>]</a><br /></h5>
+<p>Here's the script in action:</p>
+<p><img src="https://github.com/indiscipline/reaper_scripts/raw/master/demo/midi_compress_by_pitch.gif" alt="midi_compress_by_pitch demo"></p>
+<p>Using this script can help with evening the dynamics from a live-input, but it retains inter-pitch dynamic difference, so when, say, you're playing with a MIDI-drum set your hi-hat can stay soft while your backbeat is loud as hell.</p>
+<p>Where the global expansion can help is when you need to separate the volume of different sounds which is often needed from a drum part but takes a lot of practice to achieve even playing real drums, and if you use a simple midi-controller it's even harder.</p>
+<p>The code of the script is open under GPLv2+ license and now resides in my **GitHub repo:**<br /> <a href="https://github.com/indiscipline/reaper_scripts/">https://github.com/indiscipline/reaper_scripts/</a>
+This is my first working script in Lua, so any corrections and suggestions are welcome. Reaper allows using a whole lot of three languages for writing scripts, the other two being Python, which is not bundled with Reaper (but very likely sits on your machine already) and homebrewed EEL which is clearly C-inspired. What drew me to Lua in this case is that Reaper doesn't need a separate interpreter for it and it's a widely used script language with easy to find documentation, help and existing code snippets.</p>
+<p>At this point my impressions of Lua are mixed, but this is probably due to my previous almost exclusive usage of compiled, strongly typed languages like my favourite <a href="https://www.rust-lang.org/">Rust</a>. Lua is very simple so at many places I kept thinking: How is my variable passed? What about coercion? Where's Pattern-matching and Map and function return type? This probably should be evident from the code. Oh, and I'm completely spoiled by extensive compiler feedback and corrections!</p>
 	</div>
 </div>
 

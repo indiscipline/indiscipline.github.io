@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ffmpeg on Indiscipline</title>
-    <link>https://indiscipline.github.io/tags/ffmpeg/</link>
-    <description>Recent content in ffmpeg on Indiscipline</description>
+    <title>movies on Indiscipline</title>
+    <link>https://indiscipline.github.io/tags/movies/</link>
+    <description>Recent content in movies on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 02 Apr 2020 20:48:37 +0300</lastBuildDate>
     
-	<atom:link href="https://indiscipline.github.io/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://indiscipline.github.io/tags/movies/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,16 +23,6 @@ Enter &lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/movie-thumbn
 &lt;p&gt;Click for spoilers!&lt;br&gt;
 &lt;a href=&#34;https://indiscipline.github.io/img/movie-thumbnailer/blade-runner-1920x1080.jpg&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/movie-thumbnailer/blade-runner-500.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-1920x1080.jpg&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-500.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>ffmpeg-loudnorm-helper - simplify ffmpeg loudness normalization workflow</title>
-      <link>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</link>
-      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&#39;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does is it automates that first pass and formats a complete string of loudnorm settings for the second pass.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif&#34; alt=&#34;ffmpeg-lounorm-helper demonstration&#34;&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

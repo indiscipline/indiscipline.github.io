@@ -1,29 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://indiscipline.github.io/tags/code/</loc>
-    <lastmod>2019-10-16T15:40:07+03:00</lastmod>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://indiscipline.github.io/tags/commandline/</loc>
-    <lastmod>2019-10-16T15:40:07+03:00</lastmod>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://indiscipline.github.io/tags/ffmpeg/</loc>
-    <lastmod>2019-10-16T15:40:07+03:00</lastmod>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</loc>
-    <lastmod>2019-10-16T15:40:07+03:00</lastmod>
+    <loc>https://indiscipline.github.io/tags/imagemagick/</loc>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
   </url>
   
   <url>
     <loc>https://indiscipline.github.io/</loc>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://indiscipline.github.io/post/movie-thumbnailer-announcement/</loc>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://indiscipline.github.io/tags/movies/</loc>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://indiscipline.github.io/post/</loc>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://indiscipline.github.io/tags/rust/</loc>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://indiscipline.github.io/tags/</loc>
+    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</loc>
     <lastmod>2019-10-16T15:40:07+03:00</lastmod>
   </url>
   
@@ -33,22 +63,7 @@
   </url>
   
   <url>
-    <loc>https://indiscipline.github.io/post/</loc>
-    <lastmod>2019-10-16T15:40:07+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/rust/</loc>
-    <lastmod>2019-10-16T15:40:07+03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://indiscipline.github.io/tags/sound/</loc>
-    <lastmod>2019-10-16T15:40:07+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/</loc>
     <lastmod>2019-10-16T15:40:07+03:00</lastmod>
   </url>
   

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Indiscipline</title>
@@ -17,11 +17,9 @@
       <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/post/elvish-shell/</guid>
-      <description>&lt;p&gt;Once you hear there&amp;rsquo;s a new Unix shell on the block, what do you do? Probably, glance over syntax and try it in your VM. But when this new shell is called &lt;a href=&#34;https://elvish.io/&#34;&gt;Elvish&lt;/a&gt; you do this:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;(Hover over to see)&lt;/em&gt;&lt;br /&gt;
+      <description>&lt;p&gt;Once you hear there&#39;s a new Unix shell on the block, what do you do? Probably, glance over syntax and try it in your VM. But when this new shell is called &lt;a href=&#34;https://elvish.io/&#34;&gt;Elvish&lt;/a&gt; you do this:&lt;/p&gt;
+&lt;p&gt;*(Hover over to see)*&lt;br /&gt;
 &lt;a href=&#34;https://indiscipline.github.io/img/elvish/elvish.jpg&#34;&gt;&lt;img onMouseOver=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-thumb.jpg&#39;&#34; onMouseOut=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-pix.png&#39;&#34; src=&#34;https://indiscipline.github.io/img/elvish/elvish-pix.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;&amp;ldquo;Friendly and expressive&amp;rdquo;, indeed.&lt;/p&gt;</description>
     </item>
     
