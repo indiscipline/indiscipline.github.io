@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Movie-Thumbnailer. Make wallpapers from your favorite movies for all your devices.</title>
 		
-		<meta name="generator" content="Hugo 0.62.2" />
+		<meta name="generator" content="Hugo 0.80.0" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
@@ -78,7 +78,8 @@ if (!doNotTrack) {
 </div>
 <div class="row">
 	<div class="twelve columns">
-		<p>This year is something special! As you're probably being a witness of, most of the humanity is stuck on self-isolation or even in strict quarantine, which led to unprecedented media consumption. Streaming services usage spiked so high Netflix had to cut their quality to unload their servers. People binge on movies and series and I'm not an exception here, finally watching some classics from the bucket list. This situation reminded me of an idea I spotted a couple of years ago. Someone made a beautiful wallpaper from the &ldquo;cuts&rdquo; of the &ldquo;2001: A Space Odyssey&rdquo;, which is one of my all time favorite movies. Camera work and production design is second to none there, so every frame is really a painting.</p>
+    
+		<p>This year is something special! As you&rsquo;re probably being a witness of, most of the humanity is stuck on self-isolation or even in strict quarantine, which led to unprecedented media consumption. Streaming services usage spiked so high Netflix had to cut their quality to unload their servers. People binge on movies and series and I&rsquo;m not an exception here, finally watching some classics from the bucket list. This situation reminded me of an idea I&rsquo;d spotted a couple of years ago. Someone made a beautiful wallpaper from the &ldquo;cuts&rdquo; of the &ldquo;2001: A Space Odyssey&rdquo;, which is one of my all time favorite movies. Camera work and production design is second to none there, so every frame is really a painting.</p>
 <p>I had to try the same idea with other movies and it was clear that doing it manually is not the way to go.<br>
 Enter <strong><a href="https://github.com/indiscipline/movie-thumbnailer/">movie-thumbnailer</a></strong> — command line &ldquo;glue&rdquo; for <a href="https://ffmpeg.org/">ffmpeg</a> and <a href="https://www.imagemagick.org/">ImageMagick</a> which generates wallpaper from video files laying out a grid of frames with scene changes.</p>
 <p>Click for spoilers!<br>
@@ -86,34 +87,34 @@ Enter <strong><a href="https://github.com/indiscipline/movie-thumbnailer/">movie
 <p><a href="https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-1920x1080.jpg"><img alt="click for full-size" src="https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-500.jpg"/></a></p>
 <p>NB: Example pictures are in JPG but the program generates crisp PNGs, so no worries.</p>
 <h4 id="how-it-all-works">How it all works</h4>
-<p>Movie-thumbnailer depends on two staples of media processing, <a href="https://ffmpeg.org/">ffmpeg</a> and <a href="https://www.imagemagick.org/">ImageMagick</a>. Respective executables <code>ffmpeg</code> and <code>magick</code> must be in your PATH for the program to work. FFmpeg has many tricks up its sleeve and one of them is scene detection algorithm. So, to be honest, you can achieve pretty similar results <a href="https://ffmpeg.org/ffmpeg-filters.html#toc-Examples-139">with barebones ffmpeg</a>, however, if you're going to set up the resulting image as your desktop/smartphone wallpaper you may want more control, and movie-thumbnailer delivers:</p>
+<p>Movie-thumbnailer depends on two staples of media processing, <a href="https://ffmpeg.org/">ffmpeg</a> and <a href="https://www.imagemagick.org/">ImageMagick</a>. Respective executables <code>ffmpeg</code> and <code>magick</code> must be in your PATH for the program to work. FFmpeg has many tricks up its sleeve and one of them is scene detection algorithm. So, to be honest, you can achieve pretty similar results <a href="https://ffmpeg.org/ffmpeg-filters.html#toc-Examples-139">with barebones ffmpeg</a>, however, if you&rsquo;re going to set up the resulting image as your desktop/smartphone wallpaper you may want more control, and movie-thumbnailer delivers:</p>
 <ul>
 <li>You can easily generate layouts for multiple resolutions in one pass.</li>
 <li>You can manually check the detected scenes and remove unwanted frames before final collage is generated.</li>
 <li>Program automatically calculates the optimal layout for the given resolution</li>
-<li>There's an additional step for preprocessing frames leading to increased sharpness and contrast in the resulting collage.</li>
+<li>There&rsquo;s an additional step for preprocessing frames leading to increased sharpness and contrast in the resulting collage.</li>
 <li>MT saves the preprocessed frames for future reuse, such as generating wallpapers for additional resolutions.</li>
 <li>The resulting file is a PNG with a transparent background for making the finished pics with any background/additional graphics (see earlier examples).</li>
 </ul>
-<p>The program is written in stable <a href="https://rust-lang.org/">Rust</a> using, as usual, the indispensable <a href="https://crates.io/crates/clap">Clap</a> and the magical <a href="https://github.com/rayon-rs/rayon">Rayon</a> crates which provide the command-line interface and some threading for resource-heavy operations. The code is <em>not</em> pretty, but I never thought I would share it and it works. Yes, I know there's probably no reason why this couldn't have been coded in Bash or Python, but I really <em>really</em> like Rust. Compiling small Rust projects is easy, and it's possible to distribute the binary for benefit of Windows users who have no suitable interpreters.</p>
+<p>The program is written in stable <a href="https://rust-lang.org/">Rust</a> using, as usual, the indispensable <a href="https://crates.io/crates/clap">Clap</a> and the magical <a href="https://github.com/rayon-rs/rayon">Rayon</a> crates which provide the command-line interface and some threading for resource-heavy operations. The code is <em>not</em> pretty, but I never thought I would share it and it works. Yes, I know there&rsquo;s probably no reason why this couldn&rsquo;t have been coded in Bash or Python, but I really <em>really</em> like Rust. Compiling small Rust projects is easy, and it&rsquo;s possible to distribute the binary for benefit of Windows users who have no suitable interpreters.</p>
 <h4 id="usage">Usage</h4>
-<p>Provide movie-thumbnailer with the path to the video file of your choice and the list of wallpaper resolutions you'd like it to generate collages for. The program puts temporary files in the current directory. It creates a folder <code>frames</code> where it puts the result of ffmpeg scene extraction and then pauses. This is the most time consuming part of the process. At this point the user should manually scan the extracted frames and remove unwanted/duplicate/false-identified frames. Upon resuming, movie-thumbnailer uses imagemagick for preprocessing the remaining frames (mostly for better sharpness and contrast in reduced size) and puts them in the <code>frames_scaled</code> directory. Then optimal size for the thumbnails and the final layout are calculated for each of the resolutions and the collages are created. Resulting files saved as <code>png</code> with transparent background.</p>
-<p>The program tries to be &ldquo;smart&rdquo; and calculates the layout so there's some spacing between frames and the composite doesn't cover all the available space, leaving some margins (6% of the screen width and 18% of the height). At the moment, coefficients are hard-coded in <code>calc_thumbnail_size</code> function. The coefficient for scene detection ffmpeg filter was chosen empirically and set to 0.33. All of this may be added as optional program arguments in future releases, if they ever happen.</p>
+<p>Provide movie-thumbnailer with the path to the video file of your choice and the list of wallpaper resolutions you&rsquo;d like it to generate collages for. The program puts temporary files in the current directory. It creates a folder <code>frames</code> where it puts the result of ffmpeg scene extraction and then pauses. This is the most time consuming part of the process. At this point the user should manually scan the extracted frames and remove unwanted/duplicate/false-identified frames. Upon resuming, movie-thumbnailer uses ImageMagick for preprocessing the remaining frames (mostly for better sharpness and contrast in reduced size) and puts them in the <code>frames_scaled</code> directory. Then optimal size for the thumbnails and the final layout are calculated for each of the resolutions and the collages are created. Resulting files saved as <code>png</code> with transparent background.</p>
+<p>The program tries to be &ldquo;smart&rdquo; and calculates the layout so there&rsquo;s some spacing between frames and the composite doesn&rsquo;t cover all the available space, leaving some margins (6% of the screen width and 18% of the height). At the moment, coefficients are hard-coded in <code>calc_thumbnail_size</code> function. The coefficient for scene detection ffmpeg filter was chosen empirically and set to 0.33. All of this may be added as optional program arguments in future releases, if they ever happen.</p>
 <p>Usage example:</p>
 <pre><code>movie-thumbnailer -r 2560x1440,1920x1080,1366x768 TheMagickSword.mp4
 </code></pre><p>Full help available on <code>--help</code> switch.</p>
-<p>Example wallpaper in the Git repository is generated from the 1962 Bert I. Gordon movie <a href="https://en.wikipedia.org/wiki/The_Magic_Sword_(1962_film)">&ldquo;The Magick Sword&rdquo;</a> which is in public domain and <a href="https://archive.org/details/TheMagicSword">available from Archive.org</a>.</p>
+<p>Example wallpaper in the Git repository is generated from the 1962 Bert I. Gordon movie <a href="https://en.wikipedia.org/wiki/The_Magic_Sword_(1962_film)">&ldquo;The Magic Sword&rdquo;</a> which is in public domain and <a href="https://archive.org/details/TheMagicSword">available from Archive.org</a>.</p>
 <h4 id="download">Download</h4>
-<p>Again, I provide a single <a href="https://indiscipline.github.io/assets/movie-thumbnailer-0.1.0-win64.7z"><strong>binary</strong></a> for x64 Windows and I encourage everyone to build the program themselves. It's one <code>cargo build --release</code> away, provided you have Rust installed, which is super simple as well if you use your OS package manager or the official Rust way, the mighty <a href="https://rustup.rs/">Rustup</a>.</p>
+<p>Again, I provide a single <a href="https://indiscipline.github.io/assets/movie-thumbnailer-0.1.0-win64.7z"><strong>binary</strong></a> for x64 Windows and I encourage everyone to build the program themselves. It&rsquo;s one <code>cargo build --release</code> away, provided you have Rust installed, which is super simple as well if you use your OS package manager or the official Rust way, the mighty <a href="https://rustup.rs/">Rustup</a>.</p>
 <h4 id="contributing">Contributing</h4>
 <p>Feel free to file a bug report or feature request via <a href="https://github.com/indiscipline/movie-thumbnailer/issues">Issues</a>.</p>
 <p>Possible enhancements:</p>
 <ul>
-<li><input disabled="" type="checkbox">Options for margin coefficients</li>
-<li><input disabled="" type="checkbox">Option for scene detection threshold</li>
-<li><input disabled="" type="checkbox">Ask for removing temporary files on completion</li>
-<li><input disabled="" type="checkbox">Open the file browser with the <code>frames</code> directory at the manual thinnig-out stage</li>
-<li><input disabled="" type="checkbox">Option for generating the final image with any solid background</li>
+<li><input disabled="" type="checkbox"> Options for margin coefficients</li>
+<li><input disabled="" type="checkbox"> Option for scene detection threshold</li>
+<li><input disabled="" type="checkbox"> Ask for removing temporary files on completion</li>
+<li><input disabled="" type="checkbox"> Open the file browser with the <code>frames</code> directory at the manual thinnig-out stage</li>
+<li><input disabled="" type="checkbox"> Option for generating the final image with any solid background</li>
 </ul>
 	</div>
 </div>

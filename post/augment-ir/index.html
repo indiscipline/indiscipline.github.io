@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+		<meta charset="utf-8">
+		<title>Augmenting guitar cabinet impulse response for comfortable use with headphones</title>
+		
+		<meta name="generator" content="Hugo 0.80.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="http://localhost:1313//css/skeleton.css">
+		<link rel="stylesheet" href="http://localhost:1313//css/custom.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75468140-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+	</head>
+	<body class="color-scheme-light">
+		<div class="container">
+			<div class="row">
+				<div class="eight columns">
+					
+						<div class="u-pull-left u-logo">
+							<img src="http://localhost:1313//img/logo.png">
+						</div>
+					
+					
+                    
+						<a href="http://localhost:1313/" class="sitename"><span style="font-size: 36px;"><b>Indiscipline </b></span></a>
+                    
+					
+					<p class="u-subheader"> Mild achievements and severe disappointments</p>
+					
+				</div>
+				<div class="four columns" >
+					
+                    
+                    <a class="navbar-rlink u-pull-right" href="http://localhost:1313/about">about</a>
+                    
+                    <a class="navbar-rlink u-pull-right" href="http://localhost:1313/post">Posts</a>
+                    
+				</div>
+			</div>
+		</div>
+		<div class="container">
+        <div class="row">
+            <div class="twelve columns">
+            </div>
+        </div>
+
+
+<div class="row">
+	<div class="twelve columns">
+		<a class="post-title-link" href="http://localhost:1313/post/augment-ir/">Augmenting guitar cabinet impulse response for comfortable use with headphones</a>
+	</div>
+</div>
+<div class="row">
+	<div class="nine columns">
+		<span class="post-postedby">posted by Kirill on 2018-09-04</span>
+	</div>
+	<div class="three columns">
+		<span style="font-size:small;">
+			
+			<i class="fa fa-tags"></i> <a href="http://localhost:1313/tags/guitar" class="tag-link">guitar</a> <a href="http://localhost:1313/tags/audio" class="tag-link">audio</a> <a href="http://localhost:1313/tags/music" class="tag-link">music</a> <a href="http://localhost:1313/tags/reaper" class="tag-link">reaper</a> 
+			
+		</span>
+	</div>
+</div>
+<div class="row">
+	<div class="twelve columns">
+    
+		<p>If you play electric guitar and ever thought on how to improve your experience when using any software amp emulation this is short instruction for you. It&rsquo;s a description of a technique for augmenting the <a href="https://en.wikipedia.org/wiki/Impulse_response">impulse response</a> of a guitar cabinet with early reflections, which in my opinion helps to liven up the sound and brings the sense of space. The resulting IR is primary intended not for recording purposes, but mainly for practice wearing headphones.</p>
+<h4 id="motivation">Motivation</h4>
+<p>You can&rsquo;t stop the progress, and if you try you will probably be pushed to the side of the history&rsquo;s road by the people swooshing by on self-balancing scooters. When it comes to playing music there&rsquo;s probably no more conservative people (excluding classical musicians) than guitar players . They still insist on using guitar designs from more than 60 years ago, avoid plugging them in anything that can&rsquo;t generate enough heat to cook their dinner and look down on anything that uses any of those newfangled gimmicks people call <em>transistors</em>. At least that&rsquo;s what they tell their respected audiences (regardless of them actually existing or not). In reality, most of the players, especially pros, understand the economical, logistical and maintenance implications of using huge tube amp stacks and mountains of rack effect processors. So more and more people use various emulation software to play through. The quality of such software has risen significantly during the last decade, and now you can emulate you whole rig with the smartphone and a tiny audio-interface to plug your guitar in.</p>
+<h4 id="the-problem">The problem</h4>
+<p>There&rsquo;s a lot of concern on playing through emulation and the hypotheses on it negatively affecting the playing technique. This is a topic for another time. The thing is, emulation is often desired and sometimes it&rsquo;s just unavoidable. There&rsquo;s a very common opinion on the sound quality of such software, which sums up to it being &ldquo;dead&rdquo;, &ldquo;dull&rdquo;, &ldquo;plastic-y&rdquo;, &ldquo;unnatural&rdquo;. It mainly comes from people who are used to playing in front of their lovely amps exclusively. I have a theory, that it really stems from some conceptual misunderstanding between them and the developers of emulation software. The de-facto standard goal of such software is to <strong>replicate the sound of a guitar amp in a recording chain</strong>. The bundled impulse responses have usually been recorded the way the guitar cabinets are usually recorded, which is through carefully positioned instrumental mic and into some nice preamp, so the resulting IR represents not an abstract speaker cabinet, but a system of several components. Most of the guitar players have never even visited a recording studio and are completely unfamiliar with the usual recording situation, in which a player sits in a control room with his instrument, the speaker cabinet is somewhere else in a tight soundproofed room being miked by the trusty SM57 and the sound they&rsquo;re hearing is coming through the microphone, some preamp, probably a mixer console and EQ. Oh, and it&rsquo;s usually all in mono.</p>
+<p>What guitarists are used to is not a sound of their amps close miked and streamed directly into their brain, but a sound they hear facing their speakers combined with the natural ambience of the location. All in <em>glorious stereo</em>. The usual way of dealing with this difference is adding a reverberation to the processed signal. Most often it&rsquo;s some sort of a Room reverb that a player has to dial to taste. While it can&rsquo;t bring back the absent air pressure emanating from speakers, it usually works OK but for me it&rsquo;s still not enough. By the way, I believe its one of the reasons many inexperienced players tend to add an ungodly amounts of modulation and reverberation to their sound presets. Fortunately, we can do better!</p>
+<h4 id="solution">Solution</h4>
+<p>I found that adding another <a href="https://en.wikipedia.org/wiki/Convolution_reverb">convolution reverb</a> effect loaded with an IR of <em>early reflections</em> of a room after the amp simulator works wonders. The thing is, early reflections is a strong suite of convolution reverbs, especially when the IR is good. It usually sounds much more natural and really helps with the feeling of space. Which finally brings me to the topic in question.</p>
+<p>First of all, adding another convolution reverb requires you to use some form of a host where you can devise a chain of effects, consisting of your emulation plugin and the convolution reverb. This usually is not a problem when you sit behind your computer, but if a device you&rsquo;re playing through is limited (is there a plugin host for a smartphone?), like those hardware cab emulator units which provide a way for using custom impulse responses, such as Torpedo C.A.B., AMT Pangaea or Mooer Radar, you can&rsquo;t add anything. Also, adding another convolution reverb can bring the latency of your signal up a notch (check added PDC), which is a no-no. The solution here is to just replace the IR of a cabinet with the file that combines the response of the guitar speaker with the early reflections.</p>
+<p>Note that the process described here is a generic one, you can use it to prepare your custom impulse responses of all kinds.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="twelve columns">
+		&nbsp;
+	</div>
+</div>
+
+<aside>
+      
+      
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  var disqus_shortname = 'indisciplineblog';
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+
+    </aside>
+
+<div id="footer" class="row">
+	<div class="twelve columns">
+		<center>
+			<div style="font-size: small;">
+				Except where otherwise noted, content on this site is licensed under a <a title="Creative Commons Attribution-NoDerivatives 4.0 International License" href="http://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
+			</div>
+			<div style="font-size: x-small;">
+				Powered by <a href="http://gohugo.io">Hugo</a> & <a href="http://github.com/esell/rocktopus">Rocktopus</a>.
+			</div>
+		</center>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
+
+

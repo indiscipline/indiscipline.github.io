@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>ffmpeg-loudnorm-helper - simplify ffmpeg loudness normalization workflow</title>
 		
-		<meta name="generator" content="Hugo 0.62.2" />
+		<meta name="generator" content="Hugo 0.80.0" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
@@ -78,21 +78,22 @@ if (!doNotTrack) {
 </div>
 <div class="row">
 	<div class="twelve columns">
-		<p><strong><a href="https://github.com/indiscipline/ffmpeg-loudnorm-helper/">ffmpeg-loudnorm-helper</a></strong> is a new ultra-simple helper utility for performing loudness normalization using ffmpeg's <a href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">loudnorm</a> audio filter. This awesome filter provides <a href="https://en.wikipedia.org/wiki/LKFS">EBU R128</a> loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does is it automates that first pass and formats a complete string of loudnorm settings for the second pass.</p>
+    
+		<p><strong><a href="https://github.com/indiscipline/ffmpeg-loudnorm-helper/">ffmpeg-loudnorm-helper</a></strong> is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&rsquo;s <a href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">loudnorm</a> audio filter. This awesome filter provides <a href="https://en.wikipedia.org/wiki/LKFS">EBU R128</a> loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does is it automates that first pass and formats a complete string of loudnorm settings for the second pass.</p>
 <p><img src="https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif" alt="ffmpeg-lounorm-helper demonstration"></p>
-<p>This program is a much simpler substitute for the <a href="https://github.com/slhck/ffmpeg-normalize">ffmpeg-normalize</a> Python script. It's written in stable <a href="https://rust-lang.org/">Rust</a> using, as usual, the wonderful <a href="https://crates.io/crates/clap">Clap</a> crate.</p>
+<p>This program is a much simpler substitute for the <a href="https://github.com/slhck/ffmpeg-normalize">ffmpeg-normalize</a> Python script. It&rsquo;s written in stable <a href="https://rust-lang.org/">Rust</a> using, as usual, the wonderful <a href="https://crates.io/crates/clap">Clap</a> crate.</p>
 <h4 id="motivation">Motivation</h4>
-<p>First of all, if you don't use ffmpeg for your run-of-the-mill audio/video processing, you really should reconsider. It's terrifyingly capable and deep if you want it.</p>
-<p>Why you may need this ffmpeg-loudnorm-helper? The simplest scenario, which covers the majority of situations I use it in, is converting video/audio recordings made with smartphones or specialized recording devices, such as Zoom Q2n. In case the material has some music in it, it's undesirable to use loudnorm in a single-pass mode, as it introduces dynamic fluctuations to the audio. I prefer to not use auto-gain functionality of recorders on the same grounds. Linear normalization preserves source macro-dynamics and just sets the loudness to a desired level.</p>
+<p>First of all, if you don&rsquo;t use ffmpeg for your run-of-the-mill audio/video processing, you really should reconsider. It&rsquo;s terrifyingly capable and deep if you want it.</p>
+<p>Why you may need this ffmpeg-loudnorm-helper? The simplest scenario, which covers the majority of situations I use it in, is converting video/audio recordings made with smartphones or specialized recording devices, such as Zoom Q2n. In case the material has some music in it, it&rsquo;s undesirable to use loudnorm in a single-pass mode, as it introduces dynamic fluctuations to the audio. I prefer to not use auto-gain functionality of recorders on the same grounds. Linear normalization preserves source macro-dynamics and just sets the loudness to a desired level.</p>
 <h4 id="usage">Usage</h4>
-<p>ffmpeg-loudnorm-helper expects to have ffmpeg reachable (you really should have it in your <code>PATH</code>). The only output of a successful run of ffmpeg-loudnorm-helper is a formatted ffmpeg audio filter <code>-af</code> string with all the desired settings in place, so I advice everyone to use your shell's command substitution capability and inline <code>ffmpeg-lh</code> in your ffmpeg command. This is the intended usage.</p>
+<p>ffmpeg-loudnorm-helper expects to have ffmpeg reachable (you really should have it in your <code>PATH</code>). The only output of a successful run of ffmpeg-loudnorm-helper is a formatted ffmpeg audio filter <code>-af</code> string with all the desired settings in place, so I advice everyone to use your shell&rsquo;s command substitution capability and inline <code>ffmpeg-lh</code> in your ffmpeg command. This is the intended usage.</p>
 <p>Bash example:</p>
 <pre><code>$ ffmpeg -i input.mov -c:v copy -c:a libopus $(ffmpeg-lh input.mov) normalized.mkv
 </code></pre><p>Windows CMD (what a monstrosity!):</p>
 <pre><code>&gt; for /f &quot;tokens=*&quot; %i in ('ffmpeg-lh input.mov') do ffmpeg -i input.mov -c:v copy -c:a libopus %i normalized.mkv
 </code></pre><p>Full help available with <code>--help</code> switch.</p>
 <h4 id="download">Download</h4>
-<p>This time I provide a single <a href="https://indiscipline.github.io/assets/ffmpeg-lh-0.1.0-win64.7z"><strong>binary</strong></a> for x64 Windows but I encourage everyone interested to build the program by hand. It's a simple <code>cargo build --release</code> command, provided you have Rust installed.</p>
+<p>This time I provide a single <a href="https://indiscipline.github.io/assets/ffmpeg-lh-0.1.0-win64.7z"><strong>binary</strong></a> for x64 Windows but I encourage everyone interested to build the program by hand. It&rsquo;s a simple <code>cargo build --release</code> command, provided you have Rust installed.</p>
 <h4 id="contributing">Contributing</h4>
 <p>Feel free to file a bug report or feature request via <a href="https://github.com/indiscipline/ffmpeg-loudnorm-helper/issues">Issues</a>.</p>
 	</div>

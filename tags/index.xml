@@ -6,10 +6,78 @@
     <description>Recent content in Tags on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Apr 2020 20:48:37 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2021 23:47:58 +0300</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>audio</title>
+      <link>https://indiscipline.github.io/tags/audio/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mixing</title>
+      <link>https://indiscipline.github.io/tags/mixing/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/mixing/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>recording</title>
+      <link>https://indiscipline.github.io/tags/recording/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/recording/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>speech</title>
+      <link>https://indiscipline.github.io/tags/speech/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/speech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>voice</title>
+      <link>https://indiscipline.github.io/tags/voice/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/voice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://indiscipline.github.io/tags/design/</link>
+      <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>matrix</title>
+      <link>https://indiscipline.github.io/tags/matrix/</link>
+      <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/matrix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sound</title>
+      <link>https://indiscipline.github.io/tags/sound/</link>
+      <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/sound/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>code</title>
@@ -75,24 +143,6 @@
     </item>
     
     <item>
-      <title>sound</title>
-      <link>https://indiscipline.github.io/tags/sound/</link>
-      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/sound/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design</title>
-      <link>https://indiscipline.github.io/tags/design/</link>
-      <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>linux</title>
       <link>https://indiscipline.github.io/tags/linux/</link>
       <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
@@ -107,15 +157,6 @@
       <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/other/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mixing</title>
-      <link>https://indiscipline.github.io/tags/mixing/</link>
-      <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/mixing/</guid>
       <description></description>
     </item>
     

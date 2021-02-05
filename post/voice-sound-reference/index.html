@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Voice recording and processing for talks, streaming and conferencing. The Reference.</title>
+		
+		<meta name="generator" content="Hugo 0.80.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
+		<link rel="stylesheet" href="https://indiscipline.github.io//css/custom.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75468140-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+	</head>
+	<body class="color-scheme-light">
+		<div class="container">
+			<div class="row">
+				<div class="eight columns">
+					
+						<div class="u-pull-left u-logo">
+							<img src="https://indiscipline.github.io//img/logo.png">
+						</div>
+					
+					
+                    
+						<a href="https://indiscipline.github.io/" class="sitename"><span style="font-size: 36px;"><b>Indiscipline </b></span></a>
+                    
+					
+					<p class="u-subheader"> Mild achievements and severe disappointments</p>
+					
+				</div>
+				<div class="four columns" >
+					
+                    
+                    <a class="navbar-rlink u-pull-right" href="https://indiscipline.github.io/about">about</a>
+                    
+                    <a class="navbar-rlink u-pull-right" href="https://indiscipline.github.io/post">Posts</a>
+                    
+				</div>
+			</div>
+		</div>
+		<div class="container">
+        <div class="row">
+            <div class="twelve columns">
+            </div>
+        </div>
+
+
+<div class="row">
+	<div class="twelve columns">
+		<a class="post-title-link" href="https://indiscipline.github.io/post/voice-sound-reference/">Voice recording and processing for talks, streaming and conferencing. The Reference.</a>
+	</div>
+</div>
+<div class="row">
+	<div class="nine columns">
+		<span class="post-postedby">posted by Kirill on 2021-02-01</span>
+	</div>
+	<div class="three columns">
+		<span style="font-size:small;">
+			
+			<i class="fa fa-tags"></i> <a href="https://indiscipline.github.io/tags/recording" class="tag-link">recording</a> <a href="https://indiscipline.github.io/tags/voice" class="tag-link">voice</a> <a href="https://indiscipline.github.io/tags/speech" class="tag-link">speech</a> <a href="https://indiscipline.github.io/tags/mixing" class="tag-link">mixing</a> <a href="https://indiscipline.github.io/tags/audio" class="tag-link">audio</a> 
+			
+		</span>
+	</div>
+</div>
+<div class="row">
+	<div class="twelve columns">
+    
+        <div class="toc four columns u-pull-right">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#motivation">Motivation</a>
+      <ol>
+        <li><a href="#how-this-guide-can-help-you">How this guide can help you</a></li>
+        <li><a href="#why-i-feel-the-need-to-share">Why I feel the need to share</a></li>
+      </ol>
+    </li>
+    <li><a href="#goals">Goals</a></li>
+    <li><a href="#disclaimer">Disclaimer</a></li>
+    <li><a href="#the-elements-and-the-process-of-voice-recording">The elements and the process of voice recording</a>
+      <ol>
+        <li><a href="#voice">Voice</a></li>
+        <li><a href="#acoustics">Acoustics</a></li>
+        <li><a href="#microphone">Microphone</a>
+          <ol>
+            <li><a href="#transducer-types">Transducer types</a></li>
+            <li><a href="#polar-patterns">Polar patterns</a></li>
+            <li><a href="#low-cut">Low-cut</a></li>
+          </ol>
+        </li>
+        <li><a href="#gain-structure">Gain structure</a></li>
+        <li><a href="#processing">Processing</a>
+          <ol>
+            <li><a href="#dynamic-processing-compression-expansion-gating-limiting">Dynamic processing: compression, expansion, gating, limiting</a></li>
+            <li><a href="#noise-reduction">Noise reduction</a></li>
+            <li><a href="#strategies-for-applying-processing">Strategies for applying processing</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#whats-left-out">What&rsquo;s left out</a></li>
+    <li><a href="#ps">PS:</a></li>
+    <li><a href="#discussions-contacts">Discussions, contacts</a></li>
+  </ol>
+</nav>
+        </div>
+    
+		<p>Just in a couple of days one of the biggest software events <a href="https://fosdem.org">FOSDEM 2021</a> will take place, for the first time completely online. Hundreds of talks will originate from behind laptops, phones and workstations. Realization of this fact was the last link in the long chain of events leading to me writing this reference. Being a sound engineer by trade I, presumptuously, hope to attract attention of the speakers-to-be to the sound quality of their presentations. However, I tried to do my best to compile and present a generally useful reference, not a dumbed down step-by-step guide doomed to be rendered inapplicable by slightest variation of circumstances.</p>
+<h1 id="motivation">Motivation</h1>
+<h2 id="how-this-guide-can-help-you">How this guide can help you</h2>
+<p>2020 has been a year of video conferencing. More people than ever now work from their homes and socialize utilizing not just text, but video and sound. Technical details which once were of interest to those in media production, podcasting and streaming now also concern (or, at least, they should) much broader audience.</p>
+<p>Whether you&rsquo;re about to give a talk, stream your coding session, hop into a <a href="https://meet.jit.si">jitsi</a> meeting for your work, roll some d20s in an online tabletop session or just chat with friends, I hope this guide will help you to be heard.</p>
+<h2 id="why-i-feel-the-need-to-share">Why I feel the need to share</h2>
+<p>Personally, I always liked lectures. Seeing and hearing a knowledgeable person explaining the topic of their interest with passion always makes a great impact on me. Especially if it sounds good. Unfortunately, in my opinion people pay much less attention to the quality of their sound than they should (compared to video), considering it&rsquo;s not such a hard topic to understand. Few things frustrate me more than watching an hour-long video of a beautifully presented topic spoiled by low speech legibility, distortion and clipping, ridden with extraneous noises, copious reverberations and immoderate processing.</p>
+<p>More and more educational and recreational material appear in video form and I&rsquo;d like to share some of my knowledge to help bring up the overall quality of the sound of those videos at least a little bit.</p>
+<h1 id="goals">Goals</h1>
+<p>The obvious first question one may ask is <strong>how this particular guide stands out</strong> from hundreds of others already available? Trying to answer it, I came to the following formula: This document will present a set of <strong>strategies</strong> (as opposed to directives) working towards a number of goals, while explaining the basics which are necessary to understand <em>why</em> we perform the described manipulations, thus empowering the reader with the knowledge to apply in the widest set of conditions.</p>
+<p>The goals we set are:</p>
+<ul>
+<li>Improve the legibility of recorded/streamed speech</li>
+<li>Reduce extraneous noises, prevent distortion</li>
+<li>Maintain natural timbre of you voice. Getting the ubiquitous voice-of-god is a non-goal!</li>
+<li>At the same time, conform to listener expectations of what well-recorded voice sounds like (hint: it&rsquo;s different from a person speaking live in the same physical space)</li>
+<li>Make the sound fit the video naturally, not breaking listeners' expectations. If you type on video, people need to hear at least some hints to it happening (not loud). When your cat meows in-frame in complete silence it&rsquo;s creepy. This is one of the reasons there&rsquo;s a <a href="https://en.wikipedia.org/wiki/Foley_(filmmaking)">whole profession</a> of people adding sounds to videos.</li>
+</ul>
+<h1 id="disclaimer">Disclaimer</h1>
+<p>I&rsquo;m a studio engineer and a musician, not a broadcasting engineer. I never worked on radio and I&rsquo;ve never been a fan of my own voice to start a podcast. Some of the terms I use may differ from the broadcasting industry lingo. However, I&rsquo;ve recorded speech and singing on many occasions in a vast range of circumstances and the techniques described are generic to all subfields of sound recording/processing. I also believe in a lifetime of learning, so I welcome any corrections and constructive critique.</p>
+<h1 id="the-elements-and-the-process-of-voice-recording">The elements and the process of voice recording</h1>
+<p>Let&rsquo;s consider the broad view of what&rsquo;s happening when we capture and record a sound:</p>
+<ol>
+<li>The sound emanates from a source, be it a voice apparatus, musical instrument or a speaker cone</li>
+<li>It travels through air in some acoustic space</li>
+<li>The sound wave + reverberation (reflections from the surfaces) hit the microphone, where it all gets converted into an electric signal</li>
+<li>The electric signal is amplified to a required level by a preamp (inside mic/mixer/audio interface/built-it sound card, possibly a few times)</li>
+<li>The signal is converted by ADC (<a href="https://en.wikipedia.org/wiki/Analog-to-digital_converter">analog-to-digital converter</a>) to a digital stream</li>
+<li>Digital signal is processed in some way, ranging from a basic volume adjustment to a complete chain of effects</li>
+<li>Processed signal is being encoded by some codec required by an end application</li>
+</ol>
+<p>The main thing we can notice about the process is that everything happens linearly, in other words, the sound passes all the steps <em>in order</em> (except the reverberation, which may introduce earlier sounds into currently happening ones, more on that in the Acoustics section). This brings us to several important observations:</p>
+<ul>
+<li>The process is cumulative, every step affects the result of all the previous steps</li>
+<li>The earlier some characteristic is introduced into the process, the more potential effect it bears on the resulting sound</li>
+<li>Each step may affect and transform the sound, but the ultimate effect is heavily dependent on the behaviour of the later stages</li>
+<li>Manipulating the voice (&ldquo;signal&rdquo;) at a later stage of the process simultaneously affects all the unwanted sounds or sound characteristics (&ldquo;noise&rdquo;) picked-up/introduced by previous stages</li>
+</ul>
+<p>This probably reads too hand-wavy and vague, but we&rsquo;re about to see time and time again how these realizations can help us make practical decisions.</p>
+<h2 id="voice">Voice</h2>
+<p>The golden rule applies: the better the source material, the better the result. Voice coaching is completely outside the scope of this reference, but just bear the rule in mind and please, read a little bit on voice health, especially if you need to speak regularly for considerable amounts of time. Everyone understands what speech characteristics people usually want to hear, so do your best but <strong>avoid strain</strong> at all costs, drink lots of water and don&rsquo;t forget to breath from time to time.</p>
+<h2 id="acoustics">Acoustics</h2>
+<figure>
+    <a target="_blank" href="https://indiscipline.github.io/img/voice-sound-reference/speech-directivity.svg"><img alt="Speech directivity plot" src="https://indiscipline.github.io/img/voice-sound-reference/speech-directivity.svg"></a>
+    <figcaption>A plot of human speech directivity in a horizontal plane, frequency zone critical for legibility shown in yellow. Very rough approximation.</figcaption>
+</figure>
+<p>Acoustics and acoustically treating the space in which the recording takes place is arguably the most important step of the whole process. It&rsquo;s easy enough to test: try recording in vacuum and see how well it goes (on the second thought, don&rsquo;t)! On a serious note, besides our voice, room acoustics is the most early introduced factor which we can really control to shape our sound.</p>
+<p>The sound is the vibration of the medium, and our medium is air. So, while human speech has some significant directivity (see figure), the big portion of the sound travels in all directions. Then, it gets repeatedly reflected by the objects around us while some of the energy gets absorbed and dissipated to heat. Some of the reflections inevitably get back to the microphone (and our ears) and since the path of every bit of the reflected sound is longer, it takes more time to arrive. The sum of all the reflections arriving to the receiving end forms the unique signature of the space and this is how your boss knows you&rsquo;re participating in a conference call from your bathroom.</p>
+<p>The rate at which the objects hit by the sound waves dissipate the energy is called <strong>absorbtion</strong>. The sound gets absorbed differently depending on the frequency and the absorbing material. Generally, the higher the frequency, the easier it&rsquo;s to absorb. The other important property is <strong>diffusion</strong>: the more geometrically complex the path of the reflected sound is and the more variation of the ways the sound reflects in a space there is, the more it gets &ldquo;spread out&rdquo; to a multitude of reflections of lesser energy and the less prominent each separate reflection is (note, this is technically not the exact definition of sound diffusion, just a simple way of conceptualizing the process).</p>
+<p>What&rsquo;s more, less diffused reverberation may further degrade speech legibility by introducing phasing issues such as <a href="https://www.soundonsound.com/sound-advice/q-what-exactly-comb-filtering">comb filtering</a>. The closer the reflecting surface is to the microphone, the worse its going to affect the sound, as the reflection will be just slightly time shifted compared to the direct sound thus introducing more phasing artifacts. This is why internal laptop microphones will always sound bad - they catch the reflections from the screen surface and a table it&rsquo;s usually placed on. With your smartphone you can also observe similar effect: try to record your voice with the phone laying on a hard surface and then lift it up in the air preserving the distance - there&rsquo;s a great chance your voice will sound better.</p>
+<p>The sound in an empty room is much more &ldquo;echoey&rdquo; than in a regular living room with lots of objects made from different materials for the two causes mentioned above: there&rsquo;s not much absorption nor diffusion going on. The hard open surfaces of an empty room produce more direct reflections and preserve much more high frequencies. The geometry of the room itself also contributes: to put it simply, the sounds bounces more between parallel planes.</p>
+<figure>
+    <a target="_blank" href="https://indiscipline.github.io/img/voice-sound-reference/snr-distance.svg"><img alt="Signal-to-noise vs distance" src="https://indiscipline.github.io/img/voice-sound-reference/snr-distance.svg"></a>
+    <figcaption>Getting closer to the microphone greatly improves the signal-to-noise ratio due to a number of factors</figcaption>
+</figure>
+<p>What we want to is to increase the direct-to-reverberated sound ratio and &ldquo;soften&rdquo; the reverberation by diffusion, and now it&rsquo;s obvious how to achieve that:</p>
+<ul>
+<li>Decrease the distance from the sound source (your mouth) to the microphone. If you ever seen a loud band perform live (the older generation might still remember the times) and wondered why the singer vigorously tries to swallow the mic, this is it. Not only the direct sound gets louder compared to the reverberation and ambient noises, but we also somewhat physically shield the mic from the reflected sounds by our own head. There&rsquo;s some caveats to this, more on that in the corresponding section.</li>
+<li>Avoid rooms with lots open hard open surfaces, living rooms are usually much better than kitchens and bathrooms. Carpets help a bit, soft furniture absorbs fairly well, book shelves are effective diffusors and an opened wardrobe sometimes works wonders.</li>
+<li>Prefer spacious rooms with complex geometry and lots of stuff in them to tight empty cuboids.</li>
+<li>The acoustics may vary widely even inside a single room. Perform an experiment: produce short bursts of sounds (clap or click your tongue loudly) in different spots of the room, listen to the reverberation and compare, the difference is often staggering. When choosing a place to speak from, try to position yourself and the mic further from reflecting surfaces, such as walls and windows. Earlier reflections are generally more disturbing, so try to get closer to soft cushy objects, put a rug underneath, curtain the windows.</li>
+<li>If your space is really reflective and nothing helps, try leaving the door opened: at least some of the reflections will escape the room.</li>
+</ul>
+<p>We need to specifically mention &ldquo;professional&rdquo; sound treatment materials. Let&rsquo;s not go beyond the fact that it&rsquo;s a giant rabbit hole <em>and</em> an industry with the only goal: sell you as much of the stuff as possible. My advice: unless you&rsquo;re really serious about sound recording or you really get the hang of the process, don&rsquo;t bother. It won&rsquo;t hurt, but it&rsquo;s probably a pricey overkill. If you insist, look at absorption panels first (bonus points for DIY ones), and acoustic foam last (try looking up the photos of most famous/expensive recording studios and spot any foam pyramids there).</p>
+<h2 id="microphone">Microphone</h2>
+<p>Bad news: you need a mike. Internal microphones in laptops and webcams are extremely poor, smartphone mics are better, but not by far (with rare exceptions), smartphone headsets tend to provide better results as they bring the microphone closer to the sound source, but the mic quality is usually poor, they also are susceptible to handling noises and often get troubles picking sounds from &ldquo;dead-zones&rdquo; (hanging under the chin) due to questionable directionality. Telephone and gaming headsets are hit-or-miss, but the quality of the microphones is usually seriously lacking. It&rsquo;s not just sound quality, everything mentioned usually comes with more noise and less robustness compared to a proper microphone.</p>
+<p>Fortunately, microphones are more affordable than ever and even the most budget-friendly models nowadays perform fairly adequate. Don&rsquo;t shy away from the used market, it can save you some money and you&rsquo;ll lose less if you ever decide to sell it.</p>
+<p>Which one to buy? To choose a specific model you need know a bit more technical stuff, but a couple of general hints beforehand: don&rsquo;t go with the cheapest one, give preference to models aimed at podcasters/broadcasters or vocals, favour reputable pro-audio brands to no-names or consumer electronics, watch a couple of comparison videos with the sound samples.</p>
+<p>Non-usb microphones require a connection to a pre-amplifier in an audio-interface or a mixer and this is the type I suggest going for, as it usually allows for more flexibility and freedom of choice. USB-mics are more compact and easy to connect, but the available range of models is smaller and they tend to be marketed more at an entry level, with the corresponding design choices.</p>
+<h3 id="transducer-types">Transducer types</h3>
+<p>Putting the connectivity aside, the main characteristic of the microphone is its transducer type. There&rsquo;s a few of them, but the two which interest us are the most used ones: <a href="https://en.wikipedia.org/wiki/Microphone#Dynamic">dynamic mircophones</a> and <a href="https://en.wikipedia.org/wiki/Microphone#Condenser">condenser microphones</a>. The main differences between the two is the mass of the diaphragm which has to be moved by sound pressure to produce electric current. Dynamic mics require the sound waves to move far more mass work which results in lesser sensitivity thus requiring more amplification for the same output level, more mass means more inertia, so dynamic mics have somewhat reduced high frequency response. Condensers are far more sensitive and generally have a wider (extending farther into the highs) and more balanced frequency response, but they require external power, which is usually provided by means of <em>phantom power</em> (every audio-interface with a microphone input has it).</p>
+<p>There&rsquo;s no clear winner here and both types are used heavily for voice-overs and broadcasting. Dynamic microphones, such as the ubiquitous Shure SM-7b, legendary Electrovoice RE20 or praised Heil PR40 are used as often as condensers such as Rode Broadcaster or Neumann BC104. What is important to know, is that inherent differences between the two transducer types dictate the use cases:</p>
+<ul>
+<li>Due to higher sensitivity condenser mics can be placed further away from the sound source, which provides the speaker with more leeway to move around. If you&rsquo;d like to place the mic on a table or a stand behind your camera, condenser is the obvious choice. However, remember what we talked about in the section about acoustics: increasing the distance from the sound source to the microphone results in picking up more ambient noise (the wider frequency range contributes there too) and reverberation.</li>
+<li>Dynamic mics can be placed at a distance, but it will require more amplification which may introduce more noise into the signal, so they are more suitable for close positioning, which usually requires a boom arm or a stand.</li>
+</ul>
+<p>Every voice is unique in terms of its spectral signature. This is one of the reasons for such a wide selection of microphones with seemingly identical features available. Frequency response of a mic may complement the timbre of a voice or, in complete reversal, draw attention to the features we usually think of as negative: you don&rsquo;t want to use a microphone with accentuated lower parts of the midrange for a really nasal voice. Frequency response plots provided by manufacturers can give you a general idea, but nothing beats hearing the sounds with your own ears and experimenting. Besides that, there&rsquo;s a couple more things to consider:</p>
+<ul>
+<li>Close miking also makes the microphone more susceptible to plosives: some sounds produce lots of air pressure in short bursts, which get captured as boomy distorted noise. It&rsquo;s very unpleasant but it&rsquo;s not hard to eliminate with the help of a pop-filter - buy one if you&rsquo;re going to close-mike.</li>
+<li>Close mic positioning also accentuates sibilants, sharp transient sounds of some consonants, such as an <code>S</code>. It&rsquo;s a spike of energy in higher frequencies so with condenser mics this issues is usually more prominent. It&rsquo;s possible to fight sibilants during later processing (&quot;<a href="https://en.wikipedia.org/wiki/De-essing">de-essing</a>&quot;), but it helps to assess you voice qualities and choose the mic accordingly.</li>
+</ul>
+<h3 id="polar-patterns">Polar patterns</h3>
+<p>Polar pattern is a plot which represents the sensitivity of a mic for sounds arriving from different angles around it, i.e. its directionality. At this point the only thing you <em>need</em> to know is that you most probably want a microphone with a <em>cardioid</em> pattern, fortunately, most vocal/broadcasting mics are cardioid. Don&rsquo;t sweat it if it&rsquo;s super- or hyper-cardioid, it&rsquo;s going to be fine too.</p>
+<h3 id="low-cut">Low-cut</h3>
+<p>If your microphone, audio-interface or a mixer has a low-cut switch (also called the high-pass filter) which cuts the sounds below 80-140Hz, engage it. It will help with an occasional low-frequency vibrations and other unwanted rumble.</p>
+<h2 id="gain-structure">Gain structure</h2>
+<p>At almost every stage of voice recording in both analog and digital domains you&rsquo;ll have the ability to set the <em>gain</em> which is the amplification of the signal amplitude which translates directly into volume. Excessive gain might lead to overloading the following stage and producing <a href="https://en.wikipedia.org/wiki/Clipping_(audio)">clipping distortion</a> as a result. We don&rsquo;t want that. Almost every stage also contributes a bit of self-noise, so if the signal gets unnecessary quiet at some stage, the volume drop needs to be compensated by a higher gain at the following one, increasing its noise contribution proportionally. Fortunately, most modern gear has low self-noise and broad <a href="https://en.wikipedia.org/wiki/Dynamic_range#Audio">dynamic ranges</a> (ratio between the loudest and the quietest sounds which can be captured/processed). This, arguably, makes the traditional craft of gain staging less relevant today. Humans, on the other hand, are very sensitive to distortion, which leads us to the simple rule of thumb for setting gain: be conservative and avoid distortion.</p>
+<p>Most people are either completely oblivious to gain staging which results in huge swings of volume between stages or tend to max everything out which inevitably introduces clipping sooner or later. It&rsquo;s especially important to pay attention to gain structure of your recording chain as we&rsquo;re going to dive into dynamic processing, which exhibits <em>nonlinear</em> behaviour, meaning, it reacts differently and non-proportionally to changes in input level of the signal.</p>
+<p>I suggest monitoring volume meters at every stage of the processing chain where they are available. It&rsquo;s hard to give exact numbers for recommendations, but most meters are color coded for a good reason. During speaking, make sure you never hit &ldquo;the red zone&rdquo; (occasional cough is ok) and try to start hitting the yellow parts of the meters only during more intense parts and only in the latest stages of processing. The safe corridor for the meters to fluctuate in lies somewhere between -24dBFS to -10dBFS.</p>
+<h2 id="processing">Processing</h2>
+<p>This section is a bit theory-heavy, and I&rsquo;m holding back any practical advice for after explaining the nature of the processes at hand, so I need to mention suggestions and directions <em>are</em> coming just a few paragraphs below.</p>
+<p><strong>NB:</strong> In this section I describe most of the processes assuming them happening in a digital domain, where the vast majority of the readers will use them. Most of the info here applies to analog units as well, with an odd nuance or discrepancy.</p>
+<h3 id="dynamic-processing-compression-expansion-gating-limiting">Dynamic processing: compression, expansion, gating, limiting</h3>
+<p>Let&rsquo;s start with a polarizing statement: all there is to sound is changing volume. Indeed, when musicians get past the creative phases of composing, recording and carefully (or carelessly) selecting timbres, tones, sounds and effects, the only thing left is to fit it all together and make it sound good. This is a work of an audio engineer, and we achieve that mostly by three basic actions: setting <strong>balance</strong>, <strong>equalization</strong> and <strong>dynamic processing</strong>. The same applies to processing spoken word. Each of those actions boils down to changing volume: balance is relative volume between different sounds, equalization is changing volume of different parts of the frequency spectrum and dynamic processing is changing volume based on… volume. Eh?</p>
+<p>I believe this is the first obstacle on a path to fully understanding how dynamic processing works. And I suspect the topic to be <em>the</em> most widely misunderstood one in sound processing while being one of the pillars of the field. The second obstacle: the most basic use case for compression (the main type of dynamic processing) is making sounds louder. Why is it called compression then? <em>Eh</em> again. What adds to the confusion, is lots of hardware and software compression units simplify the process and hide the basic controls of the underlying process, combining several into one and/or leaving only those required to bump up the output volume.</p>
+<h4 id="compression">Compression</h4>
+<figure>
+    <a target="_blank" href="https://indiscipline.github.io/img/voice-sound-reference/compression.svg"><img alt="Compression chart" src="https://indiscipline.github.io/img/voice-sound-reference/compression.svg"></a>
+    <figcaption>Chart represens the relationship between input and output volume as modified by compression, set to different ratios</figcaption>
+</figure>
+The mechanics are in fact simple: constantly measure (each sample or some average) the level of the input signal and whenever it gets above the certain level (*Threshold*), gradually start decreasing the volume (*Attack*) of the overshoot by a set *Ratio*, when the volume drops below the threshold, gradually (*Release*) stop decreasing the volume.
+<p>To be technically correct, getting stuff louder is in a sense a side-effect (precisely, non-effect) of compression, which actually <em>decreases</em> the volume (<em>compresses</em> the amplitude) of the sound. The overall volume can be additionally increased, regardless of the actual compression happening. Strictly speaking, this final volume adjustment is a convenient supplement to the compression and not inherent to the process itself, but it&rsquo;s so useful that you probably can&rsquo;t even find a compressor without this feature.</p>
+<p>Let&rsquo;s reiterate and examine the various parameters of a generic compressor. Your particular unit may lack controls for some (or most!) of them, which means it&rsquo;s either has them set to some arbitrary (I meant scientifically chosen) value, or it tries to adapt these values internally to source material or user-facing settings in some &ldquo;smart&rdquo; (no doubt, obvious and completely predictable) way.</p>
+<ul>
+<li>Input gain: convenience adjustment, sometimes the input is just too hot or too quiet to fit the comfortable range of other controls. In some units where the threshold is unavailable input gain effectively replaces it</li>
+<li>Input level metering: to know when to start and stop compressing the processor must constantly measure the input level. It might measure it as fast as it can (each sample, for digital units), which is classified as <em>Peak</em> type, or track an average over a specific period (usually quadratic mean is used, thus this type is called <em>RMS</em>)</li>
+<li>Threshold: the level at which the compressor engages for the signals coming up in volume and disengages for signals coming down</li>
+<li>Attack: how fast the compressor engages, meaning how long after the level crosses the threshold it takes to start compressing. Usually happens gradually</li>
+<li>Release: how long the compressor transitions from compressing the signal to a disengaged state after the input level gets below the threshold</li>
+<li>Knee: affects the behaviour around the threshold, allowing for more gradual engagement and disengagement, &ldquo;smoothing&rdquo; the transitions</li>
+<li>Ratio: how much the signal above the threshold gets reduced in volume, given in form of X:1 - for every XdB of the overshoot it will output 1dB, in other words, overshoot gets compressed to 1/X of its original volume. In <em>other</em> other words: to output 1dB over the threshold the input signal must be XdB over it</li>
+<li>Gain reduction meter: the difference in amplitude between the original signal and the compressed one measured in dB. Some dynamic processors allow setting a limit on how much gain reduction can be applied, usually called <em>Range</em></li>
+<li>Make-up gain: The final volume adjustment, used to restore the overall volume to suitable levels after compression</li>
+</ul>
+<h4 id="limiting">Limiting</h4>
+<p>Limiter is just a specialized compressor. It&rsquo;s used to make sure no signal gets above the threshold, so its main characteristics are <em>very</em> high ratio and very fast attack. There&rsquo;s no standard to what is considered <em>very high</em> ratio, but traditionally everything above 10:1 was considered as limiting, Wikipedia offers 60:1, but technically the proper limiting ratio is ∞:1, which is achievable in digital world.</p>
+<h4 id="expansion-and-gating">Expansion and Gating</h4>
+<figure>
+	<a target="_blank" href="https://indiscipline.github.io/img/voice-sound-reference/expansion.svg"><img alt="Expansion chart" src="https://indiscipline.github.io/img/voice-sound-reference/expansion.svg"></a>
+    <figcaption>Chart represens the relationship between input and output volume as modified by expansion, set to different ratios</figcaption>
+</figure>
+It's logical to assume that expansion is a counterpart to compression and it acts by increasing level above the threshold, but it's not exactly how it works (this is actually a description of a distinct *upward-expansion* rarely referred to as *decompression*)! Regular (downward) expansion still reduces the volume, just not above, but below the threshold. The description of parameters from section on Compression still applies. Somewhat non-intuitively, attack still works on crossing the threshold up and release still on crossing down. The range is set in a mirrored way: 1:X, meaning for each one dB of the input volume below the threshold expander reduces volume by XdB. Due to the working at different sides of the threshold, the exact numbers for ranges of expansion and compressors *feel* differently: you're much more likely to tweak decimal places for expanders than for compressors.
+<p>As with limiting, Gating is a downward expansion with a very high ratio. The primary use case is to completely cut the signal below a threshold.</p>
+<p>Additional parameters, more frequently associated with expanders and gates:</p>
+<ul>
+<li>Hold: waiting period after the signal falls below the threshold during which the expander/gate still stays fully open and doesn&rsquo;t apply any gain reduction. Usually used to prevent processing in short pauses between sounds, such as pauses between words.</li>
+<li>Hysteresis: if the signal level rapidly fluctuates around the threshold, with high ratios frequently engaging/disengaging expander/gate produces audible artifacts known as &ldquo;chattering&rdquo;. Hysteresis effectively sets up a second threshold usually a few dB below the main one for the processor to start applying gain reduction. To put it simply, it&rsquo;s a separate threshold for the signal going down in volume, while the original threshold value still works on the signal going up in volume.</li>
+</ul>
+<h3 id="noise-reduction">Noise reduction</h3>
+<p>Excessive noise is a serious problem, especially for capturing sound in uncontrolled environments, so there&rsquo;s been lots of research and resources thrown at the problem. Telecommunication companies have driven lots of innovation there and it&rsquo;s very fascinating how many ideas were used and reused both for noise reduction and data compression for speech specifically.</p>
+<figure>
+    <a target="_blank" href="https://indiscipline.github.io/img/voice-sound-reference/voicetest-01-noisy.png"><img alt="Noisy spectrum" src="https://indiscipline.github.io/img/voice-sound-reference/voicetest-01-noisy.png"></a>
+    <figcaption>Spectral representation of a noisy speech recording</figcaption>
+</figure>
+<figure>
+    <a target="_blank" href="https://indiscipline.github.io/img/voice-sound-reference/voicetest-02-noisegate.png"><img alt="Spectral representation of gated noisy speech" src="https://indiscipline.github.io/img/voice-sound-reference/voicetest-02-noisegate.png"></a>
+    <figcaption>Same recording processed by a noise gate. Hard contrast in spectral contest degrades listening experience</figcaption>
+</figure>
+<figure>
+    <a target="_blank" href="https://indiscipline.github.io/img/voice-sound-reference/voicetest-03-rnnoise.png"><img alt="Spectral representation of speech denoised by a realtime RNNoise plugin" src="https://indiscipline.github.io/img/voice-sound-reference/voicetest-03-rnnoise.png"></a>
+    <figcaption>Same recording denoised by a realtime RNNoise plugin. Notice how noise intensity lowered across whole record, not only in pauses</figcaption>
+</figure>
+<p>The tremendous advantage to using noise suppression/noise reduction compared to noise gating and downward expansion is that the former eliminate the background noise even during speaking, while the latter affect only the pauses. This advantage comes at a cost, though.</p>
+<p>There&rsquo;s lots of programs and plugins for noise reduction, based on different algorithms. One of the basic but effective approaches is capturing the spectral profile of the noise and than subtracting it from the signal. Unfortunately, this degrades the quality of the speech and in cases of low signal-to-noise ratios might render the sound completely illegible. Primary the higher frequencies take the hit, that&rsquo;s why overly processed speech has &ldquo;blurred&rdquo; consonants and sounds muffled. With the advent of neural networks solutions based on this technology appeared. One example is Xiph&rsquo;s <a href="https://github.com/xiph/rnnoise">RNNoise</a>, now also available as a filter for <a href="https://obsproject.com/">OBS Studio</a>, <a href="https://github.com/werman/noise-suppression-for-voice">LV/VST2/LADSPA plugin</a> and an <a href="https://sr.ht/~arsen/alsa_rnnoise/">ALSA plugin</a>. It&rsquo;s very impressive, but still, the sound quality suffers.</p>
+<p>I strongly advocate for using noise reduction software only as a last resort. With a proper microphone, reasonable settings and a regular living-room environment they are unnecessary. I&rsquo;d be more lenient if widespread realtime solutions such as RNNoise filter in OBS Studio allowed to tweak the strength of noise reduction, but at the moment it&rsquo;s either fully on or fully off, which is almost never used in regular sound editing/restoration/forensic scenarios.</p>
+<h3 id="strategies-for-applying-processing">Strategies for applying processing</h3>
+<p>Now we should have a solid understanding of what every bit of processing at our disposal does, so it&rsquo;s time to apply this knowledge to the goals we set earlier. The process requires experimentation on your part so set everything up and be ready to test your voice.</p>
+<p>When the sound signal finally arrives to processing it&rsquo;s almost always either too quiet or too loud. The obvious thing to do for both situations is to compress the living thing out of it and be done. It <em>might</em> work and I&rsquo;ve even seen whole guides which summarized to this but we aspire for much better results.</p>
+<figure>
+1. Synthetic example of a noisy voice recording:
+<audio controls	src="https://indiscipline.github.io/assets/voice-sound-reference/voicetest-01-noisy.opus" type="audio/ogg; codecs=opus">Your browser does not support the <code>audio</code> element.</audio>
+2. The same recording noise gated. Notice the glaring contrast between silence and speech:
+<audio controls	src="https://indiscipline.github.io/assets/voice-sound-reference/voicetest-02-noisegate.opus" type="audio/ogg; codecs=opus">Your browser does not support the <code>audio</code> element.</audio>
+3. Gated recording with ordinary amount of compression applied, which raises noise level further making it even more disturbing:
+<audio controls	src="https://indiscipline.github.io/assets/voice-sound-reference/voicetest-03-noisegate-compressed.opus" type="audio/ogg; codecs=opus">Your browser does not support the <code>audio</code> element.</audio>
+4. This time, very gentle expander applied. It slightly improved the situation, but the noise level is just too high:
+<audio controls	src="https://indiscipline.github.io/assets/voice-sound-reference/voicetest-04-expander.opus" type="audio/ogg; codecs=opus">Your browser does not support the <code>audio</code> element.</audio>
+5. Original recording, denoised with RNNoise instead. Even though overall experience greatly improves, the speech quality itself is seriously degraded:
+<audio controls	src="https://indiscipline.github.io/assets/voice-sound-reference/voicetest-05-rnnoise.opus" type="audio/ogg; codecs=opus">Your browser does not support the <code>audio</code> element.</audio>
+6. RNNoise applied at 50% strength (mixed with original and delay compensated). Decidedly the best result so far:
+<audio controls	src="https://indiscipline.github.io/assets/voice-sound-reference/voicetest-06-rnnoise50p.opus" type="audio/ogg; codecs=opus">Your browser does not support the <code>audio</code> element.</audio>
+7. RNNoise plus additional gentle expansion. Even better results:
+<audio controls	src="https://indiscipline.github.io/assets/voice-sound-reference/voicetest-07-rnnoise50p+expander.opus" type="audio/ogg; codecs=opus">Your browser does not support the <code>audio</code> element.</audio>
+<figcaption>Thanks to Alison (wiki user <a href="https://en.wikipedia.org/wiki/User:Crazytales">Crazytales</a>) for providing original public domain recording (not noisy)</figcaption>
+</figure>
+<p>First, get your gain staging in order. Try to get the volume to the &ldquo;safe range&rdquo; as it&rsquo;s also the most convenient to work with. Second, as you may remember, sound processing is cumulative, so the next thing to do is to get rid of the excessive noise, as we&rsquo;re going to boost the volume later and we don&rsquo;t want to boost noise. Don&rsquo;t use noise suppression though, the signal is probably not loud enough yet and noise suppressor will &ldquo;grab&rdquo; too much, leaving you with unintelligible mumble. We also don&rsquo;t want to use hard gating - there&rsquo;s always going to be some ambient noise <em>under</em> your speech, and gating will result in an unduly contrast: your voice will appear out of dead silence together with the noise. It&rsquo;s ugly and fatiguing. It means what&rsquo;s left is expansion, and indeed, it&rsquo;s the ideal place for a soft downward expander. Speak at the lowest volume you&rsquo;re expecting to talk and set the threshold about 4dB lower of what your input level is. Be gentle, set the ratio in 1:1.2-1:2 range, soften the knee a bit (if available). This way we&rsquo;re under no serious risk of getting choppy sounds so attack and release can be rather fast. It&rsquo;s also good to test the settings with usual noises: tap on the table, type a bit or click the mouse and see if it&rsquo;s helping.</p>
+<p>Then, we need to work on dynamics of the voice itself so we&rsquo;re going to compress it. Reducing the dynamic range will help the voice translate well regardless of listening conditions and gear used. Most humans on Earth are conditioned by radio, TV, audiobooks and music to hear compressed voice and that&rsquo;s what they expect. Compressed voice gains perceived &ldquo;density&rdquo; and feels more substantial. We don&rsquo;t want to overdo it though (especially for video - the picture helps comprehension), as we&rsquo;re not fighting problematic reception and not competing for grabbing attention during channel switching as radio broadcasts do.</p>
+<p>I find it tremendously useful to conceptualize the dynamics of the sound as two processes happening in parallel on two timescales: macro- and microdynamics. First one governs the flow of the sound, the relationships between different words, phrases and longer parts of the speech. When you lean back on your chair, when you get excited and raise your voice, when you forget about the mic and speak under your nose or turn your head away you&rsquo;re affecting macrodynamics. The second one happens on a much shorter timescale: it&rsquo;s the difference in volume between different parts of a word or even a single sound and it depends on personal voice qualities (temperamental and physiological). In studio work or broadcasting macrodynamics are usually dealt with with the help of a sound engineer tweaking levels in realtime or during editing, but we&rsquo;ll rely on compression.</p>
+<p>Add a compressor. If you have the option, switch it to fairly slow RMS mode (5-10ms). Set the threshold roughly at the same level plus 0 to 5 dB to the previous expander, just not lower. We want to compress almost all the working dynamic range of the voice, so tweak the threshold accordingly. The higher the threshold is compared to the first expander, the softer you can set the knee of the compressor: whopping 12dB is perfectly fine. The ratio needs to be very gentle: 1.2:1 to 2:1. Attack doesn&rsquo;t matter so much with these settings so set to taste: 5-15ms should work. Keep release on the slower side: 150ms and above. By this point the volume probably needs raising, so speak normally, observe the peaks on the output meter and apply make-up gain to get to our comfort zone of -20 to -10 dBFS.</p>
+<p>If ambient noise is still a problem, this is a nice place to cut out some more. Since we adjusted the level previously, the noise also should have become more noticeable. If you&rsquo;d like to use noise suppression (against my recommendations), this is the place for it, just keep it to the minimum. Otherwise, stick to expansion again. It&rsquo;s almost impossible to recommend exact numbers, set the threshold so it doesn&rsquo;t work while you speak and, importantly, while the previous compressor is working (observe the meters of the compressor, if present, especially the Gain Reduction). I also suggest starting with the threshold from a lower level than the first one (even though due to volume adjustment between stages it might be a higher absolute number). Remember what we said about the final effect of different stages being co-dependent? Both expanders will be working alongside each other, so the effective ratio of noise reduction is a product of both, which means you&rsquo;ll probably settle to even lower ratio for the second one, depending on the threshold.</p>
+<p>One of the persistent issues arising as a consequence of fighting noise are artifacts in transitional phases between speech and silence. Beginnings of phrases can often get chopped or smudged and endings grow distinctive &ldquo;tails&rdquo; of noise, which is extremely annoying. When using expansion and noise gating, more tweaking of the threshold, hysteresis, attack and release are necessary to alleviate the issue and with noise suppression processing the strength of the effect or wet:dry ratio needs to be decreased.</p>
+<p>Now we need to deal with microdynamics. Add another compressor and set it to act on louder sounds. Prefer the unit acting on peak measurements. As a start point for the threshold, aim to compress the top third of the dynamic range of the voice. Depending on previous settings, the ratio will need to be somewhere between 2:1 to 4:1. You can really see I&rsquo;m shooting from the hip by this point. Set the attack and release on the faster side: 2-8ms and 40-120ms correspondingly. Speak with intent and tweak accordingly. This should really affect the character of your voice, especially obvious after you apply some make-up gain to bring it up.</p>
+<figure>
+<a target="_blank" href="https://indiscipline.github.io/img/voice-sound-reference/obs-audio-filters.png"><img alt="OBS studio filter interface" src="https://indiscipline.github.io/img/voice-sound-reference/obs-audio-filters.png"></a>
+<figcaption><a href="https://obsproject.com/">OBS Studio</a> has everything we need, but it looks like developers are pushing the users to be real professionals and tune completely by ear. Input metering and wet/dry knobs for all filters are desperately needed</figcaption>
+</figure>
+<p>We&rsquo;re almost done, but we need to take care of occasional peaks: coughs, bumps to the mic, falling furniture, SWAT storming the place room, etc. It&rsquo;s a proper place for a limiter, use that if you like, but for voice I prefer rounding the peaks with another compressor. Set the threshold at about -3dB, the ratio to about 8:1 to 12:1, fast attack of 0.5-2ms, fast release of 10 to 30 ms, a small knee works great here. Cough, clap your hands, speak closely and directly into the mic and tweak the threshold to catch the peaks. With lower threshold you can release he ratio a bit. Considering it&rsquo;s the third compressor in the chain, it really should not work 99% of the time. Look at Gain Reduction meter, the previous two compressors have to do most of the work, so you&rsquo;re expected to see maximum a couple of dB of volume shaving. If you&rsquo;re producing loud noises but the final compressor/limiter isn&rsquo;t engaging at all, you either compress the sound too much in the previous stages, or the volume of what&rsquo;s coming into the final stage is just too low. Either way, the main thing we want is to prevent clipping. Adjust the volume to a comfortable level, but leave some space to add if the need arises.</p>
+<p>Done! Don&rsquo;t treat the numbers here as set in stone, what I wanted to convey is the general idea and relative difference between the stages. Tweak to taste. Let your ears and the ears of your listeners be the judges. In the end, if it sounds good, it&rsquo;s good.</p>
+<h1 id="whats-left-out">What&rsquo;s left out</h1>
+<p>This reference grew much longer than I anticipated, so some topics were completely omitted. To give a final few heavy-handed suggestions and direct the motivated reader to further research:</p>
+<ul>
+<li>Equalization or EQ: Extremely subjective and depends on circumstances. General advice: cut, rather than boost, use gentle curves, apply sparingly. Pre- or post-compression makes huge difference: experiment.</li>
+<li>Parallel compression: Terrific for voice but requires slightly different approach to the one presented here.</li>
+<li>De-essing: It&rsquo;s great and for some voices essential, use it. Prefer split-band to broadband. You can set a multiband compressor or a dynamic EQ to work as one too. Don&rsquo;t insert too late in the chain.</li>
+<li>Audio interfaces: Look for XLR port, gain knob and a phantom power source. Almost any modern device is good enough. For GNU/Linux users: there are still non class-compliant devices available! Research before shopping.</li>
+<li>Volume normalization, LUFS, LKFS, EBU R128, etc.: Exciting topic to geek out. For spoken word, keep it between -22 and -16 LUFS but not louder.</li>
+<li>Outboard gear (hardware processing): Very cool stuff. Great for a hobby if you can afford it. Try to &ldquo;get there&rdquo; in-the-box first. If you&rsquo;re going to use it, you most certainly don&rsquo;t need this reference anymore.</li>
+</ul>
+<p>There&rsquo;s probably much more information missing, so I&rsquo;d be happy to hear your suggestions and opinions in the comments.</p>
+<p>Thanks a lot for reading and hope you&rsquo;ll sound better than ever!</p>
+<h1 id="ps">PS:</h1>
+<p>Wouldn&rsquo;t it be great to have a bunch of references like this in a wiki- or, preferably, curated git-based form somewhere, where more deep and detailed references could be assembled and where more practical guides for specific applications could be held, something akin to old <a href="http://wiki.hydrogenaud.io">hydrogenaudio wiki</a>? If you know the right place, please share.</p>
+<h1 id="discussions-contacts">Discussions, contacts</h1>
+<p>Feel free to discuss this reference in disqus comments below, join the <a href="https://matrix.to/#/#mixing:matrix.org">#mixing:matrix.org</a> room where I hang out or ping me directly on Matrix <a href="https://matrix.to/#/@thirdhemisphere:matrix.org">@thirdhemisphere:matrix.org</a>. I&rsquo;m always open to new collaborations and I love meeting new creative people.</p>
+<p>My studio: <a href="https://thirdhemisphere.studio">thirdhemisphere.studio</a></p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="twelve columns">
+		&nbsp;
+	</div>
+</div>
+
+<aside>
+      
+      
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  var disqus_shortname = 'indisciplineblog';
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+
+    </aside>
+
+<div id="footer" class="row">
+	<div class="twelve columns">
+		<center>
+			<div style="font-size: small;">
+				Except where otherwise noted, content on this site is licensed under a <a title="Creative Commons Attribution-NoDerivatives 4.0 International License" href="http://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
+			</div>
+			<div style="font-size: x-small;">
+				Powered by <a href="http://gohugo.io">Hugo</a> & <a href="http://github.com/esell/rocktopus">Rocktopus</a>.
+			</div>
+		</center>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
+
+

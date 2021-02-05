@@ -6,18 +6,14 @@
     <description>Recent content in ffmpeg on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 02 Apr 2020 20:48:37 +0300</lastBuildDate>
-    
-	<atom:link href="https://indiscipline.github.io/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 02 Apr 2020 20:48:37 +0300</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Movie-Thumbnailer. Make wallpapers from your favorite movies for all your devices.</title>
       <link>https://indiscipline.github.io/post/movie-thumbnailer-announcement/</link>
       <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/post/movie-thumbnailer-announcement/</guid>
-      <description>&lt;p&gt;This year is something special! As you&#39;re probably being a witness of, most of the humanity is stuck on self-isolation or even in strict quarantine, which led to unprecedented media consumption. Streaming services usage spiked so high Netflix had to cut their quality to unload their servers. People binge on movies and series and I&#39;m not an exception here, finally watching some classics from the bucket list. This situation reminded me of an idea I spotted a couple of years ago. Someone made a beautiful wallpaper from the &amp;ldquo;cuts&amp;rdquo; of the &amp;ldquo;2001: A Space Odyssey&amp;rdquo;, which is one of my all time favorite movies. Camera work and production design is second to none there, so every frame is really a painting.&lt;/p&gt;
+      <description>&lt;p&gt;This year is something special! As you&amp;rsquo;re probably being a witness of, most of the humanity is stuck on self-isolation or even in strict quarantine, which led to unprecedented media consumption. Streaming services usage spiked so high Netflix had to cut their quality to unload their servers. People binge on movies and series and I&amp;rsquo;m not an exception here, finally watching some classics from the bucket list. This situation reminded me of an idea I&amp;rsquo;d spotted a couple of years ago. Someone made a beautiful wallpaper from the &amp;ldquo;cuts&amp;rdquo; of the &amp;ldquo;2001: A Space Odyssey&amp;rdquo;, which is one of my all time favorite movies. Camera work and production design is second to none there, so every frame is really a painting.&lt;/p&gt;
 &lt;p&gt;I had to try the same idea with other movies and it was clear that doing it manually is not the way to go.&lt;br&gt;
 Enter &lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/movie-thumbnailer/&#34;&gt;movie-thumbnailer&lt;/a&gt;&lt;/strong&gt; — command line &amp;ldquo;glue&amp;rdquo; for &lt;a href=&#34;https://ffmpeg.org/&#34;&gt;ffmpeg&lt;/a&gt; and &lt;a href=&#34;https://www.imagemagick.org/&#34;&gt;ImageMagick&lt;/a&gt; which generates wallpaper from video files laying out a grid of frames with scene changes.&lt;/p&gt;
 &lt;p&gt;Click for spoilers!&lt;br&gt;
@@ -31,7 +27,7 @@ Enter &lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/movie-thumbn
       <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&#39;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does is it automates that first pass and formats a complete string of loudnorm settings for the second pass.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&amp;rsquo;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does is it automates that first pass and formats a complete string of loudnorm settings for the second pass.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif&#34; alt=&#34;ffmpeg-lounorm-helper demonstration&#34;&gt;&lt;/p&gt;</description>
     </item>
     
