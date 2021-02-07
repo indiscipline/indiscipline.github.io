@@ -161,7 +161,7 @@ body {
   }
   .four[class*='column'],
   .one-third[class*='column'] {
-    width: calc(33.33333332% - 1rem);
+    width: calc(33.32% - 1rem);
   }
   .five[class*='column'] {
     width: calc(41.66666665% - 1rem);
