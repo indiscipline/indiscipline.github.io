@@ -1,185 +1,122 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/audio/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/mixing/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/post/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/recording/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/speech/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/voice/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/post/voice-sound-reference/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/post/mixing-matrix-org/</loc>
-    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/design/</loc>
-    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/matrix/</loc>
-    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://indiscipline.github.io/tags/sound/</loc>
-    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://indiscipline.github.io/tags/code/</loc>
-    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/commandline/</loc>
-    <lastmod>2020-04-02T20:48:37+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/games/</loc>
+    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/</loc>
+    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/nim/</loc>
+    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/post/</loc>
+    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/</loc>
+    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/post/tetronimia/</loc>
+    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/audio/</loc>
+    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/mixing/</loc>
+    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/recording/</loc>
+    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/speech/</loc>
+    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/voice/</loc>
+    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/post/voice-sound-reference/</loc>
+    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/post/mixing-matrix-org/</loc>
+    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/design/</loc>
+    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/matrix/</loc>
+    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/sound/</loc>
+    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/ffmpeg/</loc>
     <lastmod>2020-04-02T20:48:37+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/imagemagick/</loc>
     <lastmod>2020-04-02T20:48:37+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/post/movie-thumbnailer-announcement/</loc>
     <lastmod>2020-04-02T20:48:37+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/movies/</loc>
     <lastmod>2020-04-02T20:48:37+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/rust/</loc>
     <lastmod>2020-04-02T20:48:37+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</loc>
     <lastmod>2019-10-16T15:40:07+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/loudness/</loc>
     <lastmod>2019-10-16T15:40:07+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/post/elvish-shell/</loc>
     <lastmod>2017-07-06T16:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/linux/</loc>
     <lastmod>2017-07-06T16:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/other/</loc>
     <lastmod>2017-07-06T16:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/post/zrtstr-eliminate-faux-stereo/</loc>
     <lastmod>2016-11-09T14:27:37+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/post/download-youtube-videos/</loc>
     <lastmod>2016-09-02T15:59:03+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/windows/</loc>
     <lastmod>2016-09-02T15:59:03+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/youtube/</loc>
     <lastmod>2016-09-02T15:59:03+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/lua/</loc>
     <lastmod>2016-04-14T15:39:48+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/reaper/</loc>
     <lastmod>2016-04-14T15:39:48+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</loc>
     <lastmod>2016-04-14T15:39:48+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/about/</loc>
     <lastmod>2016-03-23T18:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/arch/</loc>
     <lastmod>2016-03-23T18:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/post/architect-logo/</loc>
     <lastmod>2016-03-23T18:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://indiscipline.github.io/post/helloworld/</loc>
     <lastmod>2015-12-23T16:55:40+03:00</lastmod>
   </url>
-  
 </urlset>
