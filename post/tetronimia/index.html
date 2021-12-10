@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Tetronimia: that game of falling blocky thingies</title>
 		
-		<meta name="generator" content="Hugo 0.83.1" />
+		<meta name="generator" content="Hugo 0.90.0" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
@@ -153,7 +153,7 @@ if (!doNotTrack) {
 <p>Some of the implementations I saw previously encode piece bitmaps as a sequence of 4×4 character grids such as <code>@[@[&quot;    &quot;, &quot;  # &quot;, &quot; ###&quot;, &quot;    &quot;], ... ]</code>, sometimes these grids are even dragged throughout game logic. This is of course completely unacceptable for us! What a waste! Of course we strive for total man-machine singularity so we know there&rsquo;s nothing in this world but ones and zeroes. In the code the pieces are encoded as arrays of <code>uint16</code> which is exactly the number of bits we need for each cell:
 <code>[0b0000011100100000'u16, ...]</code>.</p>
 <p>Much better! But we&rsquo;d like to use the actual coordinates for the logic, so we need some way to convert this representation to a proper set of tuples. There&rsquo;s a helper function <code>tOffsets</code> for this, and my favourite generic function <code>apply</code>:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-nim" data-lang="nim"><span style="color:#a2f;font-weight:bold">func</span> apply<span style="color:#666">[</span>T, N, U<span style="color:#666">]</span>(a: <span style="color:#0b0;font-weight:bold">array</span><span style="color:#666">[</span>N, T<span style="color:#666">]</span>; p: <span style="color:#a2f;font-weight:bold">proc</span> (x:T):U {.noSideEffect.} ): <span style="color:#0b0;font-weight:bold">array</span><span style="color:#666">[</span>N, U<span style="color:#666">]</span>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-nim" data-lang="nim"><span style="color:#a2f;font-weight:bold">func</span> apply<span style="color:#666">[</span>T, N, U<span style="color:#666">]</span>(a: <span style="color:#0b0;font-weight:bold">array</span><span style="color:#666">[</span>N, T<span style="color:#666">]</span>; p: <span style="color:#a2f;font-weight:bold">proc</span> (x:T):U {.noSideEffect.} ): <span style="color:#0b0;font-weight:bold">array</span><span style="color:#666">[</span>N, U<span style="color:#666">]</span>
 </code></pre></div><p>I&rsquo;m not going to explain it in case you don&rsquo;t understand it from the declaration - you&rsquo;ll need to trust me it&rsquo;s cool. Using the couple of functions mentioned we get a nice static tuple containing arrays of occupied cell coordinates (in an array themselves) for each rotation of each figure. All done in compile time. That&rsquo;s satisfying!</p>
 <h3 id="event-queue-using-new-channels">Event queue using new Channels</h3>
 <p>The pieces need to spawn and fall with a regular interval, independently of the player-induced movements. Some implementations use timers for this, but Tetronimia uses threads - let the OS do the work.</p>

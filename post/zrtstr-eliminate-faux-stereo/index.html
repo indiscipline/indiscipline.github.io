@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>zrtstr - detect &amp; eliminate faux-stereo WAVs</title>
 		
-		<meta name="generator" content="Hugo 0.83.1" />
+		<meta name="generator" content="Hugo 0.90.0" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
@@ -89,7 +89,7 @@ if (!doNotTrack) {
 <h4 id="how-does-it-work">How does it work?</h4>
 <p>Zrtstr reads interleaved channel samples from a target stereo file one by one and compares left and right samples. If the difference is present (or higher than the threshold given in <code>--dither</code> mode) than file considered true-stereo and program tries to write a mono copy.</p>
 <p>Here&rsquo;s live output on a set of test files:</p>
-<pre><code>$ zrtstr.exe
+<pre tabindex="0"><code>$ zrtstr.exe
 No input file given. Processing current directory.
 --- Analyzing: c:\test\32fp-faux-stereo-dithered.wav
 101769 / 101769  100.00 % 17311901.54/s

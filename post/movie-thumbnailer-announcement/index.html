@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Movie-Thumbnailer. Make wallpapers from your favorite movies for all your devices.</title>
 		
-		<meta name="generator" content="Hugo 0.83.1" />
+		<meta name="generator" content="Hugo 0.90.0" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
@@ -100,7 +100,7 @@ Enter <strong><a href="https://github.com/indiscipline/movie-thumbnailer/">movie
 <p>Provide movie-thumbnailer with the path to the video file of your choice and the list of wallpaper resolutions you&rsquo;d like it to generate collages for. The program puts temporary files in the current directory. It creates a folder <code>frames</code> where it puts the result of ffmpeg scene extraction and then pauses. This is the most time consuming part of the process. At this point the user should manually scan the extracted frames and remove unwanted/duplicate/false-identified frames. Upon resuming, movie-thumbnailer uses ImageMagick for preprocessing the remaining frames (mostly for better sharpness and contrast in reduced size) and puts them in the <code>frames_scaled</code> directory. Then optimal size for the thumbnails and the final layout are calculated for each of the resolutions and the collages are created. Resulting files saved as <code>png</code> with transparent background.</p>
 <p>The program tries to be &ldquo;smart&rdquo; and calculates the layout so there&rsquo;s some spacing between frames and the composite doesn&rsquo;t cover all the available space, leaving some margins (6% of the screen width and 18% of the height). At the moment, coefficients are hard-coded in <code>calc_thumbnail_size</code> function. The coefficient for scene detection ffmpeg filter was chosen empirically and set to 0.33. All of this may be added as optional program arguments in future releases, if they ever happen.</p>
 <p>Usage example:</p>
-<pre><code>movie-thumbnailer -r 2560x1440,1920x1080,1366x768 TheMagickSword.mp4
+<pre tabindex="0"><code>movie-thumbnailer -r 2560x1440,1920x1080,1366x768 TheMagickSword.mp4
 </code></pre><p>Full help available on <code>--help</code> switch.</p>
 <p>Example wallpaper in the Git repository is generated from the 1962 Bert I. Gordon movie <a href="https://en.wikipedia.org/wiki/The_Magic_Sword_(1962_film)">&ldquo;The Magic Sword&rdquo;</a> which is in public domain and <a href="https://archive.org/details/TheMagicSword">available from Archive.org</a>.</p>
 <h4 id="download">Download</h4>
