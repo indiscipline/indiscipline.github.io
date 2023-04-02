@@ -11,10 +11,6 @@
     background-color: #fff;
 }
 
-.color-scheme-light p {
-    line-height: 2rem;
-}
-
 .color-scheme-light a {
     color: #e77817;
     text-decoration: none;
@@ -102,10 +98,6 @@
 .color-scheme-dark {
     color: #fff; 
     background-color:#000; 
-}
-
-.color-scheme-dark p {
-    line-height: 2rem;
 }
 
 .color-scheme-dark a {

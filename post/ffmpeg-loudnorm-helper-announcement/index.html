@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>ffmpeg-loudnorm-helper - simplify ffmpeg loudness normalization workflow</title>
 		
-		<meta name="generator" content="Hugo 0.90.0" />
+		<meta name="generator" content="Hugo 0.111.3">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
@@ -89,7 +89,7 @@ if (!doNotTrack) {
 <p>Bash example:</p>
 <pre tabindex="0"><code>$ ffmpeg -i input.mov -c:v copy -c:a libopus $(ffmpeg-lh input.mov) normalized.mkv
 </code></pre><p>Windows CMD (what a monstrosity!):</p>
-<pre tabindex="0"><code>&gt; for /f &quot;tokens=*&quot; %i in ('ffmpeg-lh input.mov') do ffmpeg -i input.mov -c:v copy -c:a libopus %i normalized.mkv
+<pre tabindex="0"><code>&gt; for /f &#34;tokens=*&#34; %i in (&#39;ffmpeg-lh input.mov&#39;) do ffmpeg -i input.mov -c:v copy -c:a libopus %i normalized.mkv
 </code></pre><p>Full help available with <code>--help</code> switch.</p>
 <h4 id="download">Download</h4>
 <p>This time I provide a single <a href="https://indiscipline.github.io/assets/ffmpeg-lh-0.1.0-win64.7z"><strong>binary</strong></a> for x64 Windows but I encourage everyone interested to build the program by hand. It&rsquo;s a simple <code>cargo build --release</code> command, provided you have Rust installed.</p>

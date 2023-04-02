@@ -8,6 +8,19 @@
     <language>en-US</language>
     <lastBuildDate>Thu, 03 Jun 2021 17:08:59 +0300</lastBuildDate><atom:link href="https://indiscipline.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://indiscipline.github.io/about/</link>
+      <pubDate>Sun, 02 Apr 2023 22:00:00 +0300</pubDate>
+      
+      <guid>https://indiscipline.github.io/about/</guid>
+      <description>Hi! My name is Kirill and this is my blog. Isn&amp;rsquo;t it quite OK-ish?
+Sound I run a studio. Let&amp;rsquo;s work on your music! thirdhemisphere.studio
+I consult on recording and sound processing and can help you with your streaming or podcast.
+Music Check out my band The Grand Astoria, it rocks. If you don&amp;rsquo;t mind mellower stuff in a foreign language, here&amp;rsquo;s my other band: Дом Гнева.
+The name translates to &amp;ldquo;House of Wrath&amp;rdquo; and the music sounds nothing like it.</description>
+    </item>
+    
+    <item>
       <title>Tetronimia: that game of falling blocky thingies</title>
       <link>https://indiscipline.github.io/post/tetronimia/</link>
       <pubDate>Thu, 03 Jun 2021 17:08:59 +0300</pubDate>
@@ -105,20 +118,6 @@ Enter &lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/movie-thumbn
       
       <guid>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&amp;rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&amp;rsquo;t present in Reaper has arisen.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://indiscipline.github.io/about/</link>
-      <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/about/</guid>
-      <description>Hi! My name is Kirill and this is my blog. Isn&amp;rsquo;t it marvelous?
-I run a studio. Let&amp;rsquo;s work on your music! thirdhemisphere.studio
-Check out my band The Grand Astoria, it rocks.
-I also code a little: github.com/indiscipline
-Contact me on matrix @thirdhemisphere:matrix.org or write me an e-mail.
-  &#39;); document.write(&#39;&amp;#101;&amp;#108;&amp;#101;&amp;#112;&amp;#104;&amp;#97;&amp;#110;&amp;#116;&amp;#116;&amp;#97;&amp;#108;&amp;#107;&#39;); document.write(&#39;@&#39;); document.write(&#39;&amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#109;&amp;#97;&amp;#105;&amp;#108;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#39;); // -- &amp;#101;&amp;#108;&amp;#101;&amp;#112;&amp;#104;&amp;#97;&amp;#110;&amp;#116;&amp;#116;&amp;#97;&amp;#108;&amp;#107; at &amp;#112;&amp;#114;&amp;#111;&amp;#116;&amp;#111;&amp;#110;&amp;#109;&amp;#97;&amp;#105;&amp;#108; dot &amp;#99;&amp;#111;&amp;#109;  </description>
     </item>
     
     <item>
