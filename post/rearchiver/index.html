@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Rearchiver: prepare your finished Reaper projects for storage</title>
+		
+		<meta name="generator" content="Hugo 0.111.3">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
+		<link rel="stylesheet" href="https://indiscipline.github.io//css/custom.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-75468140-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+	</head>
+	<body class="color-scheme-light">
+		<div class="container">
+			<div class="row">
+				<div class="eight columns">
+					
+						<div class="u-pull-left u-logo">
+							<img src="https://indiscipline.github.io//img/logo.png">
+						</div>
+					
+					
+                    
+						<a href="https://indiscipline.github.io/" class="sitename"><span style="font-size: 36px;"><b>Indiscipline </b></span></a>
+                    
+					
+					<p class="u-subheader"> Mild achievements and severe disappointments</p>
+					
+				</div>
+				<div class="four columns" >
+					
+                    
+                    <a class="navbar-rlink u-pull-right" href="https://indiscipline.github.io/about">about</a>
+                    
+                    <a class="navbar-rlink u-pull-right" href="https://indiscipline.github.io/post">Posts</a>
+                    
+				</div>
+			</div>
+		</div>
+		<div class="container">
+        <div class="row">
+            <div class="twelve columns">
+            </div>
+        </div>
+
+
+<div class="row">
+	<div class="twelve columns">
+		<a class="post-title-link" href="https://indiscipline.github.io/post/rearchiver/">Rearchiver: prepare your finished Reaper projects for storage</a>
+	</div>
+</div>
+<div class="row">
+	<div class="nine columns">
+		<span class="post-postedby">posted by Kirill on 2023-04-10</span>
+	</div>
+	<div class="three columns">
+		<span style="font-size:small;">
+			
+			<i class="fa fa-tags"></i> <a href="https://indiscipline.github.io/tags/reaper" class="tag-link">reaper</a> <a href="https://indiscipline.github.io/tags/code" class="tag-link">code</a> <a href="https://indiscipline.github.io/tags/nim" class="tag-link">nim</a> <a href="https://indiscipline.github.io/tags/commandline" class="tag-link">commandline</a> <a href="https://indiscipline.github.io/tags/sound" class="tag-link">sound</a> <a href="https://indiscipline.github.io/tags/mixing" class="tag-link">mixing</a> 
+			
+		</span>
+	</div>
+</div>
+<div class="row">
+	<div class="twelve columns">
+    
+		<p><a target="_blank" href="https://github.com/indiscipline/rearchiver"><img src="https://indiscipline.github.io/img/rearchiver/rearchiver.svg" style="display: block; margin: 0 auto;" alt="Rearchiver logo" width="30%"/></a></p>
+<p>This is a release post for <a href="https://github.com/indiscipline/rearchiver">Rearchiver</a> — a little command line program for preparing your <a href="https://reaper.fm">Reaper</a> projects for archiving.</p>
+<p>Rearchiver:</p>
+<ul>
+<li>Scans the project file for all used WAV files</li>
+<li>Finds them in the project directory and converts to FLAC</li>
+<li>Changes the links to the successfully converted source files input RPP file accordingly</li>
+<li>Optionally deletes processed source files and their <code>.reapeaks</code></li>
+<li>Outputs the corrected project file</li>
+</ul>
+<p>It&rsquo;s a Free Software (GPLv3) program written in <a href="https://nim-lang.org">Nim</a>.</p>
+<h1 id="description">Description</h1>
+<p>When working on mixes, I prefer to keep my files uncompressed to avoid the overhead of decoding files on the fly. While negligible for a regular playback, multitrack projects with dozens of tracks can incur an additional load on the CPU. I even recall that earlier versions of Reaper had a noticeable lag on play or zooming when the item sources were not WAVs.</p>
+<p>FLAC compression ratios are just to good to not use it when the project is ready and is being prepared for long-term storage.</p>
+<p>This program could be a Reaper script or just an action macro inside the DAW, but I like separating such functionality into independent utilities. This gives me the ability to better inspect the changes, simplifies automation and, honestly, just helps me separate the steps of the workflow and prevents doing everything at once.</p>
+<p>I&rsquo;ve been using the program for some time and find it pretty useful. Still, there&rsquo;s some room for improvement. The biggest shortcoming lies with Flac itself - it doesn&rsquo;t support 32 bit floating point PCM. I normally don&rsquo;t use this format besides rendering the mixes for mastering, but sometimes clients provide their tracks this way. As I usually try to keep everything without performing any additional conversions, especially lossy ones, such as bit depth reduction, it would be nice to be able to compress those files too. There&rsquo;s another wonderful lossless codec which does support 32b floats: <a href="https://www.wavpack.com/">WavPack</a>. It&rsquo;s decompression speeds are slower than Flac, but the ratios are just as good if not better. Supporting WavPack as an alternative codec or a fallback when Flac is unavailable is an obvious first candidate for future improvements.</p>
+<h1 id="usage">Usage</h1>
+<p>Rearchiver is a command line application. It relies on <strong><a href="https://xiph.org/flac/download.html">Flac</a></strong> for conversions,
+so the <code>flac</code> program must be present in your PATH or placed in the same directory as <code>rearchiver</code> executable.</p>
+<p>By default the edited project file is written to the standard output, use redirection or <code>-o</code> to write to a file:</p>
+<pre tabindex="0"><code># redirect standard output to a file
+rearchiver INPUT.rpp &gt; output.rpp
+# write to a file
+rearchiver INPUT.rpp -o output2.rpp
+</code></pre><p>Rearchiver is interactive, it will print the pairs of the found WAV files and the proposed names for the FLACs and will ask for your confirmation. Use <code>-y</code> to bypass the confirmation.</p>
+<p>Additional options are available in help: <code>rearchiver --help</code>.</p>
+<h1 id="disclaimer">Disclaimer</h1>
+<p>Rearchiver tries to be conservative and will not overwrite anything unless asked by the user. However, there might be bugs.<br>
+This software is provided without any guarantees.</p>
+<h1 id="installation">Installation</h1>
+<p>Rearchiver is tested to work under Windows and GNU/Linux. Probably works on OSX with no changes.</p>
+<p>Download a binary from the <a href="https://github.com/indiscipline/rearchiver/releases/latest">Github release assets</a> or compile yourself. <a href="https://github.com/indiscipline/rearchiver/">Github page</a> has all the instructions for building manually.</p>
+<h1 id="feedback">Feedback</h1>
+<p>For your feature requests, bugs, suggestions, please use the <a href="https://github.com/indiscipline/rearchiver/issues">Github Issues page</a>. I&rsquo;d be happy to hear from you if you simply tried the program, whether you liked it or not. Don&rsquo;t hesitate to <a href="https://indiscipline.github.io/about/#contacts">contact me</a>. If you find the program useful, donations are welcome and greatly appreciated.</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="twelve columns">
+		&nbsp;
+	</div>
+</div>
+
+<aside>
+      
+      
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  var disqus_shortname = 'indisciplineblog';
+  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+      
+
+    </aside>
+
+<div id="footer" class="row">
+	<div class="twelve columns">
+		<center>
+			<div style="font-size: small;">
+				Except where otherwise noted, content on this site is licensed under a <a title="Creative Commons Attribution-NoDerivatives 4.0 International License" href="http://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
+			</div>
+			<div style="font-size: x-small;">
+				Powered by <a href="http://gohugo.io">Hugo</a> & <a href="http://github.com/esell/rocktopus">Rocktopus</a>.
+			</div>
+		</center>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
+
+

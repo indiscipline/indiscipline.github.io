@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 03 Jun 2021 17:08:59 +0300</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 00:26:16 +0500</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>code</title>
       <link>https://indiscipline.github.io/tags/code/</link>
-      <pubDate>Thu, 03 Jun 2021 17:08:59 +0300</pubDate>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
       
       <guid>https://indiscipline.github.io/tags/code/</guid>
       <description></description>
@@ -19,9 +19,45 @@
     <item>
       <title>commandline</title>
       <link>https://indiscipline.github.io/tags/commandline/</link>
-      <pubDate>Thu, 03 Jun 2021 17:08:59 +0300</pubDate>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
       
       <guid>https://indiscipline.github.io/tags/commandline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mixing</title>
+      <link>https://indiscipline.github.io/tags/mixing/</link>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/mixing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nim</title>
+      <link>https://indiscipline.github.io/tags/nim/</link>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/nim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reaper</title>
+      <link>https://indiscipline.github.io/tags/reaper/</link>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/reaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sound</title>
+      <link>https://indiscipline.github.io/tags/sound/</link>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/sound/</guid>
       <description></description>
     </item>
     
@@ -35,29 +71,11 @@
     </item>
     
     <item>
-      <title>nim</title>
-      <link>https://indiscipline.github.io/tags/nim/</link>
-      <pubDate>Thu, 03 Jun 2021 17:08:59 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/nim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>audio</title>
       <link>https://indiscipline.github.io/tags/audio/</link>
       <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/audio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mixing</title>
-      <link>https://indiscipline.github.io/tags/mixing/</link>
-      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/mixing/</guid>
       <description></description>
     </item>
     
@@ -103,15 +121,6 @@
       <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/matrix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sound</title>
-      <link>https://indiscipline.github.io/tags/sound/</link>
-      <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/sound/</guid>
       <description></description>
     </item>
     
@@ -202,15 +211,6 @@
       <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/lua/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reaper</title>
-      <link>https://indiscipline.github.io/tags/reaper/</link>
-      <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/reaper/</guid>
       <description></description>
     </item>
     

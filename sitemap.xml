@@ -2,37 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://indiscipline.github.io/tags/code/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/commandline/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/mixing/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/nim/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/post/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/reaper/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/post/rearchiver/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/sound/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/</loc>
+    <lastmod>2023-04-10T00:26:16+05:00</lastmod>
+  </url><url>
     <loc>https://indiscipline.github.io/about/</loc>
     <lastmod>2023-04-02T22:00:00+03:00</lastmod>
   </url><url>
-    <loc>https://indiscipline.github.io/tags/code/</loc>
-    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/commandline/</loc>
-    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
-  </url><url>
     <loc>https://indiscipline.github.io/tags/games/</loc>
-    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/</loc>
-    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/nim/</loc>
-    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/post/</loc>
-    <lastmod>2021-06-03T17:08:59+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/</loc>
     <lastmod>2021-06-03T17:08:59+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/post/tetronimia/</loc>
     <lastmod>2021-06-03T17:08:59+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/tags/audio/</loc>
-    <lastmod>2021-02-01T23:47:58+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/mixing/</loc>
     <lastmod>2021-02-01T23:47:58+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/tags/recording/</loc>
@@ -54,9 +63,6 @@
     <lastmod>2021-01-24T21:29:41+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/tags/matrix/</loc>
-    <lastmod>2021-01-24T21:29:41+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/sound/</loc>
     <lastmod>2021-01-24T21:29:41+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/tags/ffmpeg/</loc>
@@ -102,9 +108,6 @@
     <lastmod>2016-09-02T15:59:03+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/tags/lua/</loc>
-    <lastmod>2016-04-14T15:39:48+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/reaper/</loc>
     <lastmod>2016-04-14T15:39:48+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</loc>
