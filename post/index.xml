@@ -19,7 +19,7 @@
 &lt;ul&gt;
 &lt;li&gt;Scans the project file for all used WAV files&lt;/li&gt;
 &lt;li&gt;Finds them in the project directory and converts to FLAC&lt;/li&gt;
-&lt;li&gt;Changes the links to the successfully converted source files input RPP file accordingly&lt;/li&gt;
+&lt;li&gt;Changes the links to the successfully converted source files in the RPP file accordingly&lt;/li&gt;
 &lt;li&gt;Optionally deletes processed source files and their &lt;code&gt;.reapeaks&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Outputs the corrected project file&lt;/li&gt;
 &lt;/ul&gt;
