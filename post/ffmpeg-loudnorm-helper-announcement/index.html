@@ -78,22 +78,29 @@ if (!doNotTrack) {
 <div class="row">
 	<div class="twelve columns">
     
-		<p><strong><a href="https://github.com/indiscipline/ffmpeg-loudnorm-helper/">ffmpeg-loudnorm-helper</a></strong> is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&rsquo;s <a href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">loudnorm</a> audio filter. This awesome filter provides <a href="https://en.wikipedia.org/wiki/LKFS">EBU R128</a> loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does is it automates that first pass and formats a complete string of loudnorm settings for the second pass.</p>
+		<p><strong><em>Post updated for v0.2.0 release at 2023-04-18</em></strong></p>
+<p><strong><a href="https://github.com/indiscipline/ffmpeg-loudnorm-helper/">ffmpeg-loudnorm-helper</a></strong> is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&rsquo;s <a href="https://ffmpeg.org/ffmpeg-filters.html#loudnorm">loudnorm</a> audio filter. This awesome filter provides <a href="https://en.wikipedia.org/wiki/LKFS">EBU R128</a> loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does, is it automates that first pass and formats a complete copy-pasteable string of loudnorm settings for the second pass.</p>
 <p><img src="https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif" alt="ffmpeg-lounorm-helper demonstration"></p>
-<p>This program is a much simpler substitute for the <a href="https://github.com/slhck/ffmpeg-normalize">ffmpeg-normalize</a> Python script. It&rsquo;s written in stable <a href="https://rust-lang.org/">Rust</a> using, as usual, the wonderful <a href="https://crates.io/crates/clap">Clap</a> crate.</p>
-<h4 id="motivation">Motivation</h4>
-<p>First of all, if you don&rsquo;t use ffmpeg for your run-of-the-mill audio/video processing, you really should reconsider. It&rsquo;s terrifyingly capable and deep if you want it.</p>
-<p>Why you may need this ffmpeg-loudnorm-helper? The simplest scenario, which covers the majority of situations I use it in, is converting video/audio recordings made with smartphones or specialized recording devices, such as Zoom Q2n. In case the material has some music in it, it&rsquo;s undesirable to use loudnorm in a single-pass mode, as it introduces dynamic fluctuations to the audio. I prefer to not use auto-gain functionality of recorders on the same grounds. Linear normalization preserves source macro-dynamics and just sets the loudness to a desired level.</p>
-<h4 id="usage">Usage</h4>
-<p>ffmpeg-loudnorm-helper expects to have ffmpeg reachable (you really should have it in your <code>PATH</code>). The only output of a successful run of ffmpeg-loudnorm-helper is a formatted ffmpeg audio filter <code>-af</code> string with all the desired settings in place, so I advice everyone to use your shell&rsquo;s command substitution capability and inline <code>ffmpeg-lh</code> in your ffmpeg command. This is the intended usage.</p>
+<h1 id="motivation">Motivation</h1>
+<p>First of all, if you don&rsquo;t use ffmpeg for your run-of-the-mill audio/video processing, you really should reconsider. It&rsquo;s terrifyingly capable and deep making it an indispensable tool for anyone dealing with any kinds of audio and video.</p>
+<p>Why might you need this ffmpeg-loudnorm-helper? The simplest scenario, which covers the majority of situations I use it in, is converting video/audio recordings made with smartphones or specialized recording devices, such as Zoom Q2n. In case the material has some music in it, it&rsquo;s undesirable to use loudnorm in a single-pass mode, as it introduces dynamic fluctuations to the audio. I prefer to not use auto-gain functionality of recorders on the same grounds. Linear normalization preserves source macro-dynamics and just sets the loudness to a desired level.</p>
+<p>I also tend to suggest using it whenever someone uploads a YouTube video with barely-hearable audio, which happens way too often. People are more easily persuaded to do something when it&rsquo;s just a single command to copy and run.</p>
+<p>This program is an alternative for the <a href="https://github.com/slhck/ffmpeg-normalize">ffmpeg-normalize</a> Python script. The main difference is ffmpeg-loudnorm-helper doesn&rsquo;t try to wrap any ffmpeg features, aiming for smooth cooperation instead. Being a statically-built binary is also a plus. It&rsquo;s written in stable <a href="https://rust-lang.org/">Rust</a> using, as usual, the wonderful <a href="https://crates.io/crates/clap">Clap</a> crate.</p>
+<h1 id="usage">Usage</h1>
+<p>Summary: Perform a single pass with ffmpeg-lh input.wav or use command substitution to combine both passes.</p>
+<p>ffmpeg-loudnorm-helper expects to have the <code>ffmpeg</code> executable reachable in your environment (you really should have it in your <code>PATH</code>). The output of a successful run of ffmpeg-loudnorm-helper is a formatted ffmpeg audio filter <code>-af</code> string with all the desired settings in place, so I advise everyone to use your shell&rsquo;s command substitution capability and inline <code>ffmpeg-lh</code> in your ffmpeg command. This is the intended usage.</p>
+<p>If the requested loudness target is provably unattainable with linear normalization, the program will issue a warning. However, loudnorm is a bit picky, so there&rsquo;s no guarantee it will not fall back onto dynamic normalization.</p>
 <p>Bash example:</p>
 <pre tabindex="0"><code>$ ffmpeg -i input.mov -c:v copy -c:a libopus $(ffmpeg-lh input.mov) normalized.mkv
 </code></pre><p>Windows CMD (what a monstrosity!):</p>
 <pre tabindex="0"><code>&gt; for /f &#34;tokens=*&#34; %i in (&#39;ffmpeg-lh input.mov&#39;) do ffmpeg -i input.mov -c:v copy -c:a libopus %i normalized.mkv
 </code></pre><p>Full help available with <code>--help</code> switch.</p>
-<h4 id="download">Download</h4>
-<p>This time I provide a single <a href="https://indiscipline.github.io/assets/ffmpeg-lh-0.1.0-win64.7z"><strong>binary</strong></a> for x64 Windows but I encourage everyone interested to build the program by hand. It&rsquo;s a simple <code>cargo build --release</code> command, provided you have Rust installed.</p>
-<h4 id="contributing">Contributing</h4>
+<h2 id="downsampling">Downsampling</h2>
+<p>When the loudnorm filter falls back to dynamic normalization it starts upsampling the audio to 192kHz samplerate to control intersample peaks. This happens automatically and sometimes can be missed by the user, resulting in a much bigger file with non-original samplerate. As a basic protection from this, since v0.2.0 ffmpeg-loudnorm-helper now provides a <code>--resample</code> flag that simply adds to its output the <a href="https://ffmpeg.org/ffmpeg-filters.html#aresample-1"><code>aresmaple</code></a> filter with the hardcoded rate of 48kHz right after loudnorm.</p>
+<h1 id="download">Download</h1>
+<p>Latest binaries for all major platform are provided on the <a href="https://github.com/indiscipline/ffmpeg-loudnorm-helper/releases/latest/">GitHub releases page</a>, but I encourage everyone to build the program themselves. It&rsquo;s a simple <code>cargo build --release</code> run, provided you have Rust installed.</p>
+<p>ffmpeg-loudnorm-helper is a Free Software program licensed under GPLv3.</p>
+<h1 id="contributing">Contributing</h1>
 <p>Feel free to file a bug report or feature request via <a href="https://github.com/indiscipline/ffmpeg-loudnorm-helper/issues">Issues</a>.</p>
 	</div>
 </div>
