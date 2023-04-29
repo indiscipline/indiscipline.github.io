@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 29 Apr 2023 15:00:00 +0300</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 00:05:44 +0500</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>code</title>
+      <link>https://indiscipline.github.io/tags/code/</link>
+      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>commandline</title>
+      <link>https://indiscipline.github.io/tags/commandline/</link>
+      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/commandline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://indiscipline.github.io/tags/design/</link>
+      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nim</title>
+      <link>https://indiscipline.github.io/tags/nim/</link>
+      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/nim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software</title>
+      <link>https://indiscipline.github.io/tags/software/</link>
+      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
+      
+      <guid>https://indiscipline.github.io/tags/software/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>ai</title>
       <link>https://indiscipline.github.io/tags/ai/</link>
@@ -26,15 +71,6 @@
     </item>
     
     <item>
-      <title>code</title>
-      <link>https://indiscipline.github.io/tags/code/</link>
-      <pubDate>Sat, 29 Apr 2023 15:00:00 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>socius</title>
       <link>https://indiscipline.github.io/tags/socius/</link>
       <pubDate>Sat, 29 Apr 2023 15:00:00 +0300</pubDate>
@@ -44,29 +80,11 @@
     </item>
     
     <item>
-      <title>commandline</title>
-      <link>https://indiscipline.github.io/tags/commandline/</link>
-      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/commandline/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>mixing</title>
       <link>https://indiscipline.github.io/tags/mixing/</link>
       <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
       
       <guid>https://indiscipline.github.io/tags/mixing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nim</title>
-      <link>https://indiscipline.github.io/tags/nim/</link>
-      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/nim/</guid>
       <description></description>
     </item>
     
@@ -130,15 +148,6 @@
       <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
       
       <guid>https://indiscipline.github.io/tags/voice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>design</title>
-      <link>https://indiscipline.github.io/tags/design/</link>
-      <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/design/</guid>
       <description></description>
     </item>
     
