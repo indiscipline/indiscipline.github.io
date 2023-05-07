@@ -1033,6 +1033,15 @@ hr {
   border-top: 1px solid #E1E1E1;
 }
 
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 /* Clearing */
 
 .container:after {
