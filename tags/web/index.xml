@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>other on Indiscipline</title>
-    <link>https://indiscipline.github.io/tags/other/</link>
-    <description>Recent content in other on Indiscipline</description>
+    <title>web on Indiscipline</title>
+    <link>https://indiscipline.github.io/tags/web/</link>
+    <description>Recent content in web on Indiscipline</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 13 Feb 2024 17:32:43 +0400</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Feb 2024 17:32:43 +0400</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Those who cannot remember the past are condemned to repeat it</title>
       <link>https://indiscipline.github.io/post/best-viewed-in-google-chrome/</link>
@@ -20,18 +20,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;Progress, far from consisting in change, depends on retentiveness. When change is absolute there remains no being to improve and no direction is set for possible improvement: and when experience is not retained, as among savages, infancy is perpetual. Those who cannot remember the past are condemned to repeat it.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>Elvish: the looks</title>
-      <link>https://indiscipline.github.io/post/elvish-shell/</link>
-      <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/post/elvish-shell/</guid>
-      <description>&lt;p&gt;Once you hear there&amp;rsquo;s a new Unix shell on the block, what do you do? Probably, glance over syntax and try it in your VM. But when this new shell is called &lt;a href=&#34;https://elvish.io/&#34;&gt;Elvish&lt;/a&gt; you do this:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(Hover over to see)&lt;/em&gt;&lt;br /&gt;
-&lt;a href=&#34;https://indiscipline.github.io/img/elvish/elvish.jpg&#34;&gt;&lt;img onMouseOver=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-thumb.jpg&#39;&#34; onMouseOut=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-pix.png&#39;&#34; src=&#34;https://indiscipline.github.io/img/elvish/elvish-pix.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Friendly and expressive&amp;rdquo;, indeed.&lt;/p&gt;</description>
     </item>
     
   </channel>
