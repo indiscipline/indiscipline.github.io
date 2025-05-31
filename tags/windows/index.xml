@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>windows on Indiscipline</title>
+    <title>Windows on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/windows/</link>
-    <description>Recent content in windows on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Windows on Indiscipline</description>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 02 Sep 2016 15:59:03 +0300</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Sep 2016 15:59:03 +0300</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/windows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Download Youtube videos easily. Guide for the &#34;normal&#34; people.</title>
       <link>https://indiscipline.github.io/post/download-youtube-videos/</link>
       <pubDate>Fri, 02 Sep 2016 15:59:03 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/download-youtube-videos/</guid>
-      <description>&lt;h4 id=&#34;update-this-tutorial-is-out-of-date&#34;&gt;&lt;strong&gt;Update:&lt;/strong&gt; This tutorial is out-of-date.&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Since release of Firefox Quantum and subsequent changes to the extension API, launching external commands from Firefox requre installing some additional software, since WebExtensions have no OS level access. If you&amp;rsquo;re not opposed to this idea, you can still adapt the following instruction to the new WebExtension addons, such as &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/open-with/&#34;&gt;Open With&lt;/a&gt; or &lt;a href=&#34;https://add0n.com/send-to.html&#34;&gt;Send To External Media Player&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Let&amp;rsquo;s integrate the best tool for downloading YouTube videos &lt;a href=&#34;http://youtube-dl.org/&#34;&gt;Youtube-dl&lt;/a&gt; with Firefox for the most pleasant downloading experience! &lt;em&gt;Written for Windows users, as they are usually the ones that need the following instructions.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;First, the motive behind this post. Being a musician, one of the actions I might perform multiple times in a day is downloading videos from YouTube. Being able to play them in my player of choice (&lt;a href=&#34;https://mpv.io/&#34;&gt;mpv&lt;/a&gt; for now) is a huge convenience in case I need to transcribe some musical phrase, or speed some particularly slow speaker up by an arbitrary amount and having the video on my HDD gives me a slight sense of tranquility and confidence. In the past years people tried every accessible way to get the videos from YT with as little hassle as possible. Not all of these means worked good, and some of the suggestions in the Internet were, in fact, malicious, putting it mildly. As always, community to the rescue. Enter Youtube-dl!&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;update-this-tutorial-is-out-of-date&#34;&gt;&lt;strong&gt;Update:&lt;/strong&gt; This tutorial is out-of-date.&lt;/h4&gt;&#xA;&lt;p&gt;&lt;em&gt;Since release of Firefox Quantum and subsequent changes to the extension API, launching external commands from Firefox requre installing some additional software, since WebExtensions have no OS level access. If you&amp;rsquo;re not opposed to this idea, you can still adapt the following instruction to the new WebExtension addons, such as &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/open-with/&#34;&gt;Open With&lt;/a&gt; or &lt;a href=&#34;https://add0n.com/send-to.html&#34;&gt;Send To External Media Player&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s integrate the best tool for downloading YouTube videos &lt;a href=&#34;http://youtube-dl.org/&#34;&gt;Youtube-dl&lt;/a&gt; with Firefox for the most pleasant downloading experience! &lt;em&gt;Written for Windows users, as they are usually the ones that need the following instructions.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;First, the motive behind this post. Being a musician, one of the actions I might perform multiple times in a day is downloading videos from YouTube. Being able to play them in my player of choice (&lt;a href=&#34;https://mpv.io/&#34;&gt;mpv&lt;/a&gt; for now) is a huge convenience in case I need to transcribe some musical phrase, or speed some particularly slow speaker up by an arbitrary amount and having the video on my HDD gives me a slight sense of tranquility and confidence. In the past years people tried every accessible way to get the videos from YT with as little hassle as possible. Not all of these means worked good, and some of the suggestions in the Internet were, in fact, malicious, putting it mildly. As always, community to the rescue. Enter Youtube-dl!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

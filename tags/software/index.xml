@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>software on Indiscipline</title>
+    <title>Software on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/software/</link>
-    <description>Recent content in software on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Software on Indiscipline</description>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 30 Apr 2023 00:05:44 +0500</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 00:05:44 +0500</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catalay: automatic catalogue layouts for InDesign made declaratively, slightly smart</title>
       <link>https://indiscipline.github.io/post/catalay-announcement/</link>
       <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
-      
       <guid>https://indiscipline.github.io/post/catalay-announcement/</guid>
-      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/catalay&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/catalay-announcement/catalay.svg&#34; alt=&#34;Catalay logo&#34; title=&#34;Catalay go purrr!&#34; width=&#34;40%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is yet another release post, this time for &lt;a href=&#34;https://github.com/indiscipline/catalay&#34;&gt;Catalay&lt;/a&gt; —  a free software suite designed to automate the layout of image catalogues made with Adobe InDesign, using simple, declarative, human readable and editable configuration files in TOML or YAML formats as input. The main feature is not just automatically laying out the images in a grid, but adapting the grid layout itself. Catalay preserves the size relationship between different groups of items on each page are, scaling them appropriately, while utilizing the page as efficiently as possible given the constraints.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/catalay&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/catalay-announcement/catalay.svg&#34; alt=&#34;Catalay logo&#34; title=&#34;Catalay go purrr!&#34; width=&#34;40%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is yet another release post, this time for &lt;a href=&#34;https://github.com/indiscipline/catalay&#34;&gt;Catalay&lt;/a&gt; —  a free software suite designed to automate the layout of image catalogues made with Adobe InDesign, using simple, declarative, human readable and editable configuration files in TOML or YAML formats as input. The main feature is not just automatically laying out the images in a grid, but adapting the grid layout itself. Catalay preserves the size relationship between different groups of items on each page, scaling them appropriately, while utilizing the page as efficiently as possible given the constraints.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

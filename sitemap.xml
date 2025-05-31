@@ -2,19 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://indiscipline.github.io/tags/archlinux/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/code/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/gui/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/linux/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/post/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/python/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/reflector/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/post/reflectortk/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
+    <loc>https://indiscipline.github.io/tags/tkinter/</loc>
+    <lastmod>2025-05-31T10:00:00+03:00</lastmod>
+  </url><url>
     <loc>https://indiscipline.github.io/tags/design/</loc>
     <lastmod>2024-02-13T17:32:43+04:00</lastmod>
   </url><url>
-    <loc>https://indiscipline.github.io/</loc>
-    <lastmod>2024-02-13T17:32:43+04:00</lastmod>
-  </url><url>
     <loc>https://indiscipline.github.io/tags/other/</loc>
-    <lastmod>2024-02-13T17:32:43+04:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/post/</loc>
-    <lastmod>2024-02-13T17:32:43+04:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/</loc>
     <lastmod>2024-02-13T17:32:43+04:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/post/best-viewed-in-google-chrome/</loc>
@@ -24,9 +48,6 @@
     <lastmod>2024-02-13T17:32:43+04:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/post/catalay-announcement/</loc>
-    <lastmod>2023-04-30T00:05:44+05:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/code/</loc>
     <lastmod>2023-04-30T00:05:44+05:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/tags/commandline/</loc>
@@ -114,9 +135,6 @@
     <lastmod>2019-10-16T15:40:07+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/post/elvish-shell/</loc>
-    <lastmod>2017-07-06T16:00:00+03:00</lastmod>
-  </url><url>
-    <loc>https://indiscipline.github.io/tags/linux/</loc>
     <lastmod>2017-07-06T16:00:00+03:00</lastmod>
   </url><url>
     <loc>https://indiscipline.github.io/post/zrtstr-eliminate-faux-stereo/</loc>

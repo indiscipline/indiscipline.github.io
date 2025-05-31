@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>ReflectorTK: A Leaner GUI for Reflector (Arch/EndeavourOS mirror manager)</title>
+		
+		<meta name="description" content="Indiscipline: Mild achievements and severe disappointments. Kirill&#39;s blog.">
+		<meta name="generator" content="Hugo 0.147.7">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
+		<link rel="stylesheet" href="https://indiscipline.github.io//css/custom.css">
+		
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WLR5R2QMPN"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-WLR5R2QMPN');
+        }
+      </script>
+	</head>
+	<body class="color-scheme-light">
+		<div class="container">
+			<div class="row">
+				<div class="eight columns">
+					
+						<div class="u-pull-left u-logo">
+							<img src="https://indiscipline.github.io//img/logo.png" alt="Indiscipline logo">
+						</div>
+					
+					
+                    
+						<a href="https://indiscipline.github.io/" class="sitename">Indiscipline</a>
+                    
+					
+					<p class="u-subheader"> Mild achievements and severe disappointments</p>
+					
+				</div>
+				<div class="four columns" >
+					
+                    
+                    <a class="navbar-rlink u-pull-right" href="https://indiscipline.github.io/about">about</a>
+                    
+                    <a class="navbar-rlink u-pull-right" href="https://indiscipline.github.io/post">Posts</a>
+                    
+				</div>
+			</div>
+		</div>
+		<div class="container">
+        <div class="row">
+            <div class="twelve columns">
+            </div>
+        </div>
+
+
+<div class="row">
+	<div class="twelve columns">
+            <a class="post-title-link" href="https://indiscipline.github.io/post/reflectortk/"><h1>ReflectorTK: A Leaner GUI for Reflector (Arch/EndeavourOS mirror manager)<h1></a>
+	</div>
+</div>
+<div class="row">
+	<div class="nine columns">
+		<span class="post-postedby">posted by Kirill on 2025-05-31</span>
+	</div>
+	<div class="three columns">
+		<span class="unselectable">🏷</span>
+		<span style="font-size:small;">
+			
+			<a href="https://indiscipline.github.io/tags/archlinux" class="tag-link">archlinux</a> <a href="https://indiscipline.github.io/tags/code" class="tag-link">code</a> <a href="https://indiscipline.github.io/tags/python" class="tag-link">python</a> <a href="https://indiscipline.github.io/tags/tkinter" class="tag-link">tkinter</a> <a href="https://indiscipline.github.io/tags/gui" class="tag-link">gui</a> <a href="https://indiscipline.github.io/tags/reflector" class="tag-link">reflector</a> <a href="https://indiscipline.github.io/tags/linux" class="tag-link">linux</a> 
+			
+		</span>
+	</div>
+</div>
+<div class="row">
+	<div class="twelve columns">
+    
+		<p>If you’re an <a href="https://endeavouros.com/">EndeavourOS</a> user and were ever surprised why your system update is suddenly pulling in a ~126 MB <code>webkit2gtk-4.1</code> package that nothing you <em>consciously</em> installed seems to use, then this is for you. I found myself annoyed by this particular dependency enough to rewrite <a href="https://github.com/endeavouros-team/PKGBUILDS/tree/master/reflector-simple"><code>reflector-simple</code></a>, the GUI for <a href="https://xyne.dev/projects/reflector/src/"><code>reflector</code></a> shipped with EndeavourOS. Even though I&rsquo;m generally comfortable using <code>reflector</code> from the command line, it was interesting to see how much the Python implementation would differ from its Bash counterpart.</p>
+<p>The result is <strong><a href="https://github.com/indiscipline/reflectortk">ReflectorTK</a></strong>, a straightforward graphical interface for configuring and running <code>reflector</code> to update your Arch Linux mirrorlist. It’s designed as a Tkinter-based drop-in replacement for <code>reflector-simple</code>.</p>
+<p><img src="https://indiscipline.github.io/img/reflectortk/reflectortk.png" alt="ReflectorTK screenshot"></p>
+<h1 id="rationale-why-reflectortk">Rationale: Why ReflectorTK?</h1>
+<p>So, why go to the trouble of recreating <code>reflector-simple</code>? My motivations were threefold:</p>
+<ol>
+<li><strong>Dependency bloat:</strong> <code>reflector-simple</code> uses <code>yad</code> (Yet Another Dialog) for its GUI, which in turn has <code>webkit2gtk-4.1</code> as a hard dependency. In my case, <code>reflector-simple</code> was the <em>only</em> program pulling in <code>yad</code> and thus <code>webkit2gtk</code>, wasting disk space and traffic.</li>
+<li><strong>Python&rsquo;s ubiquity:</strong> <code>reflector</code> itself is written in Python. This means any system running <code>reflector</code> already has a Python interpreter. Leveraging this existing environment is only natural, allowing for a GUI without adding new dependencies. It also opens the door for tighter integration with <code>reflector</code> down the line.</li>
+<li><strong>Better maintainability:</strong> Python feels more readable and maintainable for scripting and GUI work compared to Bash. This is, of course, a personal preference.</li>
+</ol>
+<p>The initial experiment was to see if I could replicate the <code>reflector-simple</code> logic in Python with fewer lines of code. The outcome was&hellip; mixed. I anticipated a reduction, but the Python version ended up being about 30% longer (~1190 vs ~914 lines). However, when you consider that a significant portion of this code involves replacing interactions with the purpose-built <code>yad</code> with Tkinter&rsquo;s somewhat clunky API, all while doing away with dependencies, it still feels like a win. This initial approach also explains why ReflectorTK currently interacts with <code>reflector</code> by parsing it output rather than using it as a Python module (though that&rsquo;s a future goal).</p>
+<p>Just to be clear, this project was undertaken for fun, first and foremost. It doesn&rsquo;t imply that <code>reflector-simple</code> <em>needs</em> replacement, but it does solve a particular issue I (and potentially others) had with it. Since the program reached a reasonably presentable state, I decided to share it.</p>
+<p>Fun fact: I don&rsquo;t typically use <code>reflector-simple</code> and wasn&rsquo;t even aware of its existence until I noticed what was pulling those bulky updates.</p>
+<h1 id="features-usage-and-technical-details">Features, Usage and Technical details</h1>
+<p>ReflectorTK is available on the <a href="https://aur.archlinux.org/packages/reflectortk-git">AUR (Arch User Repository)</a>. You can install it with your favorite AUR helper. Or just run it as any other random Python script.</p>
+<p>For detailed features, usage and installation directions read the ReflectorTK readme in program&rsquo;s repository: <a href="https://github.com/indiscipline/reflectortk">https://github.com/indiscipline/reflectortk</a></p>
+<h1 id="feedback--contributing">Feedback &amp; Contributing</h1>
+<p>ReflectorTK is discussed in a <a href="https://forum.endeavouros.com/t/reflectortk-dependency-free-almost-replacement-for-reflector-simple/">thread at EndeavourOS forum</a></p>
+<p>Contributions, bug reports, and suggestions are most welcome! Please use the <a href="https://github.com/indiscipline/reflectortk/issues">GitHub Issues page</a> for these if possible. I&rsquo;d be happy to hear your thoughts if you try out the program.</p>
+<p>PS: If any <code>reflector-simple</code> maintainers are reading this and are interested, I’m open to discussing improvements to ReflectorTK to better meet EndeavourOS&rsquo;s requirements, potentially allowing it to serve the role of the original script more fully.</p>
+<p>ReflectorTK is licensed under the GNU General Public License version 2.0 or later (allowing integrating into <code>reflector</code> code base).</p>
+	</div>
+</div>
+
+<div class="row">
+	<div class="twelve columns">
+		&nbsp;
+	</div>
+</div>
+
+<aside>
+      
+      <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "indisciplineblog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+</aside>
+
+<div id="footer" class="row">
+	<div class="twelve columns">
+		<center>
+			<div style="font-size: small;">
+				Except where otherwise noted, content on this site is licensed under a <a title="Creative Commons Attribution-NoDerivatives 4.0 International License" href="http://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a>.
+			</div>
+			<div style="font-size: x-small;">
+				Powered by <a href="http://gohugo.io">Hugo</a> & <a href="http://github.com/esell/rocktopus">Rocktopus</a>.
+			</div>
+		</center>
+	</div>
+</div>
+</div>
+
+</body>
+</html>
+
+

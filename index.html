@@ -5,24 +5,26 @@
 		<title>Indiscipline</title>
 		
 		<meta name="description" content="Indiscipline: Mild achievements and severe disappointments. Kirill&#39;s blog.">
-		<meta name="generator" content="Hugo 0.111.3">
+		<meta name="generator" content="Hugo 0.147.7">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/custom.css">
 		
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-75468140-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WLR5R2QMPN"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-WLR5R2QMPN');
+        }
+      </script>
 	</head>
 	<body class="color-scheme-light">
 		<div class="container">
@@ -63,6 +65,37 @@ if (!doNotTrack) {
 
 <div class="row">
 	<div class="twelve column">
+		<a class="post-title-link" href="https://indiscipline.github.io/post/reflectortk/">ReflectorTK: A Leaner GUI for Reflector (Arch/EndeavourOS mirror manager)</a>
+	</div>
+</div>
+
+<div class="row">
+	<div class="twelve columns">
+                <p>If you’re an <a href="https://endeavouros.com/">EndeavourOS</a> user and were ever surprised why your system update is suddenly pulling in a ~126 MB <code>webkit2gtk-4.1</code> package that nothing you <em>consciously</em> installed seems to use, then this is for you. I found myself annoyed by this particular dependency enough to rewrite <a href="https://github.com/endeavouros-team/PKGBUILDS/tree/master/reflector-simple"><code>reflector-simple</code></a>, the GUI for <a href="https://xyne.dev/projects/reflector/src/"><code>reflector</code></a> shipped with EndeavourOS. Even though I&rsquo;m generally comfortable using <code>reflector</code> from the command line, it was interesting to see how much the Python implementation would differ from its Bash counterpart.</p>
+<p>The result is <strong><a href="https://github.com/indiscipline/reflectortk">ReflectorTK</a></strong>, a straightforward graphical interface for configuring and running <code>reflector</code> to update your Arch Linux mirrorlist. It’s designed as a Tkinter-based drop-in replacement for <code>reflector-simple</code>.</p>
+<p><img src="https://indiscipline.github.io/img/reflectortk/reflectortk.png" alt="ReflectorTK screenshot"></p>
+		
+		<a href="https://indiscipline.github.io/post/reflectortk/">Read more…</a>
+		
+	</div>
+</div>
+<div class="row">
+	<div class="nine columns">
+		<span class="post-postedby">posted by Kirill on 2025-05-31</span>
+	</div>
+	<div class="three columns">
+		<span class="unselectable">🏷</span>
+		<span style="font-size:small;">
+			
+			<a href="https://indiscipline.github.io/tags/archlinux" class="tag-link">archlinux</a> <a href="https://indiscipline.github.io/tags/code" class="tag-link">code</a> <a href="https://indiscipline.github.io/tags/python" class="tag-link">python</a> <a href="https://indiscipline.github.io/tags/tkinter" class="tag-link">tkinter</a> <a href="https://indiscipline.github.io/tags/gui" class="tag-link">gui</a> <a href="https://indiscipline.github.io/tags/reflector" class="tag-link">reflector</a> <a href="https://indiscipline.github.io/tags/linux" class="tag-link">linux</a> 
+			
+		</span>
+	</div>
+</div>
+<br>
+
+<div class="row">
+	<div class="twelve column">
 		<a class="post-title-link" href="https://indiscipline.github.io/post/best-viewed-in-google-chrome/">Those who cannot remember the past are condemned to repeat it</a>
 	</div>
 </div>
@@ -78,8 +111,9 @@ if (!doNotTrack) {
 </details>  
 <p>Full <a href="https://en.wikiquote.org/wiki/George_Santayana#Vol._I,_Reason_in_Common_Sense">quote</a> by George Santayana:</p>
 <blockquote>
-<p><em>Progress, far from consisting in change, depends on retentiveness. When change is absolute there remains no being to improve and no direction is set for possible improvement: and when experience is not retained, as among savages, infancy is perpetual. Those who cannot remember the past are condemned to repeat it.</em></p>
-</blockquote>
+<p><em>Progress, far from consisting in change, depends on retentiveness. When change is absolute there remains no being to improve and no direction is set for possible improvement: and when experience is not retained, as among savages, infancy is perpetual. Those who cannot remember the past are condemned to repeat it.</em></p></blockquote>
+		
+		<a href="https://indiscipline.github.io/post/best-viewed-in-google-chrome/">Read more…</a>
 		
 	</div>
 </div>
@@ -107,7 +141,7 @@ if (!doNotTrack) {
 <div class="row">
 	<div class="twelve columns">
                 <p><a target="_blank" href="https://github.com/indiscipline/catalay"><img src="https://indiscipline.github.io/img/catalay-announcement/catalay.svg" alt="Catalay logo" title="Catalay go purrr!" width="40%"/></a></p>
-<p>This is yet another release post, this time for <a href="https://github.com/indiscipline/catalay">Catalay</a> —  a free software suite designed to automate the layout of image catalogues made with Adobe InDesign, using simple, declarative, human readable and editable configuration files in TOML or YAML formats as input. The main feature is not just automatically laying out the images in a grid, but adapting the grid layout itself. Catalay preserves the size relationship between different groups of items on each page are, scaling them appropriately, while utilizing the page as efficiently as possible given the constraints.</p>
+<p>This is yet another release post, this time for <a href="https://github.com/indiscipline/catalay">Catalay</a> —  a free software suite designed to automate the layout of image catalogues made with Adobe InDesign, using simple, declarative, human readable and editable configuration files in TOML or YAML formats as input. The main feature is not just automatically laying out the images in a grid, but adapting the grid layout itself. Catalay preserves the size relationship between different groups of items on each page, scaling them appropriately, while utilizing the page as efficiently as possible given the constraints.</p>
 		
 		<a href="https://indiscipline.github.io/post/catalay-announcement/">Read more…</a>
 		
@@ -190,36 +224,6 @@ if (!doNotTrack) {
 		<span style="font-size:small;">
 			
 			<a href="https://indiscipline.github.io/tags/reaper" class="tag-link">reaper</a> <a href="https://indiscipline.github.io/tags/code" class="tag-link">code</a> <a href="https://indiscipline.github.io/tags/nim" class="tag-link">nim</a> <a href="https://indiscipline.github.io/tags/commandline" class="tag-link">commandline</a> <a href="https://indiscipline.github.io/tags/sound" class="tag-link">sound</a> <a href="https://indiscipline.github.io/tags/mixing" class="tag-link">mixing</a> 
-			
-		</span>
-	</div>
-</div>
-<br>
-
-<div class="row">
-	<div class="twelve column">
-		<a class="post-title-link" href="https://indiscipline.github.io/post/tetronimia/">Tetronimia: that game of falling blocky thingies</a>
-	</div>
-</div>
-
-<div class="row">
-	<div class="twelve columns">
-                <p>This is a release announcement for <strong>Tetronimia</strong>: an implementation of a famous game mechanic for you terminal written in Nim.</p>
-<p><img src="https://indiscipline.github.io/img/tetronimia/tetronimia-gameplay-linux.gif" alt="Tetronimia gameplay screen capture"></p>
-		
-		<a href="https://indiscipline.github.io/post/tetronimia/">Read more…</a>
-		
-	</div>
-</div>
-<div class="row">
-	<div class="nine columns">
-		<span class="post-postedby">posted by Kirill on 2021-06-03</span>
-	</div>
-	<div class="three columns">
-		<span class="unselectable">🏷</span>
-		<span style="font-size:small;">
-			
-			<a href="https://indiscipline.github.io/tags/code" class="tag-link">code</a> <a href="https://indiscipline.github.io/tags/nim" class="tag-link">nim</a> <a href="https://indiscipline.github.io/tags/games" class="tag-link">games</a> <a href="https://indiscipline.github.io/tags/commandline" class="tag-link">commandline</a> 
 			
 		</span>
 	</div>

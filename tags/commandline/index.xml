@@ -1,100 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>commandline on Indiscipline</title>
+    <title>Commandline on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/commandline/</link>
-    <description>Recent content in commandline on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Commandline on Indiscipline</description>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 30 Apr 2023 00:05:44 +0500</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/commandline/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 00:05:44 +0500</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/commandline/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catalay: automatic catalogue layouts for InDesign made declaratively, slightly smart</title>
       <link>https://indiscipline.github.io/post/catalay-announcement/</link>
       <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
-      
       <guid>https://indiscipline.github.io/post/catalay-announcement/</guid>
-      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/catalay&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/catalay-announcement/catalay.svg&#34; alt=&#34;Catalay logo&#34; title=&#34;Catalay go purrr!&#34; width=&#34;40%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is yet another release post, this time for &lt;a href=&#34;https://github.com/indiscipline/catalay&#34;&gt;Catalay&lt;/a&gt; —  a free software suite designed to automate the layout of image catalogues made with Adobe InDesign, using simple, declarative, human readable and editable configuration files in TOML or YAML formats as input. The main feature is not just automatically laying out the images in a grid, but adapting the grid layout itself. Catalay preserves the size relationship between different groups of items on each page are, scaling them appropriately, while utilizing the page as efficiently as possible given the constraints.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/catalay&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/catalay-announcement/catalay.svg&#34; alt=&#34;Catalay logo&#34; title=&#34;Catalay go purrr!&#34; width=&#34;40%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is yet another release post, this time for &lt;a href=&#34;https://github.com/indiscipline/catalay&#34;&gt;Catalay&lt;/a&gt; —  a free software suite designed to automate the layout of image catalogues made with Adobe InDesign, using simple, declarative, human readable and editable configuration files in TOML or YAML formats as input. The main feature is not just automatically laying out the images in a grid, but adapting the grid layout itself. Catalay preserves the size relationship between different groups of items on each page, scaling them appropriately, while utilizing the page as efficiently as possible given the constraints.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rearchiver: prepare your finished Reaper projects for storage</title>
       <link>https://indiscipline.github.io/post/rearchiver/</link>
       <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
-      
       <guid>https://indiscipline.github.io/post/rearchiver/</guid>
-      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/rearchiver/rearchiver.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;Rearchiver logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is a release post for &lt;a href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;Rearchiver&lt;/a&gt; — a little command line program for preparing your &lt;a href=&#34;https://reaper.fm&#34;&gt;Reaper&lt;/a&gt; projects for archiving.&lt;/p&gt;
-&lt;p&gt;Rearchiver:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Scans the project file for all used WAV files&lt;/li&gt;
-&lt;li&gt;Finds them in the project directory and converts to FLAC&lt;/li&gt;
-&lt;li&gt;Changes the links to the successfully converted source files in the RPP file accordingly&lt;/li&gt;
-&lt;li&gt;Optionally deletes processed source files and their &lt;code&gt;.reapeaks&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Outputs the corrected project file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It&amp;rsquo;s a Free Software (GPLv3) program written in &lt;a href=&#34;https://nim-lang.org&#34;&gt;Nim&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/rearchiver/rearchiver.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;Rearchiver logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a release post for &lt;a href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;Rearchiver&lt;/a&gt; — a little command line program for preparing your &lt;a href=&#34;https://reaper.fm&#34;&gt;Reaper&lt;/a&gt; projects for archiving.&lt;/p&gt;&#xA;&lt;p&gt;Rearchiver:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Scans the project file for all used WAV files&lt;/li&gt;&#xA;&lt;li&gt;Finds them in the project directory and converts to FLAC&lt;/li&gt;&#xA;&lt;li&gt;Changes the links to the successfully converted source files in the RPP file accordingly&lt;/li&gt;&#xA;&lt;li&gt;Optionally deletes processed source files and their &lt;code&gt;.reapeaks&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Outputs the corrected project file&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a Free Software (GPLv3) program written in &lt;a href=&#34;https://nim-lang.org&#34;&gt;Nim&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tetronimia: that game of falling blocky thingies</title>
       <link>https://indiscipline.github.io/post/tetronimia/</link>
       <pubDate>Thu, 03 Jun 2021 17:08:59 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/tetronimia/</guid>
-      <description>&lt;p&gt;This is a release announcement for &lt;strong&gt;Tetronimia&lt;/strong&gt;: an implementation of a famous game mechanic for you terminal written in Nim.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/tetronimia/tetronimia-gameplay-linux.gif&#34; alt=&#34;Tetronimia gameplay screen capture&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a release announcement for &lt;strong&gt;Tetronimia&lt;/strong&gt;: an implementation of a famous game mechanic for you terminal written in Nim.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/tetronimia/tetronimia-gameplay-linux.gif&#34; alt=&#34;Tetronimia gameplay screen capture&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Movie-Thumbnailer. Make wallpapers from your favorite movies for all your devices.</title>
       <link>https://indiscipline.github.io/post/movie-thumbnailer-announcement/</link>
       <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/movie-thumbnailer-announcement/</guid>
-      <description>&lt;p&gt;This year is something special! As you&amp;rsquo;re probably being a witness of, most of the humanity is stuck on self-isolation or even in strict quarantine, which led to unprecedented media consumption. Streaming services usage spiked so high Netflix had to cut their quality to unload their servers. People binge on movies and series and I&amp;rsquo;m not an exception here, finally watching some classics from the bucket list. This situation reminded me of an idea I&amp;rsquo;d spotted a couple of years ago. Someone made a beautiful wallpaper from the &amp;ldquo;cuts&amp;rdquo; of the &amp;ldquo;2001: A Space Odyssey&amp;rdquo;, which is one of my all time favorite movies. Camera work and production design is second to none there, so every frame is really a painting.&lt;/p&gt;
-&lt;p&gt;I had to try the same idea with other movies and it was clear that doing it manually is not the way to go.&lt;br&gt;
-Enter &lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/movie-thumbnailer/&#34;&gt;movie-thumbnailer&lt;/a&gt;&lt;/strong&gt; — command line &amp;ldquo;glue&amp;rdquo; for &lt;a href=&#34;https://ffmpeg.org/&#34;&gt;ffmpeg&lt;/a&gt; and &lt;a href=&#34;https://www.imagemagick.org/&#34;&gt;ImageMagick&lt;/a&gt; which generates wallpaper from video files laying out a grid of frames with scene changes.&lt;/p&gt;
-&lt;p&gt;Click for spoilers!&lt;br&gt;
-&lt;a href=&#34;https://indiscipline.github.io/img/movie-thumbnailer/blade-runner-1920x1080.jpg&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/movie-thumbnailer/blade-runner-500.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-1920x1080.jpg&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-500.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This year is something special! As you&amp;rsquo;re probably being a witness of, most of the humanity is stuck on self-isolation or even in strict quarantine, which led to unprecedented media consumption. Streaming services usage spiked so high Netflix had to cut their quality to unload their servers. People binge on movies and series and I&amp;rsquo;m not an exception here, finally watching some classics from the bucket list. This situation reminded me of an idea I&amp;rsquo;d spotted a couple of years ago. Someone made a beautiful wallpaper from the &amp;ldquo;cuts&amp;rdquo; of the &amp;ldquo;2001: A Space Odyssey&amp;rdquo;, which is one of my all time favorite movies. Camera work and production design is second to none there, so every frame is really a painting.&lt;/p&gt;&#xA;&lt;p&gt;I had to try the same idea with other movies and it was clear that doing it manually is not the way to go.&lt;br&gt;&#xA;Enter &lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/movie-thumbnailer/&#34;&gt;movie-thumbnailer&lt;/a&gt;&lt;/strong&gt; — command line &amp;ldquo;glue&amp;rdquo; for &lt;a href=&#34;https://ffmpeg.org/&#34;&gt;ffmpeg&lt;/a&gt; and &lt;a href=&#34;https://www.imagemagick.org/&#34;&gt;ImageMagick&lt;/a&gt; which generates wallpaper from video files laying out a grid of frames with scene changes.&lt;/p&gt;&#xA;&lt;p&gt;Click for spoilers!&lt;br&gt;&#xA;&lt;a href=&#34;https://indiscipline.github.io/img/movie-thumbnailer/blade-runner-1920x1080.jpg&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/movie-thumbnailer/blade-runner-500.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-1920x1080.jpg&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/movie-thumbnailer/spaceoddysey-500.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ffmpeg-loudnorm-helper - simplify ffmpeg loudness normalization workflow</title>
       <link>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</link>
       <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</guid>
-      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-loudnorm-helper.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;ffmpeg-loudnorm-helper logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Post updated for v0.2.0 release at 2023-04-18&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&amp;rsquo;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does, is it automates that first pass and formats a complete copy-pasteable string of loudnorm settings for the second pass.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif&#34; alt=&#34;ffmpeg-lounorm-helper demonstration&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-loudnorm-helper.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;ffmpeg-loudnorm-helper logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Post updated for v0.2.0 release at 2023-04-18&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&amp;rsquo;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does, is it automates that first pass and formats a complete copy-pasteable string of loudnorm settings for the second pass.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif&#34; alt=&#34;ffmpeg-lounorm-helper demonstration&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>zrtstr - detect &amp; eliminate faux-stereo WAVs</title>
       <link>https://indiscipline.github.io/post/zrtstr-eliminate-faux-stereo/</link>
       <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/zrtstr-eliminate-faux-stereo/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/zrtstr/&#34;&gt;zrtstr&lt;/a&gt;&lt;/strong&gt; is a small command line application for detecting faux-stereo WAV-files, that is, files with two identical channels that should have been saved as mono. Such files are sometimes generated by some audio-editing software and DAWs (I&amp;rsquo;m looking at you, old Cubase 5). Gotten tired of receiving such files from clients for mixing, as they are using twice the necessary space and require twice the processing power, I decided to deal with this nuisance once and for all. zrtstr is a cross-platform application which runs very fast, thanks to being written in &lt;a href=&#34;https://rust-lang.org/&#34;&gt;Rust&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Before&amp;rdquo; and &amp;ldquo;after&amp;rdquo; waveforms:&lt;/em&gt;
-&lt;img src=&#34;https://indiscipline.github.io/img/zrtstr/zrtstr-processed.png&#34; alt=&#34;zrtstr before and after&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/zrtstr/&#34;&gt;zrtstr&lt;/a&gt;&lt;/strong&gt; is a small command line application for detecting faux-stereo WAV-files, that is, files with two identical channels that should have been saved as mono. Such files are sometimes generated by some audio-editing software and DAWs (I&amp;rsquo;m looking at you, old Cubase 5). Gotten tired of receiving such files from clients for mixing, as they are using twice the necessary space and require twice the processing power, I decided to deal with this nuisance once and for all. zrtstr is a cross-platform application which runs very fast, thanks to being written in &lt;a href=&#34;https://rust-lang.org/&#34;&gt;Rust&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Before&amp;rdquo; and &amp;ldquo;after&amp;rdquo; waveforms:&lt;/em&gt;&#xA;&lt;img src=&#34;https://indiscipline.github.io/img/zrtstr/zrtstr-processed.png&#34; alt=&#34;zrtstr before and after&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Download Youtube videos easily. Guide for the &#34;normal&#34; people.</title>
       <link>https://indiscipline.github.io/post/download-youtube-videos/</link>
       <pubDate>Fri, 02 Sep 2016 15:59:03 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/download-youtube-videos/</guid>
-      <description>&lt;h4 id=&#34;update-this-tutorial-is-out-of-date&#34;&gt;&lt;strong&gt;Update:&lt;/strong&gt; This tutorial is out-of-date.&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Since release of Firefox Quantum and subsequent changes to the extension API, launching external commands from Firefox requre installing some additional software, since WebExtensions have no OS level access. If you&amp;rsquo;re not opposed to this idea, you can still adapt the following instruction to the new WebExtension addons, such as &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/open-with/&#34;&gt;Open With&lt;/a&gt; or &lt;a href=&#34;https://add0n.com/send-to.html&#34;&gt;Send To External Media Player&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;Let&amp;rsquo;s integrate the best tool for downloading YouTube videos &lt;a href=&#34;http://youtube-dl.org/&#34;&gt;Youtube-dl&lt;/a&gt; with Firefox for the most pleasant downloading experience! &lt;em&gt;Written for Windows users, as they are usually the ones that need the following instructions.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;First, the motive behind this post. Being a musician, one of the actions I might perform multiple times in a day is downloading videos from YouTube. Being able to play them in my player of choice (&lt;a href=&#34;https://mpv.io/&#34;&gt;mpv&lt;/a&gt; for now) is a huge convenience in case I need to transcribe some musical phrase, or speed some particularly slow speaker up by an arbitrary amount and having the video on my HDD gives me a slight sense of tranquility and confidence. In the past years people tried every accessible way to get the videos from YT with as little hassle as possible. Not all of these means worked good, and some of the suggestions in the Internet were, in fact, malicious, putting it mildly. As always, community to the rescue. Enter Youtube-dl!&lt;/p&gt;</description>
+      <description>&lt;h4 id=&#34;update-this-tutorial-is-out-of-date&#34;&gt;&lt;strong&gt;Update:&lt;/strong&gt; This tutorial is out-of-date.&lt;/h4&gt;&#xA;&lt;p&gt;&lt;em&gt;Since release of Firefox Quantum and subsequent changes to the extension API, launching external commands from Firefox requre installing some additional software, since WebExtensions have no OS level access. If you&amp;rsquo;re not opposed to this idea, you can still adapt the following instruction to the new WebExtension addons, such as &lt;a href=&#34;https://addons.mozilla.org/en-US/firefox/addon/open-with/&#34;&gt;Open With&lt;/a&gt; or &lt;a href=&#34;https://add0n.com/send-to.html&#34;&gt;Send To External Media Player&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s integrate the best tool for downloading YouTube videos &lt;a href=&#34;http://youtube-dl.org/&#34;&gt;Youtube-dl&lt;/a&gt; with Firefox for the most pleasant downloading experience! &lt;em&gt;Written for Windows users, as they are usually the ones that need the following instructions.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;First, the motive behind this post. Being a musician, one of the actions I might perform multiple times in a day is downloading videos from YouTube. Being able to play them in my player of choice (&lt;a href=&#34;https://mpv.io/&#34;&gt;mpv&lt;/a&gt; for now) is a huge convenience in case I need to transcribe some musical phrase, or speed some particularly slow speaker up by an arbitrary amount and having the video on my HDD gives me a slight sense of tranquility and confidence. In the past years people tried every accessible way to get the videos from YT with as little hassle as possible. Not all of these means worked good, and some of the suggestions in the Internet were, in fact, malicious, putting it mildly. As always, community to the rescue. Enter Youtube-dl!&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

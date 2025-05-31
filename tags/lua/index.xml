@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>lua on Indiscipline</title>
+    <title>Lua on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/lua/</link>
-    <description>Recent content in lua on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Lua on Indiscipline</description>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 14 Apr 2016 15:39:48 +0300</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/lua/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Apr 2016 15:39:48 +0300</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/lua/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ReaScript: MIDI_Compress_By_Pitch</title>
       <link>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</link>
       <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&amp;rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&amp;rsquo;t present in Reaper has arisen.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,42 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>other on Indiscipline</title>
+    <title>Other on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/other/</link>
-    <description>Recent content in other on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Other on Indiscipline</description>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 13 Feb 2024 17:32:43 +0400</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Feb 2024 17:32:43 +0400</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Those who cannot remember the past are condemned to repeat it</title>
       <link>https://indiscipline.github.io/post/best-viewed-in-google-chrome/</link>
       <pubDate>Tue, 13 Feb 2024 17:32:43 +0400</pubDate>
-      
       <guid>https://indiscipline.github.io/post/best-viewed-in-google-chrome/</guid>
-      <description>&lt;p&gt;An attempt of a properly styled animated badge prompted by &lt;a href=&#34;https://news.ycombinator.com/item?id=39355465&#34;&gt;@jsiepkes&amp;rsquo;s comment&lt;/a&gt; on HN:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/best-viewed-in-google-chrome.gif&#34; alt=&#34;Best viewed with Google Chrome animated button&#34;&gt;&lt;/p&gt;
-&lt;details&gt;
-&lt;summary&gt;base64-encoded image&lt;/summary&gt;
-&lt;code style=&#34;white-space : pre-wrap !important; word-break: break-all;&#34;&gt;&amp;lt;img src=&#34;data:image/gif;base64,R0lGODlhWAAfAKIAAAAAAP///zNm/zOZM//MM/8zM8zMzP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFZAAHACwAAAAAWAAfAAAD/wi63P4wyklnuDjrzbv/YNgpQWGehaGubOu+cCzP81KiJr02uqLvlYnBhsv9fEMADXmEFAuRJKBELZR+SRVyAVRym40n6iGtVrG8rI/J7DHETx7RnGpqvYy7Hr2Ai/NzGXVuem2FSnwAfnBcREWJbI2RiYt/ayRPWJqbQANPGgShoqGXU1anV5yqQDAKA54nFwKzsxejpHimdC9beKsthjuvsCYBtMcBt6RlqKe8iMG/WbzDsMbHyMq5VILPh3fQvr2IUuTA1cXY2bfbmc+9auLy8dMuANWe1+oCyezMj+/ClZtX6lK9c+j0qes3qt2FYoPskTPIwsGeb9TwKcTGUJuUQys3YkwqtyfSOHMV8b3aWEsZgY83IkqbeUelLGQdcTHTIJPmRT4qV2YY4LJUTBR2hnyDt2lBUJXajLpbkusgU01Onw4rKrWKEapS6EmKJjKr1qhdT32t4UWpQXhkA957ijZtzERh6el10wBqQ4uBMPQsW1UvRb4OqnmE8A8HH1bT3qKUEUSII8c+M/u0Ubmz58+gQ4seTXpBAgAh+QQFyAAHACwNAAMAKwAZAAADf2i63P4wyvkArSBfZ/fqHhcaIJOB55d26VQqKPnJsBxLrBbvs3VqOBPN1iu+XMUaTzk8YoAtElCqg01HHid2E916v+DwNQz5+bRka2OcNr3M6hz0R1Xp3jnqOZ6X+vVreVNzf4RmXYV7an6EjCVjhiiCfXeBK5NujZp0bZ2eDAkAOw==&#34;&amp;gt;
-&lt;/code&gt;
-&lt;/details&gt;  
-&lt;p&gt;Full &lt;a href=&#34;https://en.wikiquote.org/wiki/George_Santayana#Vol._I,_Reason_in_Common_Sense&#34;&gt;quote&lt;/a&gt; by George Santayana:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Progress, far from consisting in change, depends on retentiveness. When change is absolute there remains no being to improve and no direction is set for possible improvement: and when experience is not retained, as among savages, infancy is perpetual. Those who cannot remember the past are condemned to repeat it.&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
+      <description>&lt;p&gt;An attempt of a properly styled animated badge prompted by &lt;a href=&#34;https://news.ycombinator.com/item?id=39355465&#34;&gt;@jsiepkes&amp;rsquo;s comment&lt;/a&gt; on HN:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/best-viewed-in-google-chrome.gif&#34; alt=&#34;Best viewed with Google Chrome animated button&#34;&gt;&lt;/p&gt;&#xA;&lt;details&gt;&#xA;&lt;summary&gt;base64-encoded image&lt;/summary&gt;&#xA;&lt;code style=&#34;white-space : pre-wrap !important; word-break: break-all;&#34;&gt;&amp;lt;img src=&#34;data:image/gif;base64,R0lGODlhWAAfAKIAAAAAAP///zNm/zOZM//MM/8zM8zMzP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFZAAHACwAAAAAWAAfAAAD/wi63P4wyklnuDjrzbv/YNgpQWGehaGubOu+cCzP81KiJr02uqLvlYnBhsv9fEMADXmEFAuRJKBELZR+SRVyAVRym40n6iGtVrG8rI/J7DHETx7RnGpqvYy7Hr2Ai/NzGXVuem2FSnwAfnBcREWJbI2RiYt/ayRPWJqbQANPGgShoqGXU1anV5yqQDAKA54nFwKzsxejpHimdC9beKsthjuvsCYBtMcBt6RlqKe8iMG/WbzDsMbHyMq5VILPh3fQvr2IUuTA1cXY2bfbmc+9auLy8dMuANWe1+oCyezMj+/ClZtX6lK9c+j0qes3qt2FYoPskTPIwsGeb9TwKcTGUJuUQys3YkwqtyfSOHMV8b3aWEsZgY83IkqbeUelLGQdcTHTIJPmRT4qV2YY4LJUTBR2hnyDt2lBUJXajLpbkusgU01Onw4rKrWKEapS6EmKJjKr1qhdT32t4UWpQXhkA957ijZtzERh6el10wBqQ4uBMPQsW1UvRb4OqnmE8A8HH1bT3qKUEUSII8c+M/u0Ubmz58+gQ4seTXpBAgAh+QQFyAAHACwNAAMAKwAZAAADf2i63P4wyvkArSBfZ/fqHhcaIJOB55d26VQqKPnJsBxLrBbvs3VqOBPN1iu+XMUaTzk8YoAtElCqg01HHid2E916v+DwNQz5+bRka2OcNr3M6hz0R1Xp3jnqOZ6X+vVreVNzf4RmXYV7an6EjCVjhiiCfXeBK5NujZp0bZ2eDAkAOw==&#34;&amp;gt;&#xA;&lt;/code&gt;&#xA;&lt;/details&gt;  &#xA;&lt;p&gt;Full &lt;a href=&#34;https://en.wikiquote.org/wiki/George_Santayana#Vol._I,_Reason_in_Common_Sense&#34;&gt;quote&lt;/a&gt; by George Santayana:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;em&gt;Progress, far from consisting in change, depends on retentiveness. When change is absolute there remains no being to improve and no direction is set for possible improvement: and when experience is not retained, as among savages, infancy is perpetual. Those who cannot remember the past are condemned to repeat it.&lt;/em&gt;&lt;/p&gt;&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>Elvish: the looks</title>
       <link>https://indiscipline.github.io/post/elvish-shell/</link>
       <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/elvish-shell/</guid>
-      <description>&lt;p&gt;Once you hear there&amp;rsquo;s a new Unix shell on the block, what do you do? Probably, glance over syntax and try it in your VM. But when this new shell is called &lt;a href=&#34;https://elvish.io/&#34;&gt;Elvish&lt;/a&gt; you do this:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;(Hover over to see)&lt;/em&gt;&lt;br /&gt;
-&lt;a href=&#34;https://indiscipline.github.io/img/elvish/elvish.jpg&#34;&gt;&lt;img onMouseOver=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-thumb.jpg&#39;&#34; onMouseOut=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-pix.png&#39;&#34; src=&#34;https://indiscipline.github.io/img/elvish/elvish-pix.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;Friendly and expressive&amp;rdquo;, indeed.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Once you hear there&amp;rsquo;s a new Unix shell on the block, what do you do? Probably, glance over syntax and try it in your VM. But when this new shell is called &lt;a href=&#34;https://elvish.io/&#34;&gt;Elvish&lt;/a&gt; you do this:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;(Hover over to see)&lt;/em&gt;&lt;br /&gt;&#xA;&lt;a href=&#34;https://indiscipline.github.io/img/elvish/elvish.jpg&#34;&gt;&lt;img onMouseOver=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-thumb.jpg&#39;&#34; onMouseOut=&#34;this.src=&#39;https://indiscipline.github.io/img/elvish/elvish-pix.png&#39;&#34; src=&#34;https://indiscipline.github.io/img/elvish/elvish-pix.png&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Friendly and expressive&amp;rdquo;, indeed.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

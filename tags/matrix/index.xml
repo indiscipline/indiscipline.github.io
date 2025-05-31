@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>matrix on Indiscipline</title>
+    <title>Matrix on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/matrix/</link>
-    <description>Recent content in matrix on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Matrix on Indiscipline</description>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 24 Jan 2021 21:29:41 +0300</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/matrix/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Jan 2021 21:29:41 +0300</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/matrix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>#mixing:matrix.org</title>
       <link>https://indiscipline.github.io/post/mixing-matrix-org/</link>
       <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/mixing-matrix-org/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://indiscipline.github.io/img/mixing-matrix-org/mixing-logo_by-nc-sa-4.0.png&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/mixing-matrix-org/mixing-logo_by-nc-sa-4.0.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve drawn a bitching logo for &lt;a href=&#34;https://matrix.to/#/#mixing:matrix.org&#34;&gt;#mixing:matrix.org&lt;/a&gt; room. There&amp;rsquo;s so few people there yet I needed to share somewhere else.&lt;/p&gt;
-&lt;p&gt;I rarely dig my own ideas but this came together nicely.&lt;/p&gt;
-&lt;p&gt;Join the chat, it&amp;rsquo;s chill.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://indiscipline.github.io/img/mixing-matrix-org/mixing-logo_by-nc-sa-4.0.png&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/mixing-matrix-org/mixing-logo_by-nc-sa-4.0.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve drawn a bitching logo for &lt;a href=&#34;https://matrix.to/#/#mixing:matrix.org&#34;&gt;#mixing:matrix.org&lt;/a&gt; room. There&amp;rsquo;s so few people there yet I needed to share somewhere else.&lt;/p&gt;&#xA;&lt;p&gt;I rarely dig my own ideas but this came together nicely.&lt;/p&gt;&#xA;&lt;p&gt;Join the chat, it&amp;rsquo;s chill.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

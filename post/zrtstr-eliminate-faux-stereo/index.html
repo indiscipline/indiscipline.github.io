@@ -5,24 +5,26 @@
 		<title>zrtstr - detect &amp; eliminate faux-stereo WAVs</title>
 		
 		<meta name="description" content="Indiscipline: Mild achievements and severe disappointments. Kirill&#39;s blog.">
-		<meta name="generator" content="Hugo 0.111.3">
+		<meta name="generator" content="Hugo 0.147.7">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/skeleton.css">
 		<link rel="stylesheet" href="https://indiscipline.github.io//css/custom.css">
 		
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-75468140-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-WLR5R2QMPN"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-WLR5R2QMPN');
+        }
+      </script>
 	</head>
 	<body class="color-scheme-light">
 		<div class="container">
@@ -85,7 +87,7 @@ if (!doNotTrack) {
 <p>Ideally, I wouldn&rsquo;t like to see such a limited functionality in a separate application, but I found no easy and coherent way to do using usual <a href="http://sox.sourceforge.net/">SoX</a> or ffmpeg. Which is a shame. But when life deals you such a minor problem that happens so frequently, you have nothing to do but automate the tedious actions.</p>
 <h4 id="usage">Usage</h4>
 <p>zrtstr is a command-line application, but I tried to make it as easy to use as possible. To start using it, provide zrtstr with input file as an argument, or just run it from a directory full of target WAV files. The program will scan every file in its entirety and save mono-copies of detected faux-stereo files with <code>.MONO</code> suffix. Full help available with <code>--help</code> switch, provided by the wonderful <a href="https://github.com/kbknapp/clap-rs">Clap</a> library.</p>
-<h4 id="downloadhttpsgithubcomindisciplinezrtstrreleases"><a href="https://github.com/indiscipline/zrtstr/releases">Download</a></h4>
+<h4 id="download"><a href="https://github.com/indiscipline/zrtstr/releases">Download</a></h4>
 <p>Latest Windows <strong>binaries</strong> are luckily provided in Github <a href="https://github.com/indiscipline/zrtstr/releases">releases</a> page. Linux/Mac users are encouraged to build it by hand.</p>
 <h4 id="how-does-it-work">How does it work?</h4>
 <p>Zrtstr reads interleaved channel samples from a target stereo file one by one and compares left and right samples. If the difference is present (or higher than the threshold given in <code>--dither</code> mode) than file considered true-stereo and program tries to write a mono copy.</p>
@@ -131,23 +133,28 @@ File is not stereo! Exiting
 
 <aside>
       
-      
       <div id="disqus_thread"></div>
-      <script type="text/javascript">
-
-(function() {
-  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-  var disqus_shortname = 'indisciplineblog';
-  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-      <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "indisciplineblog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       
-      
-
-    </aside>
+</aside>
 
 <div id="footer" class="row">
 	<div class="twelve columns">

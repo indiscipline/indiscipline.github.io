@@ -4,269 +4,247 @@
     <title>Tags on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/</link>
     <description>Recent content in Tags on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 13 Feb 2024 17:32:43 +0400</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 May 2025 10:00:00 +0300</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>design</title>
-      <link>https://indiscipline.github.io/tags/design/</link>
-      <pubDate>Tue, 13 Feb 2024 17:32:43 +0400</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/design/</guid>
+      <title>Archlinux</title>
+      <link>https://indiscipline.github.io/tags/archlinux/</link>
+      <pubDate>Sat, 31 May 2025 10:00:00 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/archlinux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>other</title>
-      <link>https://indiscipline.github.io/tags/other/</link>
-      <pubDate>Tue, 13 Feb 2024 17:32:43 +0400</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/other/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://indiscipline.github.io/tags/web/</link>
-      <pubDate>Tue, 13 Feb 2024 17:32:43 +0400</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code</title>
+      <title>Code</title>
       <link>https://indiscipline.github.io/tags/code/</link>
-      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
-      
+      <pubDate>Sat, 31 May 2025 10:00:00 +0300</pubDate>
       <guid>https://indiscipline.github.io/tags/code/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>commandline</title>
-      <link>https://indiscipline.github.io/tags/commandline/</link>
-      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/commandline/</guid>
+      <title>Gui</title>
+      <link>https://indiscipline.github.io/tags/gui/</link>
+      <pubDate>Sat, 31 May 2025 10:00:00 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/gui/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>nim</title>
-      <link>https://indiscipline.github.io/tags/nim/</link>
-      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/nim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software</title>
-      <link>https://indiscipline.github.io/tags/software/</link>
-      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ai</title>
-      <link>https://indiscipline.github.io/tags/ai/</link>
-      <pubDate>Sat, 29 Apr 2023 15:00:00 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>career</title>
-      <link>https://indiscipline.github.io/tags/career/</link>
-      <pubDate>Sat, 29 Apr 2023 15:00:00 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/career/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>socius</title>
-      <link>https://indiscipline.github.io/tags/socius/</link>
-      <pubDate>Sat, 29 Apr 2023 15:00:00 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/socius/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mixing</title>
-      <link>https://indiscipline.github.io/tags/mixing/</link>
-      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/mixing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reaper</title>
-      <link>https://indiscipline.github.io/tags/reaper/</link>
-      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/reaper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sound</title>
-      <link>https://indiscipline.github.io/tags/sound/</link>
-      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/sound/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>games</title>
-      <link>https://indiscipline.github.io/tags/games/</link>
-      <pubDate>Thu, 03 Jun 2021 17:08:59 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/games/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>audio</title>
-      <link>https://indiscipline.github.io/tags/audio/</link>
-      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/audio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>recording</title>
-      <link>https://indiscipline.github.io/tags/recording/</link>
-      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/recording/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>speech</title>
-      <link>https://indiscipline.github.io/tags/speech/</link>
-      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/speech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>voice</title>
-      <link>https://indiscipline.github.io/tags/voice/</link>
-      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/voice/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>matrix</title>
-      <link>https://indiscipline.github.io/tags/matrix/</link>
-      <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/matrix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ffmpeg</title>
-      <link>https://indiscipline.github.io/tags/ffmpeg/</link>
-      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/ffmpeg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>imagemagick</title>
-      <link>https://indiscipline.github.io/tags/imagemagick/</link>
-      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/imagemagick/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>movies</title>
-      <link>https://indiscipline.github.io/tags/movies/</link>
-      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/movies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rust</title>
-      <link>https://indiscipline.github.io/tags/rust/</link>
-      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/rust/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>loudness</title>
-      <link>https://indiscipline.github.io/tags/loudness/</link>
-      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
-      
-      <guid>https://indiscipline.github.io/tags/loudness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://indiscipline.github.io/tags/linux/</link>
-      <pubDate>Thu, 06 Jul 2017 16:00:00 +0300</pubDate>
-      
+      <pubDate>Sat, 31 May 2025 10:00:00 +0300</pubDate>
       <guid>https://indiscipline.github.io/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>windows</title>
+      <title>Python</title>
+      <link>https://indiscipline.github.io/tags/python/</link>
+      <pubDate>Sat, 31 May 2025 10:00:00 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflector</title>
+      <link>https://indiscipline.github.io/tags/reflector/</link>
+      <pubDate>Sat, 31 May 2025 10:00:00 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/reflector/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tkinter</title>
+      <link>https://indiscipline.github.io/tags/tkinter/</link>
+      <pubDate>Sat, 31 May 2025 10:00:00 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/tkinter/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://indiscipline.github.io/tags/design/</link>
+      <pubDate>Tue, 13 Feb 2024 17:32:43 +0400</pubDate>
+      <guid>https://indiscipline.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Other</title>
+      <link>https://indiscipline.github.io/tags/other/</link>
+      <pubDate>Tue, 13 Feb 2024 17:32:43 +0400</pubDate>
+      <guid>https://indiscipline.github.io/tags/other/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>https://indiscipline.github.io/tags/web/</link>
+      <pubDate>Tue, 13 Feb 2024 17:32:43 +0400</pubDate>
+      <guid>https://indiscipline.github.io/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Commandline</title>
+      <link>https://indiscipline.github.io/tags/commandline/</link>
+      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
+      <guid>https://indiscipline.github.io/tags/commandline/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nim</title>
+      <link>https://indiscipline.github.io/tags/nim/</link>
+      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
+      <guid>https://indiscipline.github.io/tags/nim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://indiscipline.github.io/tags/software/</link>
+      <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
+      <guid>https://indiscipline.github.io/tags/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://indiscipline.github.io/tags/ai/</link>
+      <pubDate>Sat, 29 Apr 2023 15:00:00 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>https://indiscipline.github.io/tags/career/</link>
+      <pubDate>Sat, 29 Apr 2023 15:00:00 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Socius</title>
+      <link>https://indiscipline.github.io/tags/socius/</link>
+      <pubDate>Sat, 29 Apr 2023 15:00:00 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/socius/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mixing</title>
+      <link>https://indiscipline.github.io/tags/mixing/</link>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
+      <guid>https://indiscipline.github.io/tags/mixing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reaper</title>
+      <link>https://indiscipline.github.io/tags/reaper/</link>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
+      <guid>https://indiscipline.github.io/tags/reaper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sound</title>
+      <link>https://indiscipline.github.io/tags/sound/</link>
+      <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
+      <guid>https://indiscipline.github.io/tags/sound/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Games</title>
+      <link>https://indiscipline.github.io/tags/games/</link>
+      <pubDate>Thu, 03 Jun 2021 17:08:59 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Audio</title>
+      <link>https://indiscipline.github.io/tags/audio/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recording</title>
+      <link>https://indiscipline.github.io/tags/recording/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/recording/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Speech</title>
+      <link>https://indiscipline.github.io/tags/speech/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/speech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Voice</title>
+      <link>https://indiscipline.github.io/tags/voice/</link>
+      <pubDate>Mon, 01 Feb 2021 23:47:58 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/voice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix</title>
+      <link>https://indiscipline.github.io/tags/matrix/</link>
+      <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/matrix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ffmpeg</title>
+      <link>https://indiscipline.github.io/tags/ffmpeg/</link>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/ffmpeg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Imagemagick</title>
+      <link>https://indiscipline.github.io/tags/imagemagick/</link>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/imagemagick/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Movies</title>
+      <link>https://indiscipline.github.io/tags/movies/</link>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/movies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://indiscipline.github.io/tags/rust/</link>
+      <pubDate>Thu, 02 Apr 2020 20:48:37 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loudness</title>
+      <link>https://indiscipline.github.io/tags/loudness/</link>
+      <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
+      <guid>https://indiscipline.github.io/tags/loudness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows</title>
       <link>https://indiscipline.github.io/tags/windows/</link>
       <pubDate>Fri, 02 Sep 2016 15:59:03 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/tags/windows/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>youtube</title>
+      <title>Youtube</title>
       <link>https://indiscipline.github.io/tags/youtube/</link>
       <pubDate>Fri, 02 Sep 2016 15:59:03 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/tags/youtube/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>lua</title>
+      <title>Lua</title>
       <link>https://indiscipline.github.io/tags/lua/</link>
       <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/tags/lua/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>arch</title>
+      <title>Arch</title>
       <link>https://indiscipline.github.io/tags/arch/</link>
       <pubDate>Wed, 23 Mar 2016 18:00:00 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/tags/arch/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -1,74 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sound on Indiscipline</title>
+    <title>Sound on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/sound/</link>
-    <description>Recent content in sound on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Sound on Indiscipline</description>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 10 Apr 2023 00:26:16 +0500</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/sound/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Apr 2023 00:26:16 +0500</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/sound/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rearchiver: prepare your finished Reaper projects for storage</title>
       <link>https://indiscipline.github.io/post/rearchiver/</link>
       <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
-      
       <guid>https://indiscipline.github.io/post/rearchiver/</guid>
-      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/rearchiver/rearchiver.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;Rearchiver logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is a release post for &lt;a href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;Rearchiver&lt;/a&gt; — a little command line program for preparing your &lt;a href=&#34;https://reaper.fm&#34;&gt;Reaper&lt;/a&gt; projects for archiving.&lt;/p&gt;
-&lt;p&gt;Rearchiver:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Scans the project file for all used WAV files&lt;/li&gt;
-&lt;li&gt;Finds them in the project directory and converts to FLAC&lt;/li&gt;
-&lt;li&gt;Changes the links to the successfully converted source files in the RPP file accordingly&lt;/li&gt;
-&lt;li&gt;Optionally deletes processed source files and their &lt;code&gt;.reapeaks&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Outputs the corrected project file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It&amp;rsquo;s a Free Software (GPLv3) program written in &lt;a href=&#34;https://nim-lang.org&#34;&gt;Nim&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/rearchiver/rearchiver.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;Rearchiver logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a release post for &lt;a href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;Rearchiver&lt;/a&gt; — a little command line program for preparing your &lt;a href=&#34;https://reaper.fm&#34;&gt;Reaper&lt;/a&gt; projects for archiving.&lt;/p&gt;&#xA;&lt;p&gt;Rearchiver:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Scans the project file for all used WAV files&lt;/li&gt;&#xA;&lt;li&gt;Finds them in the project directory and converts to FLAC&lt;/li&gt;&#xA;&lt;li&gt;Changes the links to the successfully converted source files in the RPP file accordingly&lt;/li&gt;&#xA;&lt;li&gt;Optionally deletes processed source files and their &lt;code&gt;.reapeaks&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Outputs the corrected project file&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a Free Software (GPLv3) program written in &lt;a href=&#34;https://nim-lang.org&#34;&gt;Nim&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>#mixing:matrix.org</title>
       <link>https://indiscipline.github.io/post/mixing-matrix-org/</link>
       <pubDate>Sun, 24 Jan 2021 21:29:41 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/mixing-matrix-org/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://indiscipline.github.io/img/mixing-matrix-org/mixing-logo_by-nc-sa-4.0.png&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/mixing-matrix-org/mixing-logo_by-nc-sa-4.0.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve drawn a bitching logo for &lt;a href=&#34;https://matrix.to/#/#mixing:matrix.org&#34;&gt;#mixing:matrix.org&lt;/a&gt; room. There&amp;rsquo;s so few people there yet I needed to share somewhere else.&lt;/p&gt;
-&lt;p&gt;I rarely dig my own ideas but this came together nicely.&lt;/p&gt;
-&lt;p&gt;Join the chat, it&amp;rsquo;s chill.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://indiscipline.github.io/img/mixing-matrix-org/mixing-logo_by-nc-sa-4.0.png&#34;&gt;&lt;img alt=&#34;click for full-size&#34; src=&#34;https://indiscipline.github.io/img/mixing-matrix-org/mixing-logo_by-nc-sa-4.0.jpg&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve drawn a bitching logo for &lt;a href=&#34;https://matrix.to/#/#mixing:matrix.org&#34;&gt;#mixing:matrix.org&lt;/a&gt; room. There&amp;rsquo;s so few people there yet I needed to share somewhere else.&lt;/p&gt;&#xA;&lt;p&gt;I rarely dig my own ideas but this came together nicely.&lt;/p&gt;&#xA;&lt;p&gt;Join the chat, it&amp;rsquo;s chill.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ffmpeg-loudnorm-helper - simplify ffmpeg loudness normalization workflow</title>
       <link>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</link>
       <pubDate>Wed, 16 Oct 2019 15:40:07 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/ffmpeg-loudnorm-helper-announcement/</guid>
-      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-loudnorm-helper.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;ffmpeg-loudnorm-helper logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Post updated for v0.2.0 release at 2023-04-18&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&amp;rsquo;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does, is it automates that first pass and formats a complete copy-pasteable string of loudnorm settings for the second pass.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif&#34; alt=&#34;ffmpeg-lounorm-helper demonstration&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-loudnorm-helper.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;ffmpeg-loudnorm-helper logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Post updated for v0.2.0 release at 2023-04-18&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/ffmpeg-loudnorm-helper/&#34;&gt;ffmpeg-loudnorm-helper&lt;/a&gt;&lt;/strong&gt; is a new ultra-simple helper utility for performing loudness normalization using ffmpeg&amp;rsquo;s &lt;a href=&#34;https://ffmpeg.org/ffmpeg-filters.html#loudnorm&#34;&gt;loudnorm&lt;/a&gt; audio filter. This awesome filter provides &lt;a href=&#34;https://en.wikipedia.org/wiki/LKFS&#34;&gt;EBU R128&lt;/a&gt; loudness normalization, but it requires two passes to linearly normalize audio, measuring input file on the first pass. The only thing ffmpeg-loudnorm-helper does, is it automates that first pass and formats a complete copy-pasteable string of loudnorm settings for the second pass.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/ffmpeg-loudnorm-helper/ffmpeg-lh-test.gif&#34; alt=&#34;ffmpeg-lounorm-helper demonstration&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>zrtstr - detect &amp; eliminate faux-stereo WAVs</title>
       <link>https://indiscipline.github.io/post/zrtstr-eliminate-faux-stereo/</link>
       <pubDate>Wed, 09 Nov 2016 14:27:37 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/zrtstr-eliminate-faux-stereo/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/zrtstr/&#34;&gt;zrtstr&lt;/a&gt;&lt;/strong&gt; is a small command line application for detecting faux-stereo WAV-files, that is, files with two identical channels that should have been saved as mono. Such files are sometimes generated by some audio-editing software and DAWs (I&amp;rsquo;m looking at you, old Cubase 5). Gotten tired of receiving such files from clients for mixing, as they are using twice the necessary space and require twice the processing power, I decided to deal with this nuisance once and for all. zrtstr is a cross-platform application which runs very fast, thanks to being written in &lt;a href=&#34;https://rust-lang.org/&#34;&gt;Rust&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&amp;ldquo;Before&amp;rdquo; and &amp;ldquo;after&amp;rdquo; waveforms:&lt;/em&gt;
-&lt;img src=&#34;https://indiscipline.github.io/img/zrtstr/zrtstr-processed.png&#34; alt=&#34;zrtstr before and after&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/indiscipline/zrtstr/&#34;&gt;zrtstr&lt;/a&gt;&lt;/strong&gt; is a small command line application for detecting faux-stereo WAV-files, that is, files with two identical channels that should have been saved as mono. Such files are sometimes generated by some audio-editing software and DAWs (I&amp;rsquo;m looking at you, old Cubase 5). Gotten tired of receiving such files from clients for mixing, as they are using twice the necessary space and require twice the processing power, I decided to deal with this nuisance once and for all. zrtstr is a cross-platform application which runs very fast, thanks to being written in &lt;a href=&#34;https://rust-lang.org/&#34;&gt;Rust&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Before&amp;rdquo; and &amp;ldquo;after&amp;rdquo; waveforms:&lt;/em&gt;&#xA;&lt;img src=&#34;https://indiscipline.github.io/img/zrtstr/zrtstr-processed.png&#34; alt=&#34;zrtstr before and after&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ReaScript: MIDI_Compress_By_Pitch</title>
       <link>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</link>
       <pubDate>Thu, 14 Apr 2016 15:39:48 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/reascript-midi-compress-by-pitch/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.reaper.fm/&#34;&gt;Reaper&lt;/a&gt; is a digital audio workstation that gained a lot of devoted followers since its appearance. What is special about Reaper, apart from its enormous functionality and customizability, is two things: Community and Extensibility. You can check the former on &lt;a href=&#34;https://forum.cockos.com/forumdisplay.php?f=20&#34;&gt;Reaper forums&lt;/a&gt;, which is a thriving place, but the latter is achieved via user-coded scripts and open &lt;a href=&#34;http://www.reaper.fm/sdk/reascript/reascripthelp.html&#34;&gt;API&lt;/a&gt;. Since I&amp;rsquo;ve started using Reaper as my main DAW, the temptation grew. Then finally a need for a function that wasn&amp;rsquo;t present in Reaper has arisen.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

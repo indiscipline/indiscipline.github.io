@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>guitar on Indiscipline</title>
+    <link>http://localhost:1313/tags/guitar/</link>
+    <description>Recent content in guitar on Indiscipline</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 04 Sep 2018 19:36:25 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/guitar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Augmenting guitar cabinet impulse response for comfortable use with headphones</title>
+      <link>http://localhost:1313/post/augment-ir/</link>
+      <pubDate>Tue, 04 Sep 2018 19:36:25 +0300</pubDate>
+      
+      <guid>http://localhost:1313/post/augment-ir/</guid>
+      <description>&lt;p&gt;If you play electric guitar and ever thought on how to improve your experience when using any software amp emulation this is short instruction for you. It&amp;rsquo;s a description of a technique for augmenting the &lt;a href=&#34;https://en.wikipedia.org/wiki/Impulse_response&#34;&gt;impulse response&lt;/a&gt; of a guitar cabinet with early reflections, which in my opinion helps to liven up the sound and brings the sense of space. The resulting IR is primary intended not for recording purposes, but mainly for practice wearing headphones.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

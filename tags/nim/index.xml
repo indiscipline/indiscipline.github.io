@@ -1,50 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nim on Indiscipline</title>
+    <title>Nim on Indiscipline</title>
     <link>https://indiscipline.github.io/tags/nim/</link>
-    <description>Recent content in nim on Indiscipline</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Nim on Indiscipline</description>
+    <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 30 Apr 2023 00:05:44 +0500</lastBuildDate><atom:link href="https://indiscipline.github.io/tags/nim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 00:05:44 +0500</lastBuildDate>
+    <atom:link href="https://indiscipline.github.io/tags/nim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Catalay: automatic catalogue layouts for InDesign made declaratively, slightly smart</title>
       <link>https://indiscipline.github.io/post/catalay-announcement/</link>
       <pubDate>Sun, 30 Apr 2023 00:05:44 +0500</pubDate>
-      
       <guid>https://indiscipline.github.io/post/catalay-announcement/</guid>
-      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/catalay&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/catalay-announcement/catalay.svg&#34; alt=&#34;Catalay logo&#34; title=&#34;Catalay go purrr!&#34; width=&#34;40%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is yet another release post, this time for &lt;a href=&#34;https://github.com/indiscipline/catalay&#34;&gt;Catalay&lt;/a&gt; —  a free software suite designed to automate the layout of image catalogues made with Adobe InDesign, using simple, declarative, human readable and editable configuration files in TOML or YAML formats as input. The main feature is not just automatically laying out the images in a grid, but adapting the grid layout itself. Catalay preserves the size relationship between different groups of items on each page are, scaling them appropriately, while utilizing the page as efficiently as possible given the constraints.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/catalay&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/catalay-announcement/catalay.svg&#34; alt=&#34;Catalay logo&#34; title=&#34;Catalay go purrr!&#34; width=&#34;40%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is yet another release post, this time for &lt;a href=&#34;https://github.com/indiscipline/catalay&#34;&gt;Catalay&lt;/a&gt; —  a free software suite designed to automate the layout of image catalogues made with Adobe InDesign, using simple, declarative, human readable and editable configuration files in TOML or YAML formats as input. The main feature is not just automatically laying out the images in a grid, but adapting the grid layout itself. Catalay preserves the size relationship between different groups of items on each page, scaling them appropriately, while utilizing the page as efficiently as possible given the constraints.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Rearchiver: prepare your finished Reaper projects for storage</title>
       <link>https://indiscipline.github.io/post/rearchiver/</link>
       <pubDate>Mon, 10 Apr 2023 00:26:16 +0500</pubDate>
-      
       <guid>https://indiscipline.github.io/post/rearchiver/</guid>
-      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/rearchiver/rearchiver.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;Rearchiver logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;This is a release post for &lt;a href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;Rearchiver&lt;/a&gt; — a little command line program for preparing your &lt;a href=&#34;https://reaper.fm&#34;&gt;Reaper&lt;/a&gt; projects for archiving.&lt;/p&gt;
-&lt;p&gt;Rearchiver:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Scans the project file for all used WAV files&lt;/li&gt;
-&lt;li&gt;Finds them in the project directory and converts to FLAC&lt;/li&gt;
-&lt;li&gt;Changes the links to the successfully converted source files in the RPP file accordingly&lt;/li&gt;
-&lt;li&gt;Optionally deletes processed source files and their &lt;code&gt;.reapeaks&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Outputs the corrected project file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;It&amp;rsquo;s a Free Software (GPLv3) program written in &lt;a href=&#34;https://nim-lang.org&#34;&gt;Nim&lt;/a&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;&lt;img src=&#34;https://indiscipline.github.io/img/rearchiver/rearchiver.svg&#34; style=&#34;display: block; margin: 0 auto;&#34; alt=&#34;Rearchiver logo&#34; width=&#34;30%&#34;/&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a release post for &lt;a href=&#34;https://github.com/indiscipline/rearchiver&#34;&gt;Rearchiver&lt;/a&gt; — a little command line program for preparing your &lt;a href=&#34;https://reaper.fm&#34;&gt;Reaper&lt;/a&gt; projects for archiving.&lt;/p&gt;&#xA;&lt;p&gt;Rearchiver:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Scans the project file for all used WAV files&lt;/li&gt;&#xA;&lt;li&gt;Finds them in the project directory and converts to FLAC&lt;/li&gt;&#xA;&lt;li&gt;Changes the links to the successfully converted source files in the RPP file accordingly&lt;/li&gt;&#xA;&lt;li&gt;Optionally deletes processed source files and their &lt;code&gt;.reapeaks&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Outputs the corrected project file&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;It&amp;rsquo;s a Free Software (GPLv3) program written in &lt;a href=&#34;https://nim-lang.org&#34;&gt;Nim&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tetronimia: that game of falling blocky thingies</title>
       <link>https://indiscipline.github.io/post/tetronimia/</link>
       <pubDate>Thu, 03 Jun 2021 17:08:59 +0300</pubDate>
-      
       <guid>https://indiscipline.github.io/post/tetronimia/</guid>
-      <description>&lt;p&gt;This is a release announcement for &lt;strong&gt;Tetronimia&lt;/strong&gt;: an implementation of a famous game mechanic for you terminal written in Nim.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/tetronimia/tetronimia-gameplay-linux.gif&#34; alt=&#34;Tetronimia gameplay screen capture&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;This is a release announcement for &lt;strong&gt;Tetronimia&lt;/strong&gt;: an implementation of a famous game mechanic for you terminal written in Nim.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://indiscipline.github.io/img/tetronimia/tetronimia-gameplay-linux.gif&#34; alt=&#34;Tetronimia gameplay screen capture&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
